@@ -1,0 +1,56 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /usr (external git-1.8.3.1-rrmvebzgf7lsi2aam5rsctha7xzdw566)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+==> Installing go-bootstrap-1.4-bootstrap-20171003-o6pb7dhjxcuupdya3w6ks5axwnj4ri7x
+==> No binary for go-bootstrap-1.4-bootstrap-20171003-o6pb7dhjxcuupdya3w6ks5axwnj4ri7x found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/f4/f4ff5b5eb3a3cae1c993723f3eab519c5bae18866b5e5f96fe1102f0cb5c3e52.tar.gz
+==> Ran patch() for go-bootstrap
+==> go-bootstrap: Executing phase: 'install'
+==> go-bootstrap: Successfully installed go-bootstrap-1.4-bootstrap-20171003-o6pb7dhjxcuupdya3w6ks5axwnj4ri7x
+  Fetch: 1.73s.  Build: 22.91s.  Total: 24.64s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/go-bootstrap-1.4-bootstrap-20171003-o6pb7dhjxcuupdya3w6ks5axwnj4ri7x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cuda-11.7.1-uxma3p5dc5qeefxruon4zjn2rcydwa6y
+==> Installing go-1.15.13-tsxseln25x6xjbl7jvklv5kntqubffzp
+==> No binary for go-1.15.13-tsxseln25x6xjbl7jvklv5kntqubffzp found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/99/99069e7223479cce4553f84f874b9345f6f4045f27cf5089489b546da619a244.tar.gz
+==> No patches needed for go
+==> go: Executing phase: 'install'
+==> go: Successfully installed go-1.15.13-tsxseln25x6xjbl7jvklv5kntqubffzp
+  Fetch: 2.24s.  Build: 1m 13.01s.  Total: 1m 15.25s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/go-1.15.13-tsxseln25x6xjbl7jvklv5kntqubffzp
+==> Installing mumax-3.10-ergyfed4v4pz6p7nnosjkgnaqfwpxehs
+==> No binary for mumax-3.10-ergyfed4v4pz6p7nnosjkgnaqfwpxehs found: installing from source
+==> Error: InstallError: Must select at least one value for cuda_arch
+
+/home/om/SPACK/spack/var/spack/repos/builtin/packages/mumax/package.py:50, in cuda_arch:
+         47    def cuda_arch(self):
+         48        cuda_arch = " ".join(self.spec.variants["cuda_arch"].value)
+         49        if cuda_arch == "none":
+  >>     50            raise InstallError("Must select at least one value for cuda_arch")
+         51        return cuda_arch
+
+
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /usr (external git-1.8.3.1-rrmvebzgf7lsi2aam5rsctha7xzdw566)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/go-bootstrap-1.4-bootstrap-20171003-o6pb7dhjxcuupdya3w6ks5axwnj4ri7x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cuda-11.7.1-uxma3p5dc5qeefxruon4zjn2rcydwa6y
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/go-1.15.13-tsxseln25x6xjbl7jvklv5kntqubffzp
+==> Installing mumax-3.10-ergyfed4v4pz6p7nnosjkgnaqfwpxehs
+==> No binary for mumax-3.10-ergyfed4v4pz6p7nnosjkgnaqfwpxehs found: installing from source
+==> Error: InstallError: Must select at least one value for cuda_arch
+
+/home/om/SPACK/spack/var/spack/repos/builtin/packages/mumax/package.py:50, in cuda_arch:
+         47    def cuda_arch(self):
+         48        cuda_arch = " ".join(self.spec.variants["cuda_arch"].value)
+         49        if cuda_arch == "none":
+  >>     50            raise InstallError("Must select at least one value for cuda_arch")
+         51        return cuda_arch
+
+

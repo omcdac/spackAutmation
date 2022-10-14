@@ -1,0 +1,639 @@
+**************************************************************
+           !!!>>>  gcc  <<<<!!!         
+gcc : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+x3mu4sn gcc@12.2.0%gcc ~binutils+bootstrap~graphite~nvptx~piclibs~profiled~strip build_type=RelWithDebInfo languages=c,c++,fortran
+
+-- linux-centos7-haswell / gcc@4.8.5 ----------------------------
+m6jcckh gcc@10.3.0%gcc ~binutils+bootstrap~graphite~nvptx~piclibs~profiled~strip build_type=RelWithDebInfo languages=c,c++,fortran patches=2c18531,b5e049d,bd4828c
+yq5yxpb gcc@11.2.0%gcc ~binutils+bootstrap~graphite~nvptx~piclibs~profiled~strip build_type=RelWithDebInfo languages=c,c++,fortran
+_______________________________________________________________
+**************************************************************
+           !!!>>>  cmake  <<<<!!!         
+cmake : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+dfji2ft cmake@3.23.3%gcc ~doc+ncurses+ownlibs~qt build_type=Release
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+4mnmary cmake@3.23.3%gcc ~doc+ncurses+ownlibs~qt build_type=Release
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+yhrvx3w cmake@3.23.3%oneapi ~doc+ncurses+ownlibs~qt build_type=Release
+_______________________________________________________________
+**************************************************************
+           !!!>>>  autoconf  <<<<!!!         
+autoconf : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+miwetjr autoconf@2.69%gcc  patches=35c4492,7793209,a49dd5b
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+2jmbxgb autoconf@2.69%gcc  patches=7793209
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+sm5ojgh autoconf@2.69%oneapi  patches=7793209
+
+-- linux-centos7-haswell / gcc@4.8.5 ----------------------------
+7kvlvg4 autoconf@2.69%gcc  patches=35c4492,7793209,a49dd5b
+_______________________________________________________________
+**************************************************************
+           !!!>>>  automake  <<<<!!!         
+automake : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+apv5425 automake@1.16.5%gcc
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+oqo6shr automake@1.16.5%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+k4xfmg3 automake@1.16.5%oneapi
+
+-- linux-centos7-haswell / gcc@4.8.5 ----------------------------
+pj5hd2n automake@1.16.5%gcc
+_______________________________________________________________
+**************************************************************
+           !!!>>>  intel-oneapi-compilers  <<<<!!!         
+intel-oneapi-compilers : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+noye523 intel-oneapi-compilers@2022.1.0%gcc
+_______________________________________________________________
+**************************************************************
+           !!!>>>  intel-oneapi-mpi  <<<<!!!         
+intel-oneapi-mpi : Installed - 
+..............................................
+-- linux-centos7-cascadelake / intel@2021.6.0 -------------------
+j62arm6 intel-oneapi-mpi@2021.6.0%intel ~external-libfabric~generic-names~ilp64
+_______________________________________________________________
+**************************************************************
+           !!!>>>  intel-oneapi-mkl  <<<<!!!         
+intel-oneapi-mkl : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+2uisuqd intel-oneapi-mkl@2022.1.0%gcc ~cluster~ilp64+shared
+
+-- linux-centos7-cascadelake / intel@2021.6.0 -------------------
+sicb5sh intel-oneapi-mkl@2022.1.0%intel ~cluster~ilp64+shared
+_______________________________________________________________
+**************************************************************
+           !!!>>>  cuda  <<<<!!!         
+cuda : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+uxma3p5 cuda@11.7.1%gcc ~allow-unsupported-compilers~dev
+_______________________________________________________________
+**************************************************************
+           !!!>>>  nvhpc  <<<<!!!         
+nvhpc : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+laensa5 nvhpc@22.7%gcc +blas+lapack~mpi install_type=single
+_______________________________________________________________
+**************************************************************
+           !!!>>>  python  <<<<!!!         
+python : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+hm2xkdj python@3.9.13%gcc +bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+fzveuoc python@3.8.12%gcc +bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+hdse3an python@3.9.13%oneapi +bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060
+_______________________________________________________________
+**************************************************************
+           !!!>>>  py-numpy  <<<<!!!         
+py-numpy : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+x54rde2 py-numpy@1.23.3%gcc +blas+lapack patches=873745d
+_______________________________________________________________
+**************************************************************
+           !!!>>>  py-cython  <<<<!!!         
+py-cython : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+vzmrs2t py-cython@0.29.32%gcc
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+7ovh57z py-cython@0.29.32%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+qlpvsmg py-cython@0.29.32%oneapi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  singularity  <<<<!!!         
+singularity : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+m7cg5lf singularity@3.8.5%gcc +network+suid
+_______________________________________________________________
+**************************************************************
+           !!!>>>  openmpi  <<<<!!!         
+openmpi : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+f7tedwc openmpi@4.1.4%gcc ~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+pmi+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=slurm
+poqulog openmpi@4.1.4%gcc ~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none
+abdv6z7 openmpi@4.1.4%gcc ~atomics+cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath cuda_arch=none fabrics=none schedulers=none
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+7hnw3a7 openmpi@4.1.4%gcc ~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre+memchecker+romio+rsh+singularity+static+vt+wrapper-rpath fabrics=none schedulers=none
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+hlxm5hb openmpi@4.1.4%oneapi ~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none
+2qxbdko openmpi@4.1.4%oneapi ~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none
+_______________________________________________________________
+**************************************************************
+           !!!>>>  curl  <<<<!!!         
+curl : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+j2iwyd6 curl@7.29.0%gcc ~gssapi+ldap~libidn2~librtmp~libssh2~nghttp2 libs=shared,static tls=openssl
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+n3cw6re curl@7.29.0%oneapi ~gssapi+ldap~libidn2~librtmp~libssh2~nghttp2 libs=shared,static tls=openssl
+_______________________________________________________________
+**************************************************************
+           !!!>>>  zlib  <<<<!!!         
+zlib : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+3gr4xn4 zlib@1.2.12%gcc +optimize+pic+shared patches=0d38234
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+xbkxnrr zlib@1.2.12%gcc +optimize+pic+shared patches=0d38234
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+f2ncyv7 zlib@1.2.12%oneapi +optimize+pic+shared patches=0d38234
+
+-- linux-centos7-haswell / gcc@4.8.5 ----------------------------
+o24fh5i zlib@1.2.12%gcc +optimize+pic+shared patches=0d38234
+_______________________________________________________________
+**************************************************************
+           !!!>>>  fftw  <<<<!!!         
+fftw : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+5vwmr5i fftw@3.3.10%gcc +mpi~openmp~pfft_patches precision=double,float
+y455ux7 fftw@3.3.10%gcc +mpi+openmp~pfft_patches precision=double,float
+i7vnqlb fftw@3.3.10%gcc +mpi+openmp~pfft_patches precision=double,float
+szor2en fftw@3.3.10%gcc +mpi+openmp~pfft_patches precision=double,float
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+sjgy2my fftw@3.3.10%oneapi +mpi~openmp~pfft_patches precision=double,float
+akal6i3 fftw@3.3.10%oneapi +mpi+openmp~pfft_patches precision=double,float
+_______________________________________________________________
+**************************************************************
+           !!!>>>  tcl  <<<<!!!         
+tcl : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+bmeskfv tcl@8.6.12%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+cu2gwv5 tcl@8.6.12%oneapi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  tk  <<<<!!!         
+tk : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+cqifkts tk@8.6.11%gcc +xft+xss
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+yrca55b tk@8.6.11%oneapi +xft+xss
+_______________________________________________________________
+**************************************************************
+           !!!>>>  netcdf-c  <<<<!!!         
+netcdf-c : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+ukaldun netcdf-c@4.8.1%gcc ~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+wgp3ywb netcdf-c@4.8.1%gcc ~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+a2ugjgo netcdf-c@4.8.1%oneapi ~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da
+tulwbme netcdf-c@4.8.1%oneapi ~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da
+54mu3ro netcdf-c@4.8.1%oneapi ~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da
+_______________________________________________________________
+**************************************************************
+           !!!>>>  netcdf-cxx  <<<<!!!         
+netcdf-cxx : Installed - 
+..............................................
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+xkdxgop netcdf-cxx@4.2%oneapi +netcdf4
+_______________________________________________________________
+**************************************************************
+           !!!>>>  netcdf-fortran  <<<<!!!         
+netcdf-fortran : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+7mikf4b netcdf-fortran@4.5.4%gcc ~doc+pic+shared
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+ewbovdv netcdf-fortran@4.5.4%gcc ~doc+pic+shared
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+7xxncrl netcdf-fortran@4.5.4%oneapi ~doc+pic+shared
+2lzo6xy netcdf-fortran@4.5.4%oneapi ~doc+pic+shared
+_______________________________________________________________
+**************************************************************
+           !!!>>>  parallel-netcdf  <<<<!!!         
+parallel-netcdf : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+uzagzyp parallel-netcdf@1.12.2%gcc ~burstbuffer+cxx+fortran+pic+shared
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+jeuqnkf parallel-netcdf@1.12.2%gcc ~burstbuffer+cxx+fortran+pic+shared
+_______________________________________________________________
+**************************************************************
+           !!!>>>  hdf5  <<<<!!!         
+hdf5 : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+snm74ke hdf5@1.12.2%gcc ~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+t65z42g hdf5@1.12.2%gcc ~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+2lbzb65 hdf5@1.12.2%oneapi ~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo
+jhfqfsh hdf5@1.12.2%oneapi ~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo
+tsljj2v hdf5@1.12.2%oneapi ~cxx+fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo
+_______________________________________________________________
+**************************************************************
+           !!!>>>  boost  <<<<!!!         
+boost : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+r5ybupe boost@1.79.0%gcc +atomic+chrono~clanglibcpp~container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math~mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=a440f96 visibility=hidden
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+nllubv3 boost@1.79.0%gcc +atomic+chrono~clanglibcpp~container~context~contract~coroutine~date_time~debug+exception~fiber~filesystem~graph~graph_parallel~icu~iostreams~json~locale~log~math~mpi+multithreaded~nowide+numpy~pic~program_options+python~random~regex~serialization+shared~signals~singlethreaded~stacktrace+system~taggedlayout~test+thread~timer~type_erasure~versionedlayout~wave cxxstd=98 patches=a440f96,b8569d7 visibility=hidden
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+5imi3tv boost@1.79.0%oneapi +atomic+chrono~clanglibcpp+container~context~contract~coroutine+date_time~debug+exception~fiber+filesystem+graph~graph_parallel~icu+iostreams~json+locale+log+math~mpi+multithreaded~nowide~numpy~pic+program_options~python+random+regex+serialization+shared+signals~singlethreaded~stacktrace+system~taggedlayout+test+thread+timer~type_erasure~versionedlayout+wave cxxstd=98 patches=8e3faa2,a440f96 visibility=hidden
+_______________________________________________________________
+**************************************************************
+           !!!>>>  jasper  <<<<!!!         
+jasper : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+jdpbn2x jasper@3.0.3%gcc +jpeg~opengl+shared build_type=Release
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+pd53stw jasper@3.0.3%gcc +jpeg~opengl+shared build_type=Release
+_______________________________________________________________
+**************************************************************
+           !!!>>>  git  <<<<!!!         
+git : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+rrmvebz git@1.8.3.1%gcc +man+nls+perl+subtree~svn~tcltk
+mhy4yab git@2.37.0%gcc +man+nls+perl+subtree~svn~tcltk
+5phpf3e git@2.37.0%gcc +man+nls+perl+subtree~svn~tcltk
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+nk53fz7 git@1.8.3.1%gcc +man+nls+perl+subtree~svn~tcltk
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+4jmimmv git@1.8.3.1%oneapi +man+nls+perl+subtree~svn~tcltk
+ljpjrua git@2.37.0%oneapi +man+nls+perl+subtree~svn~tcltk
+_______________________________________________________________
+**************************************************************
+           !!!>>>  m4  <<<<!!!         
+m4 : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+p2k6jfy m4@1.4.19%gcc +sigsegv patches=9dc5fbd,bfdffa7
+
+-- linux-centos7-cascadelake / gcc@12.2.0 -----------------------
+2ccthpj m4@1.4.19%gcc +sigsegv patches=9dc5fbd,bfdffa7
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+t66qhf4 m4@1.4.19%oneapi +sigsegv patches=9dc5fbd,bfdffa7
+
+-- linux-centos7-haswell / gcc@4.8.5 ----------------------------
+2cglnsr m4@1.4.19%gcc +sigsegv patches=9dc5fbd,bfdffa7
+_______________________________________________________________
+**************************************************************
+           !!!>>>  openblas  <<<<!!!         
+openblas : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+zqmeesv openblas@0.3.20%gcc ~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=9f12903 symbol_suffix=none threads=openmp
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+2pfqxm6 openblas@0.3.20%oneapi ~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=41b0a3b,9f12903 symbol_suffix=none threads=none
+rfri2zq openblas@0.3.20%oneapi ~bignuma~consistent_fpcsr~ilp64+locking+pic+shared patches=41b0a3b,9f12903 symbol_suffix=none threads=openmp
+_______________________________________________________________
+**************************************************************
+           !!!>>>  openjdk  <<<<!!!         
+openjdk : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+sz4clhe openjdk@11.0.15_10%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+mn6b4xo openjdk@11.0.15_10%oneapi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  pango  <<<<!!!         
+pango : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+w7n2onn pango@1.50.7%gcc ~X~strip buildtype=debugoptimized default_library=shared
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+2nvu3os pango@1.50.7%oneapi ~X~strip buildtype=debugoptimized default_library=shared
+_______________________________________________________________
+**************************************************************
+           !!!>>>  plumed  <<<<!!!         
+plumed : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+bnkzwm4 plumed@2.8.0%gcc +gsl+mpi+shared arrayfire=none optional_modules=all
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+hqa6b3y plumed@2.8.0%oneapi +gsl+mpi+shared arrayfire=none optional_modules=all
+_______________________________________________________________
+**************************************************************
+           !!!>>>  scotch  <<<<!!!         
+scotch : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+ktvz5cg scotch@7.0.1%gcc +compression~esmumps~int64~ipo~metis+mpi+shared build_type=RelWithDebInfo
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+vrhqy4e scotch@7.0.1%oneapi +compression~esmumps~int64~ipo~metis+mpi+shared build_type=RelWithDebInfo
+_______________________________________________________________
+**************************************************************
+           !!!>>>  gromacs  <<<<!!!         
+gromacs : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+gvcsxgk gromacs@2022.3%gcc ~blas~cp2k~cuda~cycle_subcounters~double+hwloc~ipo~lapack~mdrun_only+mpi~nosuffix~opencl+openmp~plumed~relaxed_double_precision+shared~sycl build_type=RelWithDebInfo
+qbnggle gromacs@2022.3%gcc ~blas~cp2k+cuda~cycle_subcounters~double+hwloc~ipo~lapack~mdrun_only+mpi~nosuffix~opencl+openmp~plumed~relaxed_double_precision+shared~sycl build_type=RelWithDebInfo
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+jda5zys gromacs@2022.3%oneapi ~blas~cp2k~cuda~cycle_subcounters~double+hwloc~ipo~lapack~mdrun_only+mpi~nosuffix~opencl+openmp~plumed~relaxed_double_precision+shared~sycl build_type=RelWithDebInfo
+_______________________________________________________________
+**************************************************************
+           !!!>>>  lammps  <<<<!!!         
+lammps : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+yf2swvz lammps@20220623%gcc ~adios~asphere~atc~awpmd~bocs~body~bpm~brownian~cg-sdk~class2~colloid~colvars~compress~coreshell~cuda~cuda_mps~dielectric~diffraction~dipole~dpd-basic~dpd-meso~dpd-react~dpd-smooth~drude~eff~electrode~exceptions~extra-compute~extra-dump~extra-fix~extra-molecule~extra-pair~fep+ffmpeg~granular~h5md~interlayer~ipo+jpeg+kim~kokkos~kspace~latboltz~latte+lib~machdyn~manifold~manybody~mc~meam~mesont~mgpt~misc~ml-iap~ml-snap~mliap~mofff~molecule~molfile+mpi~mpiio~netcdf~opencl+openmp~openmp-package~opt~orient~peri~phonon~plugin~plumed+png~poems~ptm~python~qeq~qtb~reaction~reaxff~replica~rigid~shock~smtbq~snap~sph~spin~srd~tally~uef~user-adios~user-atc~user-awpmd~user-bocs~user-brownian~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-molfile~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi~yaff build_type=RelWithDebInfo lammps_sizes=smallbig
+oh3qz5c lammps@20220623%gcc ~adios~asphere~atc~awpmd~bocs~body~bpm~brownian~cg-sdk~class2~colloid~colvars~compress~coreshell~cuda~cuda_mps~dielectric~diffraction~dipole~dpd-basic~dpd-meso~dpd-react~dpd-smooth~drude~eff~electrode~exceptions~extra-compute~extra-dump~extra-fix~extra-molecule~extra-pair~fep+ffmpeg~granular~h5md~interlayer~ipo+jpeg+kim~kokkos~kspace~latboltz~latte+lib~machdyn~manifold~manybody~mc~meam~mesont~mgpt~misc~ml-iap~ml-snap~mliap~mofff~molecule~molfile+mpi~mpiio~netcdf~opencl+openmp~openmp-package~opt~orient~peri~phonon~plugin+plumed+png~poems~ptm~python~qeq~qtb~reaction~reaxff~replica~rigid~shock~smtbq~snap~sph~spin~srd~tally~uef~user-adios~user-atc~user-awpmd~user-bocs~user-brownian~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-molfile~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi~yaff build_type=RelWithDebInfo lammps_sizes=smallbig
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+pxsh5td lammps@20220623%oneapi ~adios~asphere~atc~awpmd~bocs~body~bpm~brownian~cg-sdk~class2~colloid~colvars~compress~coreshell~cuda~cuda_mps~dielectric~diffraction~dipole~dpd-basic~dpd-meso~dpd-react~dpd-smooth~drude~eff~electrode~exceptions~extra-compute~extra-dump~extra-fix~extra-molecule~extra-pair~fep+ffmpeg~granular~h5md~interlayer~ipo+jpeg+kim~kokkos~kspace~latboltz~latte+lib~machdyn~manifold~manybody~mc~meam~mesont~mgpt~misc~ml-iap~ml-snap~mliap~mofff~molecule~molfile+mpi~mpiio~netcdf~opencl+openmp~openmp-package~opt~orient~peri~phonon~plugin~plumed+png~poems~ptm~python~qeq~qtb~reaction~reaxff~replica~rigid~shock~smtbq~snap~sph~spin~srd~tally~uef~user-adios~user-atc~user-awpmd~user-bocs~user-brownian~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-molfile~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi~yaff build_type=RelWithDebInfo lammps_sizes=smallbig
+h3x5zbs lammps@20220623%oneapi ~adios~asphere~atc~awpmd~bocs~body~bpm~brownian~cg-sdk~class2~colloid~colvars~compress~coreshell~cuda~cuda_mps~dielectric~diffraction~dipole~dpd-basic~dpd-meso~dpd-react~dpd-smooth~drude~eff~electrode~exceptions~extra-compute~extra-dump~extra-fix~extra-molecule~extra-pair~fep+ffmpeg~granular~h5md~interlayer~ipo+jpeg+kim~kokkos~kspace~latboltz~latte+lib~machdyn~manifold~manybody~mc~meam~mesont~mgpt~misc~ml-iap~ml-snap~mliap~mofff~molecule~molfile+mpi~mpiio~netcdf~opencl+openmp~openmp-package~opt~orient~peri~phonon~plugin+plumed+png~poems~ptm~python~qeq~qtb~reaction~reaxff~replica~rigid~shock~smtbq~snap~sph~spin~srd~tally~uef~user-adios~user-atc~user-awpmd~user-bocs~user-brownian~user-cgsdk~user-colvars~user-diffraction~user-dpd~user-drude~user-eff~user-fep~user-h5md~user-lb~user-manifold~user-meamc~user-mesodpd~user-mesont~user-mgpt~user-misc~user-mofff~user-molfile~user-netcdf~user-omp~user-phonon~user-plumed~user-ptm~user-qtb~user-reaction~user-reaxc~user-sdpd~user-smd~user-smtbq~user-sph~user-tally~user-uef~user-yaff~voronoi~yaff build_type=RelWithDebInfo lammps_sizes=smallbig
+_______________________________________________________________
+**************************************************************
+           !!!>>>  namd  <<<<!!!         
+namd : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+2rrgihh namd@2.13%gcc ~cuda fftw=3 interface=none patches=3583d97
+_______________________________________________________________
+**************************************************************
+           !!!>>>  mummer  <<<<!!!         
+mummer : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+7f4hz7q mummer@3.23%gcc  patches=05f53ea,c23ea85
+_______________________________________________________________
+**************************************************************
+           !!!>>>  hmmer  <<<<!!!         
+hmmer : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+h3wecft hmmer@3.3.2%gcc ~gsl+mpi
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+t6ukvcn hmmer@3.3.2%oneapi ~gsl+mpi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  meme  <<<<!!!         
+meme : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+vrb7a6g meme@5.3.0%gcc ~image-magick+mpi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  clustalw  <<<<!!!         
+clustalw : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+noyqhbe clustalw@2.1%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+7iglual clustalw@2.1%oneapi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  openfoam-org  <<<<!!!         
+openfoam-org : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+k4rcbc6 openfoam-org@10%gcc ~float32~int64~metis+source patches=ecfa93a
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+d7jiyei openfoam-org@10%oneapi ~float32~int64~metis+source patches=ecfa93a
+_______________________________________________________________
+**************************************************************
+           !!!>>>  su2  <<<<!!!         
+su2 : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+2lre53x su2@7.3.1%gcc ~strip buildtype=debugoptimized default_library=shared
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+tbyqb2s su2@7.3.1%oneapi ~strip buildtype=debugoptimized default_library=shared
+_______________________________________________________________
+**************************************************************
+          !!! >>>  quantum-espresso  <<<<!!!         
+quantum-espresso : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  abinit  <<<<!!!         
+abinit : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  cp2k  <<<<!!!         
+cp2k : NOT installed - 
+______________________________________________________________
+**************************************************************
+           !!!>>>  nwchem  <<<<!!!         
+nwchem : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+2nsvcoq nwchem@7.0.2%gcc ~mpipr~openmp
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+t2uu5lr nwchem@7.0.2%oneapi ~mpipr~openmp
+_______________________________________________________________
+**************************************************************
+          !!! >>>  mumax  <<<<!!!         
+mumax : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  wrf  <<<<!!!         
+wrf : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  roms  <<<<!!!         
+roms : NOT installed - 
+______________________________________________________________
+**************************************************************
+           !!!>>>  regcm  <<<<!!!         
+regcm : Installed - 
+..............................................
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+crr3c2l regcm@4.7.0%oneapi ~debug~pnetcdf~profile~singleprecision extension=none
+_______________________________________________________________
+**************************************************************
+          !!! >>>  grads  <<<<!!!         
+grads : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  paraview  <<<<!!!         
+paraview : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  visit  <<<<!!!         
+visit : NOT installed - 
+______________________________________________________________
+**************************************************************
+          !!! >>>  vmd  <<<<!!!         
+vmd : NOT installed - 
+______________________________________________________________
+**************************************************************
+           !!!>>>  pgplot  <<<<!!!         
+pgplot : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+vrfzwh2 pgplot@5.2.2%gcc ~X+png+ps patches=1732c27,65d81b0,e22026e
+_______________________________________________________________
+**************************************************************
+           !!!>>>  ninja  <<<<!!!         
+ninja : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+vkagrhp ninja@1.11.0%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+22f5hq4 ninja@1.11.0%oneapi
+_______________________________________________________________
+**************************************************************
+           !!!>>>  phylip  <<<<!!!         
+phylip : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+o7gnhav phylip@3.697%gcc
+_______________________________________________________________
+**************************************************************
+          !!! >>>  siesta  <<<<!!!         
+siesta : NOT installed - 
+______________________________________________________________
+**************************************************************
+           !!!>>>  prism  <<<<!!!         
+prism : Installed - 
+..............................................
+-- linux-centos7-cascadelake / gcc@11.2.0 -----------------------
+co47zq5 prism@4.5%gcc
+
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+zjw52r6 prism@4.5%oneapi
+_______________________________________________________________
+**************************************************************
+          !!! >>>  octave  <<<<!!!         
+octave : NOT installed - 
+______________________________________________________________
+**************************************************************
+           !!!>>>  tau  <<<<!!!         
+tau : Installed - 
+..............................................
+-- linux-centos7-cascadelake / oneapi@2022.1.0 ------------------
+y7guf5n tau@2.31.1%oneapi ~adios2+binutils~comm~craycnl~cuda+elf+fortran~gasnet+io~level_zero+libdwarf+libunwind~likwid~mpi~ompt~opari~opencl~openmp+otf2+papi+pdt~phase~ppc64le~profileparam+pthreads~python~rocm~rocprofiler~roctracer~scorep~shmem~sqlite~x86_64
+_______________________________________________________________
+
+                   !!! Summary Card !!!                       
+**************************************************************
+Total Succesfull installations = 49 
+gcc : Installed - 
+cmake : Installed - 
+autoconf : Installed - 
+automake : Installed - 
+intel-oneapi-compilers : Installed - 
+intel-oneapi-mpi : Installed - 
+intel-oneapi-mkl : Installed - 
+cuda : Installed - 
+nvhpc : Installed - 
+python : Installed - 
+py-numpy : Installed - 
+py-cython : Installed - 
+singularity : Installed - 
+openmpi : Installed - 
+curl : Installed - 
+zlib : Installed - 
+fftw : Installed - 
+tcl : Installed - 
+tk : Installed - 
+netcdf-c : Installed - 
+netcdf-cxx : Installed - 
+netcdf-fortran : Installed - 
+parallel-netcdf : Installed - 
+hdf5 : Installed - 
+boost : Installed - 
+jasper : Installed - 
+git : Installed - 
+m4 : Installed - 
+openblas : Installed - 
+openjdk : Installed - 
+pango : Installed - 
+plumed : Installed - 
+scotch : Installed - 
+gromacs : Installed - 
+lammps : Installed - 
+namd : Installed - 
+mummer : Installed - 
+hmmer : Installed - 
+meme : Installed - 
+clustalw : Installed - 
+openfoam-org : Installed - 
+su2 : Installed - 
+nwchem : Installed - 
+regcm : Installed - 
+pgplot : Installed - 
+ninja : Installed - 
+phylip : Installed - 
+prism : Installed - 
+tau : Installed - 
+**************************************************************
+
+**************************************************************
+Total unsuccesfull installations = 12 
+------ List of Unsuccessfull Installations------        
+quantum-espresso : NOT installed - 
+abinit : NOT installed - 
+cp2k : NOT installed - 
+mumax : NOT installed - 
+wrf : NOT installed - 
+roms : NOT installed - 
+grads : NOT installed - 
+paraview : NOT installed - 
+visit : NOT installed - 
+vmd : NOT installed - 
+siesta : NOT installed - 
+octave : NOT installed - 
+**************************************************************
+

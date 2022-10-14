@@ -1,0 +1,382 @@
+gcc%gcc@11.2.0  is already Installed !
+----------------------------------------------
+gcc%gcc@11.2.0  is already Installed !
+----------------------------------------------
+gcc%gcc@11.2.0  is already Installed !
+----------------------------------------------
+gcc%gcc@11.2.0  is already Installed !
+----------------------------------------------
+
+==========================================================
+                     Intel Compiler                         
+      Date:   Fri Sep 16 15:32:01 IST 2022                                      
+==========================================================
+
+--------------------- intel-oneapi-compilers  ------------------------------
+
+==========================================================
+                     Intel Compiler                         
+      Date:   Fri Sep 16 15:32:31 IST 2022                                      
+==========================================================
+
+--------------------- intel-oneapi-compilers  ------------------------------
+
+Installation Command : spack install  -j8 -v  intel-oneapi-compilers %gcc@11.2.0   
+
+
+==========================================================
+                     Intel Compiler                         
+      Date:   Fri Sep 16 15:33:15 IST 2022                                      
+==========================================================
+
+--------------------- intel-oneapi-compilers  ------------------------------
+
+Installation Command : spack install  -j8 -v  intel-oneapi-compilers %gcc@11.2.0   
+
+OK: intel-oneapi-compilers  has been installed Successfully !
+
+==========================================================
+                     CUDA Compiler                         
+      Date:   Fri Sep 16 15:53:13 IST 2022                                      
+==========================================================
+
+--------------------- cuda  ------------------------------
+
+Installation Command : spack install  -j8 -v  cuda %gcc@11.2.0   
+
+OK: cuda  has been installed Successfully !
+--------------------- nvhpc  ------------------------------
+
+Installation Command : spack install  -j8 -v  nvhpc %gcc@11.2.0   
+
+OK: nvhpc  has been installed Successfully !
+
+==========================================================
+                     OpenMPI Compiler                         
+      Date:   Fri Sep 16 19:39:37 IST 2022                                      
+==========================================================
+
+--------------------- openmpi +pmi schedulers=slurm  ------------------------------
+
+Installation Command : spack install  -j8 -v  openmpi %gcc@11.2.0  +pmi schedulers=slurm  
+
+OK: openmpi +pmi schedulers=slurm  has been installed Successfully !
+
+==========================================================
+    Libraries with gcc@11.2.0 Compiler 
+      Date:   Fri Sep 16 20:04:22 IST 2022                                      
+==========================================================
+
+--------------------- git  ------------------------------
+
+Installation Command : spack install  -j8 -v  git %gcc@11.2.0   
+
+FAIL: Please check the logs of git
+----------------------------------------------
+--------------------- fftw  ------------------------------
+
+Installation Command : spack install  -j8 -v  fftw %gcc@11.2.0   
+
+OK: fftw  has been installed Successfully !
+--------------------- tcl  ------------------------------
+
+Installation Command : spack install  -j8 -v  tcl %gcc@11.2.0   
+
+OK: tcl  has been installed Successfully !
+--------------------- tk  ------------------------------
+
+Installation Command : spack install  -j8 -v  tk %gcc@11.2.0   
+
+OK: tk  has been installed Successfully !
+--------------------- patch  ------------------------------
+
+Installation Command : spack install  -j8 -v   patch %gcc@11.2.0   
+
+OK: patch  has been installed Successfully !
+
+==========================================================
+    Molecular Dynamics Applications with gcc@11.2.0 Compiler 
+      Date:   Fri Sep 16 23:16:29 IST 2022                                      
+==========================================================
+
+--------------------- gromacs ------------------------------
+
+Installation Command : spack install  -v -j 8 gromacs %gcc@11.2.0  
+
+OK: gromacs has been installed Successfully !
+--------------------- gromacs +cuda ------------------------------
+
+Installation Command : spack install  -v -j 8 gromacs %gcc@11.2.0  +cuda 
+
+OK: gromacs +cuda has been installed Successfully !
+--------------------- gromacs@2020.4 ^plumed  ------------------------------
+
+Installation Command : spack install  -v -j 8 gromacs@2020.4 %gcc@11.2.0  ^plumed  
+
+FAIL: Please check the logs of gromacs+plumed
+----------------------------------------------
+--------------------- lammps ------------------------------
+
+Installation Command : spack install  -v -j 8 lammps %gcc@11.2.0  
+
+OK: lammps has been installed Successfully !
+--------------------- lammps ^plumed  ------------------------------
+
+Installation Command : spack install  -v -j 8 lammps %gcc@11.2.0  ^plumed  
+
+OK: lammps ^plumed  has been installed Successfully !
+--------------------- namd@2.13 ------------------------------
+
+Installation Command : spack install  -v -j 8 namd@2.13 %gcc@11.2.0  
+
+OK: namd@2.13 has been installed Successfully !
+--------------------- namd@2.13 +cuda  ------------------------------
+
+Installation Command : spack install  -v -j 8 namd@2.13 %gcc@11.2.0  +cuda  
+
+FAIL: Please check the logs of namd@2.13+cuda
+----------------------------------------------
+
+==========================================================
+    Bio-Informatics Applications with gcc@11.2.0 Compiler 
+      Date:   Mon Sep 19 10:43:35 IST 2022                                      
+==========================================================
+
+--------------------- mummer ------------------------------
+
+Installation Command : spack install  -v -j8 mummer %gcc@11.2.0  
+
+OK: mummer has been installed Successfully !
+--------------------- hmmer  ------------------------------
+
+Installation Command : spack install  -v -j8   hmmer %gcc@11.2.0   
+
+OK: hmmer  has been installed Successfully !
+--------------------- meme  ------------------------------
+
+Installation Command : spack install  -v -j8  meme %gcc@11.2.0   
+
+OK: meme  has been installed Successfully !
+--------------------- clustalw ------------------------------
+
+Installation Command : spack install  -v -j8  clustalw %gcc@11.2.0  
+
+OK: clustalw has been installed Successfully !
+
+==========================================================
+    CFD Applications with gcc@11.2.0 Compiler 
+      Date:   Mon Sep 19 11:10:28 IST 2022                                      
+==========================================================
+
+--------------------- openfoam-org  ------------------------------
+
+Installation Command : spack install  -v -j 8 openfoam-org %gcc@11.2.0   
+
+OK: openfoam-org  has been installed Successfully !
+--------------------- su2  ------------------------------
+
+Installation Command : spack install  -v -j 8 su2 %gcc@11.2.0   
+
+OK: su2  has been installed Successfully !
+
+==========================================================
+    Material Science Applications with gcc@11.2.0 Compiler 
+      Date:   Mon Sep 19 14:52:45 IST 2022                                      
+==========================================================
+
+--------------------- quantum-espresso  ------------------------------
+
+Installation Command : spack install   quantum-espresso %gcc@11.2.0   
+
+FAIL: Please check the logs of quantum-espresso
+----------------------------------------------
+--------------------- quantum-espresso ^cuda ^openmpi ------------------------------
+
+Installation Command : spack install   quantum-espresso %gcc@11.2.0  ^cuda ^openmpi 
+
+FAIL: Please check the logs of quantum-espresso+cuda
+----------------------------------------------
+--------------------- cp2k smm=blas ^fftw+openmp  ------------------------------
+
+Installation Command : spack install  -v  cp2k %gcc@11.2.0  smm=blas ^fftw+openmp  
+
+FAIL: Please check the logs of cp2k
+----------------------------------------------
+--------------------- nwchem  ------------------------------
+
+Installation Command : spack install   nwchem %gcc@11.2.0   
+
+OK: nwchem  has been installed Successfully !
+--------------------- abinit@8.10.3  ------------------------------
+
+Installation Command : spack install  --no-checksum  abinit@8.10.3 %gcc@11.2.0   
+
+FAIL: Please check the logs of abinit
+----------------------------------------------
+siesta%gcc@11.2.0 ^openmpi@4.1.3 /646knqu  is already Installed !
+----------------------------------------------
+--------------------- mumax  ------------------------------
+
+Installation Command : spack install  mumax %gcc@11.2.0   
+
+FAIL: Please check the logs of mumax
+----------------------------------------------
+
+==========================================================
+    Material Science Applications with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 14:24:21 IST 2022                                      
+==========================================================
+
+--------------------- quantum-espresso ^bison@3.8.2%gcc@11.2.0 ^openmpi ^git   ------------------------------
+
+==========================================================
+    Material Science Applications with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 14:25:37 IST 2022                                      
+==========================================================
+
+--------------------- quantum-espresso ^bison@3.8.2%gcc@11.2.0 ^openmpi ^git@2.37.0   ------------------------------
+
+Installation Command : spack install   quantum-espresso %gcc@11.2.0  ^bison@3.8.2%gcc@11.2.0 ^openmpi ^git@2.37.0   
+
+FAIL: Please check the logs of quantum-espresso
+----------------------------------------------
+--------------------- cp2k smm=blas ^fftw+openmp ^openblas threads=openmp ^openmpi  ------------------------------
+
+Installation Command : spack install  -v  cp2k %gcc@11.2.0  smm=blas ^fftw+openmp ^openblas threads=openmp ^openmpi  
+
+FAIL: Please check the logs of cp2k
+----------------------------------------------
+nwchem%gcc@11.2.0  is already Installed !
+----------------------------------------------
+--------------------- abinit@8.10.3 +install-tests+mpi+openmp+scalapack optimization-flavor=standard  ------------------------------
+
+Installation Command : spack install  --no-checksum  abinit@8.10.3 %gcc@11.2.0  +install-tests+mpi+openmp+scalapack optimization-flavor=standard  
+
+FAIL: Please check the logs of abinit
+----------------------------------------------
+siesta%gcc@11.2.0 ^openmpi@4.1.3 /646knqu  is already Installed !
+----------------------------------------------
+--------------------- mumax  ------------------------------
+
+Installation Command : spack install  mumax %gcc@11.2.0   
+
+FAIL: Please check the logs of mumax
+----------------------------------------------
+
+==========================================================
+    Weather and Atmospheric Science Applications with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 16:10:08 IST 2022                                      
+==========================================================
+
+--------------------- wrf  ------------------------------
+
+Installation Command : spack install  -v -j8  wrf %gcc@11.2.0   
+
+FAIL: Please check the logs of wrf
+----------------------------------------------
+--------------------- roms  ------------------------------
+
+Installation Command : spack install  -v -j8  roms %gcc@11.2.0   
+
+FAIL: Please check the logs of roms
+----------------------------------------------
+--------------------- regcm  ------------------------------
+
+Installation Command : spack install  -v -j8  regcm %gcc@11.2.0   
+
+FAIL: Please check the logs of regcm
+----------------------------------------------
+gcc@12.2.0%gcc@11.2.0  is already Installed !
+----------------------------------------------
+
+==========================================================
+    Weather and Atmospheric Science Applications with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 16:48:59 IST 2022                                      
+==========================================================
+
+--------------------- roms  ------------------------------
+
+==========================================================
+    Other Applications with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 18:19:37 IST 2022                                      
+==========================================================
+
+ninja%gcc@11.2.0  is already Installed !
+----------------------------------------------
+--------------------- athena  ------------------------------
+
+Installation Command : spack install   athena %gcc@11.2.0   
+
+OK: athena  has been installed Successfully !
+--------------------- prism  ------------------------------
+
+Installation Command : spack install  -v -j4  prism %gcc@11.2.0   
+
+OK: prism  has been installed Successfully !
+--------------------- octave  ------------------------------
+
+Installation Command : spack install  -v -j4  octave %gcc@11.2.0   
+
+FAIL: Please check the logs of octave
+----------------------------------------------
+--------------------- phylip  ------------------------------
+
+Installation Command : spack install  -v -j 8 phylip %gcc@11.2.0   
+
+OK: phylip  has been installed Successfully !
+
+==========================================================
+    Visualization Tools with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 18:49:42 IST 2022                                      
+==========================================================
+
+--------------------- grads ------------------------------
+
+Installation Command : spack install  -v j8  grads %gcc@11.2.0  
+
+FAIL: Please check the logs of grads
+----------------------------------------------
+--------------------- vmd@1.9.3 ^mesa%gcc@10.3.0  ------------------------------
+
+Installation Command : spack install  -v -j8  vmd@1.9.3 %gcc@11.2.0  ^mesa%gcc@10.3.0  
+
+FAIL: Please check the logs of vmd@1.9.3
+----------------------------------------------
+--------------------- pgplot ------------------------------
+
+Installation Command : spack install  -v -j8  pgplot %gcc@11.2.0  
+
+OK: pgplot has been installed Successfully !
+
+==========================================================
+    Visualization Tools with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 18:53:56 IST 2022                                      
+==========================================================
+
+--------------------- grads ------------------------------
+
+Installation Command : spack install  -v j8  grads %gcc@11.2.0  
+
+FAIL: Please check the logs of grads
+----------------------------------------------
+--------------------- vmd@1.9.3 ^mesa%gcc@10.3.0  ------------------------------
+
+==========================================================
+    Visualization Tools with gcc@11.2.0 Compiler 
+      Date:   Tue Sep 20 18:55:30 IST 2022                                      
+==========================================================
+
+--------------------- grads ------------------------------
+
+Installation Command : spack install  -v -j8  grads %gcc@11.2.0  
+
+FAIL: Please check the logs of grads
+----------------------------------------------
+--------------------- vmd@1.9.3 ^mesa  ------------------------------
+
+Installation Command : spack install  -v -j8  vmd@1.9.3 %gcc@11.2.0  ^mesa  
+
+FAIL: Please check the logs of vmd@1.9.3
+----------------------------------------------
+pgplot%gcc@11.2.0 is already Installed !
+----------------------------------------------

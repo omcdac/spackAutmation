@@ -1,0 +1,358 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pcre-8.45-ewrp5qo3cyjltbiwdp57v6wbxpkb6kha
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/texinfo-6.5-gh6yvkapubjshvnr57anrvpcmyvdgw7w
+==> Installing octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy
+==> No binary for octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/d4/d4a9d81f3f67b4a6e07cb7a80dcb10ad5e9176fcc30762c70a81580a64b8b0b6.tar.gz
+==> Ran patch() for octave
+==> octave: Executing phase: 'autoreconf'
+==> octave: Executing phase: 'configure'
+==> [2022-09-20-18:24:06.276126] '/tmp/om/spack-stage/spack-stage-octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy/spack-src/configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy' '--with-blas=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf' '--with-lapack=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf' '--enable-readline' '--with-bz2-includedir=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5/include' '--with-bz2-libdir=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5/lib' '--without-arpack' '--without-curl' '--without-fftw3' '--without-fftw3f' '--without-fltk' '--without-glpk' '--without-magick' '--without-hdf5' '--disable-java' '--without-opengl' '--without-framework-opengl' '--without-qhull' '--without-qrupdate' '--without-qscintilla' '--without-z' '--enable-fortran-calling-convention=gfortran' 'ac_cv_prog_ac_ct_QTCHOOSER='
+configure: WARNING: unrecognized options: --without-qhull
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1010' is supported by ustar format... yes
+checking whether GID '1011' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to enable C11 features... none needed
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc understands -c and -o together... yes
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/gcc... gcc3
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/param.h... yes
+checking for sys/socket.h... yes
+checking for dirent.h... yes
+checking for fnmatch.h... yes
+checking for stdio_ext.h... yes
+checking for netdb.h... yes
+checking for getopt.h... yes
+checking for sys/cdefs.h... yes
+checking for sys/time.h... yes
+checking for glob.h... yes
+checking for threads.h... no
+checking for iconv.h... yes
+checking for limits.h... yes
+checking for langinfo.h... yes
+checking for xlocale.h... yes
+checking for math.h... yes
+checking for sys/mman.h... yes
+checking for sys/select.h... yes
+checking for sys/random.h... no
+checking for sys/resource.h... yes
+checking for sys/times.h... yes
+checking for sys/uio.h... yes
+checking for sys/utsname.h... yes
+checking for sys/wait.h... yes
+checking for features.h... yes
+checking for crtdefs.h... no
+checking for wctype.h... yes
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+defining octlibdir to be ${libdir}/octave/${version}
+defining archlibdir to be ${libexecdir}/octave/${version}/exec/${canonical_host_type}
+defining localarchlibdir to be ${libexecdir}/octave/site/exec/${canonical_host_type}
+defining localapiarchlibdir to be ${libexecdir}/octave/${api_version}/site/exec/${canonical_host_type}
+defining localverarchlibdir to be ${libexecdir}/octave/${version}/site/exec/${canonical_host_type}
+defining octfiledir to be ${libdir}/octave/${version}/oct/${canonical_host_type}
+defining localoctfiledir to be ${libdir}/octave/site/oct/${canonical_host_type}
+defining localapioctfiledir to be ${libdir}/octave/site/oct/${api_version}/${canonical_host_type}
+defining localveroctfiledir to be ${libdir}/octave/${version}/site/oct/${canonical_host_type}
+defining octincludedir to be ${includedir}/octave-${version}/octave
+defining fcnfiledir to be ${datadir}/octave/${version}/m
+defining localfcnfiledir to be ${datadir}/octave/site/m
+defining localapifcnfiledir to be ${datadir}/octave/site/${api_version}/m
+defining localverfcnfiledir to be ${datadir}/octave/${version}/site/m
+defining octetcdir to be ${datadir}/octave/${version}/etc
+defining octlocaledir to be ${datadir}/octave/${version}/locale
+defining doc_cache_file to be ${octetcdir}/doc-cache
+defining octtestsdir to be ${octetcdir}/tests
+defining texi_macros_file to be ${octetcdir}/macros.texi
+defining imagedir to be ${datadir}/octave/${version}/imagelib
+defining octdatadir to be ${datadir}/octave/${version}/data
+defining octdocdir to be ${datadir}/octave/${version}/doc
+defining octfontsdir to be ${datadir}/octave/${version}/fonts
+defining startupfiledir to be ${fcnfiledir}/startup
+defining localstartupfiledir to be ${localfcnfiledir}/startup
+defining man1dir to be ${mandir}/man1
+defining man1ext to be .1
+defining infofile to be ${infodir}/octave.info
+checking for pkg-config... /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gawk... (cached) gawk
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for gfind... no
+checking for find... find
+checking for a usable sed... /usr/bin//sed
+checking for perl... perl
+checking for gperf... no
+configure: WARNING: 
+
+I didn't find gperf, but it's only a problem if you need to
+reconstruct oct-gperf.h
+
+checking for flex... no
+checking for lex... no
+configure: WARNING: 
+
+I didn't find flex, but it's only a problem if you need to reconstruct
+lex.cc, which is the case if you're building from VCS sources.
+
+checking for bison... bison
+checking for bison 3.0 or newer... 3.0.4, ok
+checking syntax of bison api.prefix (or name-prefix) declaration... api brace
+checking whether api.prefix applies to yysymbol_kind_t... no
+checking for makeinfo... makeinfo
+checking for makeinfo support for @sortas command... yes
+checking for texi2dvi... texi2dvi
+checking for texi2pdf... texi2pdf
+checking for options to make reproducible archives with GNU tar... --owner=0 --group=0 --numeric-owner
+checking whether ln -s works... yes
+checking for gs... gs
+checking for gnuplot... no
+configure: WARNING: 
+
+gnuplot not found.  It isn't necessary to have gnuplot installed, but
+without native graphics or gnuplot you won't be able to use any of
+Octave's plotting commands.
+
+checking for less... less
+checking for python... python
+checking for icotool... no
+configure: WARNING: 
+
+I didn't find icotool, but it's only a problem if you need to
+reconstruct octave-logo.ico, which is the case if you're building from
+VCS sources.
+
+checking for rsvg-convert... no
+configure: WARNING: 
+
+I didn't find rsvg-convert, but it's only a problem if you need to
+reconstruct octave-logo-*.png, which is the case if you're building
+from VCS sources.
+
+checking whether the compiler supports GNU C++... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/g++ accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/g++ option to enable C++11 features... none needed
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/g++... gcc3
+checking how to run the C++ preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/g++ -E
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/g++ supports C++11 features by default... yes
+checking for gcc... (cached) /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether the compiler supports GNU C... (cached) yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... (cached) yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to enable C11 features... (cached) none needed
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc understands -c and -o together... (cached) yes
+checking whether the compiler is clang... (cached) no
+checking for compiler option needed when checking for declarations... (cached) none
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/gcc... (cached) gcc3
+checking how to run the C preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/gcc -E
+checking for egrep... /usr/bin/grep -E
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc needs -traditional... no
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking C++ compiler version number... 11.2.0
+checking whether stl_algo.h is broken... no
+checking C compiler version number... 11.2.0
+configure: defining __NO_MATH_INLINES avoids buggy GNU libc exp function
+checking for sin in -lm... yes
+checking whether the compiler supports GNU Fortran 77... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gfortran accepts -g... yes
+checking whether a usable Fortran compiler was found... yes
+checking how to get verbose linking output from /home/om/SPACK/spack/lib/spack/env/gcc/gfortran... -v
+checking for Fortran 77 libraries of /home/om/SPACK/spack/lib/spack/env/gcc/gfortran...  -L/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0 -L/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -L/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../.. -lgfortran -lm -lquadmath
+checking for dummy main to link with Fortran 77 libraries... none
+checking for Fortran 77 name-mangling scheme... lower case, underscore, no extra underscore
+configure: defining FFLAGS to be -g -O2
+configure: defining FPICFLAG to be -fPIC
+configure: defining CPICFLAG to be -fPIC
+configure: defining CXXPICFLAG to be -fPIC
+configure: defining SH_LDFLAGS to be -shared
+configure: defining DL_LDFLAGS to be -shared
+configure: defining MKOCTFILE_DL_LDFLAGS to be -shared -Wl,-Bsymbolic
+configure: defining NO_OCT_FILE_STRIP to be false
+configure: defining TEMPLATE_AR to be ar
+configure: defining TEMPLATE_ARFLAGS to be cr
+configure: defining library_path_var to be LD_LIBRARY_PATH
+checking size of int... 4
+checking size of void *... 8
+checking for a sed that does not truncate output... /usr/bin//sed
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc is Clang... no
+checking whether pthreads work with "-pthread" and "-lpthread"... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking whether pthread stack size does not account for thread-local storage... yes
+checking for OpenMP flag of C compiler... unknown
+checking for OpenMP flag of C++ compiler... unknown
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin//sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /home/om/SPACK/spack/lib/spack/env/gcc/gcc... /home/om/SPACK/spack/lib/spack/env/ld
+checking if the linker (/home/om/SPACK/spack/lib/spack/env/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/om/SPACK/spack/lib/spack/env/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from /home/om/SPACK/spack/lib/spack/env/gcc/gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -fno-rtti -fno-exceptions... no
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to produce PIC... -fPIC -DPIC
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc PIC flag -fPIC -DPIC works... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc static flag -static works... no
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -c -o file.o... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -c -o file.o... (cached) yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/gcc linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/g++ -E
+checking for ld used by /home/om/SPACK/spack/lib/spack/env/gcc/g++... /home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64
+checking if the linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) is GNU ld... yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/g++ linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/g++ option to produce PIC... -fPIC -DPIC
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/g++ PIC flag -fPIC -DPIC works... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/g++ static flag -static works... no
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/g++ supports -c -o file.o... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/g++ supports -c -o file.o... (cached) yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/g++ linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gfortran option to produce PIC... -fPIC
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran PIC flag -fPIC works... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran static flag -static works... no
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran supports -c -o file.o... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran supports -c -o file.o... (cached) yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/gfortran linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for sgemm_ in -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf... no
+checking if sgemm_ is being linked in already... no
+checking for sgemm_ in -lopenblas... no
+checking for ATL_xerbla in -latlas... no
+checking for sgemm_ in -lblas... yes
+checking for dgemm_ in -ldgemm... no
+checking for sgemm_ in -lmkl_intel_lp64... no
+checking for sgemm_ in -lmkl... no
+checking for sgemm_ in -framework vecLib... no
+checking for sgemm_ in -lcxml... no
+checking for sgemm_ in -ldxml... no
+checking for sgemm_ in -lscs... no
+checking for sgemm_ in -lcomplib.sgimath... no
+checking for sgemm_ in -lblas... (cached) yes
+checking for sgemm_ in -lessl... no
+checking for sgemm_ in -lblas... (cached) yes
+checking whether LSAME is called correctly from Fortran... yes
+checking whether ISAMAX is called correctly from Fortran... yes
+checking whether SDOT is called correctly from Fortran... yes
+checking whether DDOT is called correctly from Fortran... yes
+checking whether CDOTU is called correctly from Fortran... no
+checking whether ZDOTU is called correctly from Fortran... no
+checking BLAS library integer size... 4
+checking for sgemm_ in -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf... no
+checking if sgemm_ is being linked in already... no
+checking for sgemm_ in -lopenblas... (cached) no
+checking for ATL_xerbla in -latlas... (cached) no
+checking for sgemm_ in -lblas... (cached) yes
+checking for dgemm_ in -ldgemm... (cached) no
+checking for sgemm_ in -lmkl_intel_lp64... (cached) no
+checking for sgemm_ in -lmkl... (cached) no
+checking for sgemm_ in -framework vecLib... no
+checking for sgemm_ in -lcxml... (cached) no
+checking for sgemm_ in -ldxml... (cached) no
+checking for sgemm_ in -lscs... (cached) no
+checking for sgemm_ in -lcomplib.sgimath... (cached) no
+checking for sgemm_ in -lblas... (cached) yes
+checking for sgemm_ in -lessl... (cached) no
+checking for sgemm_ in -lblas... (cached) yes
+checking whether LSAME is called correctly from Fortran... yes
+checking whether ISAMAX is called correctly from Fortran... yes
+checking whether SDOT is called correctly from Fortran... no
+checking whether DDOT is called correctly from Fortran... yes
+checking whether CDOTU is called correctly from Fortran... yes
+checking whether ZDOTU is called correctly from Fortran... yes
+checking BLAS library integer size... 4
+configure: error: BLAS and LAPACK libraries are required
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/om/spack-stage/spack-stage-octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy/spack-src/configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy' '--with-blas=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf' '--with-lapack=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib -lblas -llapack -lnvf' '--enable-readline' '--with-bz2-includedir=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5/include' '--with-bz2-libdir=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5/lib' '--without-arpack' '--without-curl' '--without-fftw3' '--without-fftw3f' '--without-fltk' '--without-glpk' '--without-magick' '--without-hdf5' '--disable-java' '--without-opengl' '--without-framework-opengl' '--without-qhull' '--without-qrupdate' '--without-qscintilla' '--without-z' '--enable-fortran-calling-convention=gfortran' 'ac_cv_prog_ac_ct_QTCHOOSER='
+
+1 error found in build log:
+     320    checking whether ISAMAX is called correctly from Fortran... yes
+     321    checking whether SDOT is called correctly from Fortran... no
+     322    checking whether DDOT is called correctly from Fortran... yes
+     323    checking whether CDOTU is called correctly from Fortran... yes
+     324    checking whether ZDOTU is called correctly from Fortran... yes
+     325    checking BLAS library integer size... 4
+  >> 326    configure: error: BLAS and LAPACK libraries are required
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-octave-7.1.0-4awc664rzefhy47sgicqiwmvyqsamlqy/spack-build-out.txt
+

@@ -1,0 +1,50 @@
+[+] /usr (external curl-7.29.0-j2iwyd6dkw5tyqvyjetvvkud66o7voae)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external tar-1.26-4zlkug6geslk5z6mx4wjxbiwjcvdso3c)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gettext-0.21-pgx4a3l6riiem4uxy6xrhpxhqgokv2wa
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355bskazckhx2e4yqn
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-ukaldunpdpwa7ovz4otqh4fbsjyitte7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7
+==> Installing roms-3.8-k3n5xcuyzdac6wuzqa5upaqcxdorcdmt
+==> No binary for roms-3.8-k3n5xcuyzdac6wuzqa5upaqcxdorcdmt found: installing from source
+==> Error: FetchError: Manual download is required for roms. Refer to https://www.myroms.org/ for download instructions.
+
+/home/om/SPACK/spack/lib/spack/spack/package_base.py:1556, in do_fetch:
+       1553
+       1554        self.stage.create()
+       1555        err_msg = None if not self.manual_download else self.download_instr
+  >>   1556        start_time = time.time()
+       1557        self.stage.fetch(mirror_only, err_msg=err_msg)
+       1558        self._fetch_time = time.time() - start_time
+       1559
+
+

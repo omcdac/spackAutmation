@@ -1,0 +1,25 @@
+==> Installing intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe
+==> No binary for intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe found: installing from source
+==> Fetching https://registrationcenter-download.intel.com/akdlm/irc_nas/18714/l_mpi_oneapi_p_2021.6.0.602_offline.sh
+==> No patches needed for intel-oneapi-mpi
+==> intel-oneapi-mpi: Executing phase: 'install'
+==> [2022-09-16-15:40:45.840952] 'bash' 'l_mpi_oneapi_p_2021.6.0.602_offline.sh' '-s' '-a' '-s' '--action' 'install' '--eula' 'accept' '--install-dir' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe'
+Checking system requirements...
+Done.
+Wait while the installer is preparing...
+Done.
+Launching the installer...
+Start installation flow...
+Installed Location: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe
+Installation has successfully completed
+Log file: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/logs/installer.install.intel.oneapi.lin.mpi.product,v=2021.6.0-602.2022.09.16.15.40.50.945204.log
+==> [2022-09-16-15:41:05.266854] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpif77 [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.274554] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpif90 [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.280228] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpigcc [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.284707] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpigxx [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.289101] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpiicc [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.292896] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpiicpc [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> [2022-09-16-15:41:05.296092] FILTER FILE: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe/mpi/2021.6.0/bin/mpiifort [replacing "I_MPI_SUBSTITUTE_INSTALLDIR|__EXEC_PREFIX_TO_BE_FILLED_AT_INSTALL_TIME__"]
+==> intel-oneapi-mpi: Successfully installed intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe
+  Fetch: 11.97s.  Build: 19.81s.  Total: 31.78s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mpi-2021.6.0-j62arm67m2v2oc56wura3fe52ytwjxpe

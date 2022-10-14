@@ -1,0 +1,60 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/charmpp-6.8.2-s7wgbvql4mnwg6qjy5xlfjyvlfwm6zgl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external openssh-7.4p1-xdrtaw3mpifrx4alom7bgveodendft4c)
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /usr (external slurm-20.11.9-c4ohri2xe2co5rncvvijwa3r4lbb7naw)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cuda-11.7.1-uxma3p5dc5qeefxruon4zjn2rcydwa6y
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-5vwmr5ifhe5ymsdv26hl7s63d2ya3tns
+==> Installing namd-2.13-vojy7fg5peqwolyliv24x4k7ag33ifbp
+==> No binary for namd-2.13-vojy7fg5peqwolyliv24x4k7ag33ifbp found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/9e/9e3323ed856e36e34d5c17a7b0341e38.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/namd/inherited-member-2.13.patch
+==> namd: Executing phase: 'edit'
+==> [2022-09-17-00:04:53.758986] '/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/gcc' '-dumpversion'
+==> [2022-09-17-00:04:53.779186] Copying arch/Linux-x86_64.base to arch/linux-x86_64.base
+==> [2022-09-17-00:04:53.780315] Copying arch/Linux-x86_64.fftw3 to arch/linux-x86_64.fftw3
+==> [2022-09-17-00:04:53.781827] Copying arch/Linux-x86_64.cuda to arch/linux-x86_64.cuda
+==> [2022-09-17-00:04:53.782721] FILTER FILE: arch/linux-x86_64.cuda [replacing "^CUDADIR=.*$"]
+==> [2022-09-17-00:04:53.785057] './config' 'linux-x86_64-spack' '--charm-base' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/charmpp-6.8.2-s7wgbvql4mnwg6qjy5xlfjyvlfwm6zgl' '--with-fftw3' '--fftw-prefix' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-5vwmr5ifhe5ymsdv26hl7s63d2ya3tns' '--without-tcl' '--without-python' '--with-cuda' '--cuda-prefix' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cuda-11.7.1-uxma3p5dc5qeefxruon4zjn2rcydwa6y'
+
+Selected arch file arch/linux-x86_64-spack.arch contains:
+
+NAMD_ARCH = linux-x86_64
+CHARMARCH = netlrts-linux-x86_64
+CXX = /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/g++ -std=c++11
+CXXOPTS = -m64 -O3 -fexpensive-optimizations                                         -ffast-math -lpthread -march=cascadelake -mtune=cascadelake
+CC = /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/gcc
+COPTS = -m64 -O3 -fexpensive-optimizations                                         -ffast-math -lpthread -march=cascadelake -mtune=cascadelake
+
+ERROR: CUDA builds require non-MPI SMP or multicore Charm++ arch for reasonable performance.
+
+Consider ibverbs-smp or verbs-smp (InfiniBand), gni-smp (Cray), or multicore (single node).
+
+==> Error: ProcessError: Command exited with status 1:
+    './config' 'linux-x86_64-spack' '--charm-base' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/charmpp-6.8.2-s7wgbvql4mnwg6qjy5xlfjyvlfwm6zgl' '--with-fftw3' '--fftw-prefix' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-5vwmr5ifhe5ymsdv26hl7s63d2ya3tns' '--without-tcl' '--without-python' '--with-cuda' '--cuda-prefix' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cuda-11.7.1-uxma3p5dc5qeefxruon4zjn2rcydwa6y'
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-namd-2.13-vojy7fg5peqwolyliv24x4k7ag33ifbp/spack-build-out.txt
+

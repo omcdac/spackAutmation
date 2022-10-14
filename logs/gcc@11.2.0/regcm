@@ -1,0 +1,281 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external tar-1.26-4zlkug6geslk5z6mx4wjxbiwjcvdso3c)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gettext-0.21-pgx4a3l6riiem4uxy6xrhpxhqgokv2wa
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355bskazckhx2e4yqn
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-ukaldunpdpwa7ovz4otqh4fbsjyitte7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7
+==> Installing regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng
+==> No binary for regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/45/456631c10dcb83d70e51c3babda2f7a1aa41ed9e60cb4209deb3764655267519.tar.gz
+==> No patches needed for regcm
+==> regcm: Executing phase: 'autoreconf'
+==> regcm: Executing phase: 'configure'
+==> [2022-09-20-16:21:22.182952] '/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/configure' 'FFLAGS=-Wall -Wextra -Warray-temporaries -Wconversion -fimplicit-none -fbacktrace -ffree-line-length-0 -finit-real=nan -ffpe-trap=zero,overflow,underflow -fcheck=all' 'LDLIBS=-lnetcdff -lnetcdf -lm -ldl' 'FCFLAGS=-Wall -Wextra -Warray-temporaries -Wconversion -fimplicit-none -fbacktrace -ffree-line-length-0 -finit-real=nan -ffpe-trap=zero,overflow,underflow -fcheck=all' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng' '--enable-shared' 'FCFLAGS=-Wall -Wextra -Warray-temporaries -Wconversion -fimplicit-none -fbacktrace -ffree-line-length-0 -finit-real=nan -ffpe-trap=zero,overflow,underflow -fcheck=all -fno-range-check' 'MPIFC=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz/bin/mpif90'
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for gcc... /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO C89... none needed
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by /home/om/SPACK/spack/lib/spack/env/gcc/gcc... /home/om/SPACK/spack/lib/spack/env/ld
+checking if the linker (/home/om/SPACK/spack/lib/spack/env/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /home/om/SPACK/spack/lib/spack/env/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from /home/om/SPACK/spack/lib/spack/env/gcc/gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -fno-rtti -fno-exceptions... no
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to produce PIC... -fPIC -DPIC
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc PIC flag -fPIC -DPIC works... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc static flag -static works... no
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -c -o file.o... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gcc supports -c -o file.o... (cached) yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/gcc linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/gcc... gcc3
+checking for ranlib... (cached) ranlib
+checking for gcc... (cached) /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... (cached) yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO C89... (cached) none needed
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc understands -c and -o together... (cached) yes
+checking whether we are using the GNU Fortran compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gfortran accepts -g... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gfortran option to produce PIC... -fPIC
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran PIC flag -fPIC works... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran static flag -static works... no
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran supports -c -o file.o... yes
+checking if /home/om/SPACK/spack/lib/spack/env/gcc/gfortran supports -c -o file.o... (cached) yes
+checking whether the /home/om/SPACK/spack/lib/spack/env/gcc/gfortran linker (/home/om/SPACK/spack/lib/spack/env/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking if nf-config program is present... yes
+checking if nc-config program is present... yes
+checking whether byte ordering is bigendian... no
+checking for Fortran name-mangling scheme... unknown
+configure: WARNING: UNKNOWN FORTRAN NAME-MANGLING SCHEME
+configure: checking for NetCDF...
+configure: checking for netcdf.h...
+checking netcdf.h usability... yes
+checking netcdf.h presence... yes
+checking for netcdf.h... yes
+configure: checking for libnetcdf.a...
+checking for nc_close in -lnetcdf... yes
+configure: checking for libnetcdff.a...
+checking for nf_close in -lnetcdf... yes
+configure: checking for NetCDF module file...
+checking for mpifort... /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz/bin/mpif90
+checking for MPI_Init... yes
+checking for mpif.h... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating external/Makefile
+config.status: creating Share/Makefile
+config.status: creating PreProc/Makefile
+config.status: creating PreProc/Terrain/Makefile
+config.status: creating PreProc/ICBC/Makefile
+config.status: creating PreProc/CH_EMISSIONS/Makefile
+config.status: creating PreProc/CH_EMISSIONS/interpolation/Makefile
+config.status: creating PreProc/CH_EMISSIONS/interpolation/tools/Makefile
+config.status: creating PreProc/CH_EMISSIONS/interpolation/tools/REGCM_grid/Makefile
+config.status: creating PreProc/CLM/Makefile
+config.status: creating PreProc/CLM45/Makefile
+config.status: creating PostProc/Makefile
+config.status: creating Main/mpplib/Makefile
+config.status: creating Main/netlib/Makefile
+config.status: creating Main/Makefile
+config.status: creating Main/batslib/Makefile
+config.status: creating Main/clmlib/Makefile
+config.status: creating Main/ocnlib/Makefile
+config.status: creating Main/clmlib/clm4.5/Makefile
+config.status: creating Main/chemlib/Makefile
+config.status: creating Main/chemlib/GAS_CBMZ_NEW/Makefile
+config.status: creating Main/cumlib/Makefile
+config.status: creating Main/microlib/Makefile
+config.status: creating Main/radlib/Makefile
+config.status: creating Main/radlib/RRTMG_SW/Makefile
+config.status: creating Main/pbllib/Makefile
+config.status: creating Main/cloudlib/Makefile
+config.status: creating Tools/Programs/CheckSun/Makefile
+config.status: creating Tools/Programs/RegCM_read/Makefile
+config.status: creating Tools/Programs/timeseries/Makefile
+config.status: creating config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+==> regcm: Executing phase: 'build'
+==> [2022-09-20-16:21:35.858124] 'make' 'V=1'
+make  all-recursive
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src'
+Making all in external
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/external'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/external'
+Making all in Share
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/Share'
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -I/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/external -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-ukaldunpdpwa7ovz4otqh4fbsjyitte7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355bskazckhx2e4yqn/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-ukaldunpdpwa7ovz4otqh4fbsjyitte7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355bskazckhx2e4yqn/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include  -I/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/Share -D'SVN_REV="tag-4.7.0"' -Wall -Wextra -Warray-temporaries -Wconversion -fimplicit-none -fbacktrace -ffree-line-length-0 -finit-real=nan -ffpe-trap=zero,overflow,underflow -fcheck=all -fno-range-check -c mod_realkinds.F90
+mod_realkinds.F90:63:31:
+
+   63 |   real(rk8), parameter :: inf = O'0777600000000000000000'
+      |                               1
+Error: BOZ literal constant at (1) is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function [see '-fno-allow-invalid-boz']
+mod_realkinds.F90:64:31:
+
+   64 |   real(rk8), parameter :: nan = O'0777610000000000000000'
+      |                               1
+Error: BOZ literal constant at (1) is neither a data-stmt-constant nor an actual argument to INT, REAL, DBLE, or CMPLX intrinsic function [see '-fno-allow-invalid-boz']
+mod_realkinds.F90:127:23:
+
+  127 |     is_nan_single = ( (x /= x) .or. ((x > 0.0) .eqv. (x <= 0.0)) )
+      |                       1
+Warning: Inequality comparison for REAL(4) at (1) [-Wcompare-reals]
+mod_realkinds.F90:115:23:
+
+  115 |     is_nan_double = ( (x /= x) .or. ((x > 0.0D0) .eqv. (x <= 0.0D0)) )
+      |                       1
+Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+make[2]: *** [mod_realkinds.o] Error 1
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/Share'
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src'
+make: *** [all] Error 2
+==> Error: ProcessError: Command exited with status 2:
+    'make' 'V=1'
+
+5 errors found in build log:
+     161    make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76p
+            x5423ssmopng/spack-src/Share'
+     162    /home/om/SPACK/spack/lib/spack/env/gcc/gfortran -I/tmp/om/spack-stage/spack-stage-regcm-4.7.0
+            -c4is4rmvasug3t4zb76px5423ssmopng/spack-src/external -I/home/om/SPACK/spack/opt/spack/linux-c
+            entos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-ukaldunpdpwa7ovz4otqh4fbsjyitte7/include -I/home
+            /om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355b
+            skazckhx2e4yqn/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/
+            netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include -I/home/om/SPACK/spack/opt/spac
+            k/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/
+            include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-c-4.8.1-
+            ukaldunpdpwa7ovz4otqh4fbsjyitte7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-casca
+            delake/gcc-11.2.0/hdf5-1.12.2-snm74kesx7y5nm355bskazckhx2e4yqn/include -I/home/om/SPACK/spack
+            /opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf-fortran-4.5.4-7mikf4b7lv2liq6crntvpki3
+            rlra5nd7/include -I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netcdf
+            -fortran-4.5.4-7mikf4b7lv2liq6crntvpki3rlra5nd7/include  -I/tmp/om/spack-stage/spack-stage-re
+            gcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-src/Share -D'SVN_REV="tag-4.7.0"' -Wall -Wex
+            tra -Warray-temporaries -Wconversion -fimplicit-none -fbacktrace -ffree-line-length-0 -finit-
+            real=nan -ffpe-trap=zero,overflow,underflow -fcheck=all -fno-range-check -c mod_realkinds.F90
+     163    mod_realkinds.F90:63:31:
+     164    
+     165       63 |   real(rk8), parameter :: inf = O'0777600000000000000000'
+     166          |                               1
+  >> 167    Error: BOZ literal constant at (1) is neither a data-stmt-constant nor an actual argument to 
+            INT, REAL, DBLE, or CMPLX intrinsic function [see '-fno-allow-invalid-boz']
+     168    mod_realkinds.F90:64:31:
+     169    
+     170       64 |   real(rk8), parameter :: nan = O'0777610000000000000000'
+     171          |                               1
+  >> 172    Error: BOZ literal constant at (1) is neither a data-stmt-constant nor an actual argument to 
+            INT, REAL, DBLE, or CMPLX intrinsic function [see '-fno-allow-invalid-boz']
+     173    mod_realkinds.F90:127:23:
+     174    
+     175      127 |     is_nan_single = ( (x /= x) .or. ((x > 0.0) .eqv. (x <= 0.0)) )
+     176          |                       1
+     177    Warning: Inequality comparison for REAL(4) at (1) [-Wcompare-reals]
+     178    mod_realkinds.F90:115:23:
+     179    
+     180      115 |     is_nan_double = ( (x /= x) .or. ((x > 0.0D0) .eqv. (x <= 0.0D0)) )
+     181          |                       1
+     182    Warning: Inequality comparison for REAL(8) at (1) [-Wcompare-reals]
+  >> 183    make[2]: *** [mod_realkinds.o] Error 1
+     184    make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px
+            5423ssmopng/spack-src/Share'
+  >> 185    make[1]: *** [all-recursive] Error 1
+     186    make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px
+            5423ssmopng/spack-src'
+  >> 187    make: *** [all] Error 2
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-regcm-4.7.0-c4is4rmvasug3t4zb76px5423ssmopng/spack-build-out.txt
+

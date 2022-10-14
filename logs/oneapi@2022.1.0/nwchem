@@ -1,0 +1,49 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /usr (external tar-1.26-yrmxdjqrnhvsmm3wgmb2o66n6u3vn7ao)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libmd-1.0.4-jvtbliyng5xwotwde4vmapes54v77lbw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libffi-3.4.2-fq7osdokz52phaaixrbeidmlwigjp26d
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-linux-uuid-2.37.4-2zpyudndkmfauhgvy43wwcorfkwpc7uf
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libbsd-0.11.5-ttisxmvp3udrvvq2ck464h53c4ubkfll
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/cmake-3.23.3-yhrvx3wpsdmle7jez6lm7dujzcdyxdfx
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gettext-0.21-foejncj32ajs7g2nsfqbrdwl7f6ezygn
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/expat-2.4.8-msw7eridov47egiv22xdrpytxppbqdfv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/sqlite-3.39.2-tgmbvclovf37vgm2hrjvdunuy3p6hhq5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/python-3.9.13-hdse3anr5zo6w3kpobv3aeuj656tsoib
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu
+==> Installing nwchem-7.0.2-t2uu5lrxpfhctfzkka3bsfgcieczku27
+==> No binary for nwchem-7.0.2-t2uu5lrxpfhctfzkka3bsfgcieczku27 found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/9b/9bf913b811b97c8ed51bc5a02bf1c8e18456d0719c0a82b2e71223a596d945a7.tar.bz2
+==> No patches needed for nwchem
+==> nwchem: Executing phase: 'install'
+==> nwchem: Successfully installed nwchem-7.0.2-t2uu5lrxpfhctfzkka3bsfgcieczku27
+  Fetch: 0.12s.  Build: 57m 47.93s.  Total: 57m 48.05s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/nwchem-7.0.2-t2uu5lrxpfhctfzkka3bsfgcieczku27

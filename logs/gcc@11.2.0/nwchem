@@ -1,0 +1,48 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external openssh-7.4p1-xdrtaw3mpifrx4alom7bgveodendft4c)
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /usr (external slurm-20.11.9-c4ohri2xe2co5rncvvijwa3r4lbb7naw)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libmd-1.0.4-hazh4bhkyy62tsk6gb6x7qzjo7xxtndh
+[+] /usr (external tar-1.26-4zlkug6geslk5z6mx4wjxbiwjcvdso3c)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libffi-3.4.2-us4rbg2so76pg5mglnkwhdnnsgckvu3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-linux-uuid-2.37.4-3lwqls3h6mvkutuub2z5cgyg5f4hilbe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libbsd-0.11.5-gm75o6w2kss3cxf4vlrr64gcnbhtzuz2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/expat-2.4.8-3vg5fppryacu4o6nfet3vsvbtdwdmvzt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gettext-0.21-pgx4a3l6riiem4uxy6xrhpxhqgokv2wa
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/sqlite-3.39.2-h3b6whyyrhbllhcyvrb6irgewldg3vgo
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/python-3.9.13-hm2xkdjfel3eqfcneit37jccvms5256p
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-5vwmr5ifhe5ymsdv26hl7s63d2ya3tns
+==> Installing nwchem-7.0.2-2nsvcoqwj42xt6zon2xjvfgf6b26yovg
+==> No binary for nwchem-7.0.2-2nsvcoqwj42xt6zon2xjvfgf6b26yovg found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/9b/9bf913b811b97c8ed51bc5a02bf1c8e18456d0719c0a82b2e71223a596d945a7.tar.bz2
+==> No patches needed for nwchem
+==> nwchem: Executing phase: 'install'
+==> nwchem: Successfully installed nwchem-7.0.2-2nsvcoqwj42xt6zon2xjvfgf6b26yovg
+  Fetch: 2.16s.  Build: 48m 17.98s.  Total: 48m 20.14s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nwchem-7.0.2-2nsvcoqwj42xt6zon2xjvfgf6b26yovg

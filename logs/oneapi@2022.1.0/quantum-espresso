@@ -1,0 +1,195 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /usr (external tar-1.26-yrmxdjqrnhvsmm3wgmb2o66n6u3vn7ao)
+[+] /usr (external curl-7.29.0-n3cw6reqja52tadq6f2h7jhiojci2v33)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libmd-1.0.4-jvtbliyng5xwotwde4vmapes54v77lbw
+==> Installing pcre2-10.39-53sfawoxifxwfnrduffsztdf6qeojjq7
+==> No binary for pcre2-10.39-53sfawoxifxwfnrduffsztdf6qeojjq7 found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/0f/0f03caf57f81d9ff362ac28cd389c055ec2bf0678d277349a1a4bee00ad6d440.tar.bz2
+==> No patches needed for pcre2
+==> pcre2: Executing phase: 'autoreconf'
+==> pcre2: Executing phase: 'configure'
+==> pcre2: Executing phase: 'build'
+==> pcre2: Executing phase: 'install'
+==> pcre2: Successfully installed pcre2-10.39-53sfawoxifxwfnrduffsztdf6qeojjq7
+  Fetch: 0.01s.  Build: 23.00s.  Total: 23.01s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pcre2-10.39-53sfawoxifxwfnrduffsztdf6qeojjq7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+==> Installing libunistring-0.9.10-bqbpwbogycqr3bdmggxubqfmwqcbr3ji
+==> No binary for libunistring-0.9.10-bqbpwbogycqr3bdmggxubqfmwqcbr3ji found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/eb/eb8fb2c3e4b6e2d336608377050892b54c3c983b646c561836550863003c05d7.tar.xz
+==> Ran patch() for libunistring
+==> libunistring: Executing phase: 'autoreconf'
+==> libunistring: Executing phase: 'configure'
+==> libunistring: Executing phase: 'build'
+==> libunistring: Executing phase: 'install'
+==> libunistring: Successfully installed libunistring-0.9.10-bqbpwbogycqr3bdmggxubqfmwqcbr3ji
+  Fetch: 0.01s.  Build: 3m 10.13s.  Total: 3m 10.14s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libunistring-0.9.10-bqbpwbogycqr3bdmggxubqfmwqcbr3ji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libbsd-0.11.5-ttisxmvp3udrvvq2ck464h53c4ubkfll
+==> Installing libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm
+==> No binary for libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/22/2283f741d2aab935c8c52c04b57bf952d02c2c02e651172f8ac811f77b1fc77a.tar.gz
+==> No patches needed for libedit
+==> libedit: Executing phase: 'autoreconf'
+==> libedit: Executing phase: 'configure'
+==> libedit: Executing phase: 'build'
+==> libedit: Executing phase: 'install'
+==> libedit: Successfully installed libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm
+  Fetch: 0.01s.  Build: 24.80s.  Total: 24.81s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/cmake-3.23.3-yhrvx3wpsdmle7jez6lm7dujzcdyxdfx
+==> Installing libidn2-2.3.0-lb7ylji24le7rtmigwk7mmqaupbmkqnx
+==> No binary for libidn2-2.3.0-lb7ylji24le7rtmigwk7mmqaupbmkqnx found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/e1/e1cb1db3d2e249a6a3eb6f0946777c2e892d5c5dc7bd91c74394fc3a01cab8b5.tar.gz
+==> No patches needed for libidn2
+==> libidn2: Executing phase: 'autoreconf'
+==> libidn2: Executing phase: 'configure'
+==> libidn2: Executing phase: 'build'
+==> libidn2: Executing phase: 'install'
+==> libidn2: Successfully installed libidn2-2.3.0-lb7ylji24le7rtmigwk7mmqaupbmkqnx
+  Fetch: 0.01s.  Build: 1m 0.65s.  Total: 1m 0.65s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libidn2-2.3.0-lb7ylji24le7rtmigwk7mmqaupbmkqnx
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gettext-0.21-foejncj32ajs7g2nsfqbrdwl7f6ezygn
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/expat-2.4.8-msw7eridov47egiv22xdrpytxppbqdfv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+==> Installing openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr
+==> No binary for openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/84/8495c9affc536253648e942908e88e097f2ec7753ede55aca52e5dead3029e3c.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/openblas/f_check-oneapi.patch
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/openblas/linktest.patch
+==> openblas: Executing phase: 'edit'
+==> openblas: Executing phase: 'build'
+==> openblas: Executing phase: 'install'
+==> openblas: Successfully installed openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr
+  Fetch: 0.03s.  Build: 1m 29.33s.  Total: 1m 29.36s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr
+==> Installing bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy
+==> No binary for bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/06/06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb.tar.gz
+==> No patches needed for bison
+==> bison: Executing phase: 'autoreconf'
+==> bison: Executing phase: 'configure'
+==> bison: Executing phase: 'build'
+==> bison: Executing phase: 'install'
+==> bison: Successfully installed bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy
+  Fetch: 0.01s.  Build: 1m 17.03s.  Total: 1m 17.04s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy
+==> Installing krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l
+==> No binary for krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/56/56d04863cfddc9d9eb7af17556e043e3537d41c6e545610778676cf551b9dcd0.tar.gz
+==> Ran patch() for krb5
+==> krb5: Executing phase: 'autoreconf'
+==> krb5: Executing phase: 'configure'
+==> krb5: Executing phase: 'build'
+==> krb5: Executing phase: 'install'
+==> krb5: Successfully installed krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l
+  Fetch: 0.02s.  Build: 1m 51.47s.  Total: 1m 51.49s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l
+==> Installing openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma
+==> No binary for openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/03/03974302161e9ecce32153cfa10012f1e65c8f3750f573a73ab1befd5972a28a.tar.gz
+==> Ran patch() for openssh
+==> openssh: Executing phase: 'autoreconf'
+==> openssh: Executing phase: 'configure'
+==> openssh: Executing phase: 'build'
+==> openssh: Executing phase: 'install'
+==> openssh: Successfully installed openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma
+  Fetch: 0.01s.  Build: 2m 10.05s.  Total: 2m 10.05s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma
+==> Installing openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz
+==> No binary for openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/92/92912e175fd1234368c8730c03f4996fe5942e7479bb1d10059405e7f2b3930d.tar.bz2
+==> No patches needed for openmpi
+==> openmpi: Executing phase: 'autoreconf'
+==> openmpi: Executing phase: 'configure'
+==> openmpi: Executing phase: 'build'
+==> openmpi: Executing phase: 'install'
+==> openmpi: Successfully installed openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz
+  Fetch: 0.01s.  Build: 12m 22.42s.  Total: 12m 22.44s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz
+==> Installing git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn
+==> No binary for git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/fc/fc3ffe6c65c1f7c681a1ce6bb91703866e432c762731d4b57c566d696f6d62c3.tar.gz
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/69/69386ab0dcdbc8398ebb97487733166033f1c7711b02b8861b1ae8f4f46e6e4e.tar.gz
+==> Moving resource stage
+	source: /tmp/om/spack-stage/resource-git-manpages-ljpjruai5baw7yxavmu5afhd33cevidn/spack-src/
+	destination: /tmp/om/spack-stage/spack-stage-git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn/spack-src/git-manpages
+==> Ran patch() for git
+==> git: Executing phase: 'autoreconf'
+==> git: Executing phase: 'configure'
+==> git: Executing phase: 'build'
+==> git: Executing phase: 'install'
+==> git: Successfully installed git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn
+  Fetch: 0.04s.  Build: 32.87s.  Total: 32.90s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn
+==> Installing fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2
+==> No binary for fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2 found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/56/56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467.tar.gz
+==> Ran patch() for fftw
+==> fftw: Executing phase: 'autoreconf'
+==> fftw: Executing phase: 'configure'
+==> fftw: Executing phase: 'build'
+==> fftw: Executing phase: 'install'
+==> fftw: Successfully installed fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2
+  Fetch: 0.01s.  Build: 5m 6.67s.  Total: 5m 6.67s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2
+==> Installing netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu
+==> No binary for netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/40/40b9406c20735a9a3009d863318cb8d3e496fb073d201c5463df810e01ab2a57.tgz
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/07/072b006e485f0ca4cba56096912a986e4d3da73aae51c2205928aa5eb842cefd
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/netlib-scalapack/gcc10-compatibility.patch
+==> Applied patch https://github.com/Reference-ScaLAPACK/scalapack/commit/d4d0066c041cf19a23f8b3aa62fbcf5f0a33c166.patch?full_index=1
+==> netlib-scalapack: Executing phase: 'cmake'
+==> netlib-scalapack: Executing phase: 'build'
+==> netlib-scalapack: Executing phase: 'install'
+==> netlib-scalapack: Successfully installed netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu
+  Fetch: 0.01s.  Build: 29.97s.  Total: 29.97s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu
+==> Installing quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq
+==> No binary for quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/d5/d56dea096635808843bd5a9be2dee3d1f60407c01dbeeda03f8256a3bcfc4eb6.tar.gz
+==> No patches needed for quantum-espresso
+==> quantum-espresso: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/cmake-3.23.3-yhrvx3wpsdmle7jez6lm7dujzcdyxdfx/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq/lib64;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr/lib' '-DCMAKE_PREFIX_PATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/git-2.37.0-ljpjruai5baw7yxavmu5afhd33cevidn;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/cmake-3.23.3-yhrvx3wpsdmle7jez6lm7dujzcdyxdfx;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap;/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h' '-DQE_ENABLE_MPI:BOOL=ON' '-DQE_ENABLE_OPENMP:BOOL=ON' '-DQE_ENABLE_SCALAPACK:BOOL=ON' '-DQE_ENABLE_ELPA:BOOL=OFF' '-DQE_ENABLE_LIBXC:BOOL=OFF' '' '-DQE_ENABLE_PROFILE_NVTX:BOOL=OFF' '' '-DCMAKE_C_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz/bin/mpicc' '-DCMAKE_Fortran_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz/bin/mpif90' '/tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq/spack-src'
+
+1 error found in build log:
+     72    hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+     73    hint: 'development'. The just-created branch can be renamed via this command:
+     74    hint:
+     75    hint: 	git branch -m <name>
+     76    Initialized empty Git repository in /tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-vggkz
+           h5qh2cppbi7ea64kbatx2i3gkzq/spack-src/external/fox/.git/
+     77    git: 'remote-https' is not a git command. See 'git --help'.
+  >> 78    CMake Error at cmake/qeHelpers.cmake:163 (message):
+     79      git fetch failed! Be sure to make
+     80      /tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq/spack-
+           src/external/fox
+     81      completely empty (no hidden files) or removed before a re-try.  If this was
+     82      caused by the lack of Internet access, you can execute
+     83      'initialize_external_repos.sh' under QE 'TOPDIR/external' subdirectory on a
+     84      laptop and transfer the whole 'external' subdirectory.
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-vggkzh5qh2cppbi7ea64kbatx2i3gkzq/spack-build-out.txt
+

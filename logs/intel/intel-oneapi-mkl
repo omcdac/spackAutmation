@@ -1,0 +1,36 @@
+==> Installing intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan
+==> No binary for intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan found: installing from source
+==> Fetching https://registrationcenter-download.intel.com/akdlm/irc_nas/18728/l_tbb_oneapi_p_2021.6.0.835_offline.sh
+==> No patches needed for intel-oneapi-tbb
+==> intel-oneapi-tbb: Executing phase: 'install'
+==> [2022-09-16-15:41:40.874228] 'bash' 'l_tbb_oneapi_p_2021.6.0.835_offline.sh' '-s' '-a' '-s' '--action' 'install' '--eula' 'accept' '--install-dir' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan'
+Checking system requirements...
+Done.
+Wait while the installer is preparing...
+Done.
+Launching the installer...
+Start installation flow...
+Installed Location: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan
+Installation has successfully completed
+Log file: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan/logs/installer.install.intel.oneapi.lin.tbb.product,v=2021.6.0-835.2022.09.16.15.41.45.585294.log
+==> intel-oneapi-tbb: Successfully installed intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan
+  Fetch: 4.52s.  Build: 13.14s.  Total: 17.67s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-tbb-2021.6.0-5oks3dbhv5gj27iwmx5rwxf74i6lywan
+==> Installing intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4
+==> No binary for intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4 found: installing from source
+==> Fetching https://registrationcenter-download.intel.com/akdlm/irc_nas/18721/l_onemkl_p_2022.1.0.223_offline.sh
+==> No patches needed for intel-oneapi-mkl
+==> intel-oneapi-mkl: Executing phase: 'install'
+==> [2022-09-16-15:45:21.968156] 'bash' 'l_onemkl_p_2022.1.0.223_offline.sh' '-s' '-a' '-s' '--action' 'install' '--eula' 'accept' '--install-dir' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4'
+Checking system requirements...
+Done.
+Wait while the installer is preparing...
+Done.
+Launching the installer...
+Start installation flow...
+Installed Location: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4
+Installation has successfully completed
+Log file: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4/logs/installer.install.intel.oneapi.lin.mkl.product,v=2022.1.0-223.2022.09.16.15.45.33.425566.log
+==> intel-oneapi-mkl: Successfully installed intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4
+  Fetch: 3m 22.25s.  Build: 1m 54.26s.  Total: 5m 16.51s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/intel-2021.6.0/intel-oneapi-mkl-2022.1.0-sicb5shawk43m5ey7ygeec4fwcg2szp4

@@ -1,0 +1,101 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /usr (external tar-1.26-yrmxdjqrnhvsmm3wgmb2o66n6u3vn7ao)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/cmake-3.23.3-yhrvx3wpsdmle7jez6lm7dujzcdyxdfx
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libedit-3.1-20210216-2mbod5kqsb5ymitwkiebpypor5ohuolm
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gettext-0.21-foejncj32ajs7g2nsfqbrdwl7f6ezygn
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+==> Installing libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6
+==> No binary for libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/6c/6ca1d0bb5fdc341d59960707bc67f23ad54de8a6018e19e02eee2b16ea7cc642.tar.gz
+==> No patches needed for libxc
+==> libxc: Executing phase: 'autoreconf'
+==> libxc: Executing phase: 'configure'
+==> libxc: Executing phase: 'build'
+==> libxc: Executing phase: 'install'
+==> libxc: Successfully installed libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6
+  Fetch: 2.06s.  Build: 22.65s.  Total: 24.72s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bison-3.8.2-cjukeloe6svc2ejhctnhomx4bicigtvy
+==> Installing atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us
+==> No binary for atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/d3/d3476a5aa5f80f9430b81f28273c2c2a9b6e7d9c3d08c65544247bb76cd5a114.tar.gz
+==> No patches needed for atompaw
+==> atompaw: Executing phase: 'autoreconf'
+==> atompaw: Executing phase: 'configure'
+==> Error: ProcessError: Command exited with status 1:
+    '/tmp/om/spack-stage/spack-stage-atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us/spack-src/configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us' '--with-linalg-libs=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openblas-0.3.20-rfri2zq5gqtzvztdq36lozax2mcdhmfr/lib -lopenblas' '--enable-libxc' '--with-libxc-incs=-I/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6/include' '--with-libxc-libs=-L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxc-2.2.2-fcwmifik5pcag47lxfv5mlbzynox6ao6/lib -lxcf90 -lxc'
+
+1 error found in build log:
+     124    checking xc_funcs.h usability... yes
+     125    checking xc_funcs.h presence... yes
+     126    checking for xc_funcs.h... yes
+     127    checking for library containing xc_func_init xc_func_end... yes
+     128    configure: => A LibXC library was found on the system
+     129    checking whether LibXC library works... no
+  >> 130    configure: error: No working LibXC library has been found!
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us/spack-build-out.txt
+
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/krb5-1.19.3-xgair3itopzqdc35pmko52tpslaijf4l
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openssh-9.0p1-4fsxwle7mtejinqymmtoqklqbyokqrma
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-hlxm5hbsepiem4jf2ok66qhyt4raagzz
+==> Installing hdf5-1.12.2-jhfqfshqmfq25ktbajiaf3fwnpbaege7
+==> No binary for hdf5-1.12.2-jhfqfshqmfq25ktbajiaf3fwnpbaege7 found: installing from source
+==> Warning: Skipping build of abinit-8.10.3-mlhgx7zd25oknnpimqsikzr243ma4uuv since atompaw-4.2.0.1-onjfmn26opgt5enk6mxakfo7ft27r4us failed
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/2a/2a89af03d56ce7502dcae18232c241281ad1773561ec00c0f0e8ee2463910f14.tar.gz
+==> Ran patch() for hdf5
+==> hdf5: Executing phase: 'cmake'
+==> hdf5: Executing phase: 'build'
+==> hdf5: Executing phase: 'install'
+==> hdf5: Successfully installed hdf5-1.12.2-jhfqfshqmfq25ktbajiaf3fwnpbaege7
+  Fetch: 0.02s.  Build: 1m 40.99s.  Total: 1m 41.01s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hdf5-1.12.2-jhfqfshqmfq25ktbajiaf3fwnpbaege7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netlib-scalapack-2.2.0-qoq2t6ouw3qiu4g373pgv4lgph7nlglu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-akal6i3ztv2cxgppckyuwtwnat6zqec2
+==> Installing netcdf-c-4.8.1-54mu3rorbfupobngtfokjfsdbwdpjnzz
+==> No binary for netcdf-c-4.8.1-54mu3rorbfupobngtfokjfsdbwdpjnzz found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/bc/bc018cc30d5da402622bf76462480664c6668b55eb16ba205a0dfb8647161dd0.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/netcdf-c/4.8.1-no-strict-aliasing-config.patch
+==> netcdf-c: Executing phase: 'autoreconf'
+==> netcdf-c: Executing phase: 'configure'
+==> netcdf-c: Executing phase: 'build'
+==> netcdf-c: Executing phase: 'install'
+==> netcdf-c: Successfully installed netcdf-c-4.8.1-54mu3rorbfupobngtfokjfsdbwdpjnzz
+  Fetch: 0.06s.  Build: 1m 25.86s.  Total: 1m 25.92s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netcdf-c-4.8.1-54mu3rorbfupobngtfokjfsdbwdpjnzz
+==> Installing netcdf-fortran-4.5.4-7xxncrl5fsv3hqiwchggqfsy62fge2oe
+==> No binary for netcdf-fortran-4.5.4-7xxncrl5fsv3hqiwchggqfsy62fge2oe found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/0a/0a19b26a2b6e29fab5d29d7d7e08c24e87712d09a5cafeea90e16e0a2ab86b81.tar.gz
+==> No patches needed for netcdf-fortran
+==> netcdf-fortran: Executing phase: 'autoreconf'
+==> netcdf-fortran: Executing phase: 'configure'
+==> netcdf-fortran: Executing phase: 'build'
+==> netcdf-fortran: Executing phase: 'install'
+==> netcdf-fortran: Successfully installed netcdf-fortran-4.5.4-7xxncrl5fsv3hqiwchggqfsy62fge2oe
+  Fetch: 0.00s.  Build: 51.09s.  Total: 51.09s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/netcdf-fortran-4.5.4-7xxncrl5fsv3hqiwchggqfsy62fge2oe
+==> Error: abinit-8.10.3-mlhgx7zd25oknnpimqsikzr243ma4uuv: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).

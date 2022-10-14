@@ -1,0 +1,527 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external openssh-7.4p1-xdrtaw3mpifrx4alom7bgveodendft4c)
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /usr (external slurm-20.11.9-c4ohri2xe2co5rncvvijwa3r4lbb7naw)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli
+==> Installing hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s
+==> No binary for hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/92/92fee9b5efe37a5276352d3502775e7c46e9f7a0ee45a331eacb2a0cac713c69.tar.gz
+==> No patches needed for hmmer
+==> hmmer: Executing phase: 'install'
+==> [2022-09-19-10:57:11.819976] './configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s' '--enable-mpi'
+configure: Configuring HMMER3 for your system.
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether to compile using MPI... yes
+checking for gcc... /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO C89... none needed
+checking for function MPI_Init... no
+checking for function MPI_Init in -lmpi... yes
+checking for mpi.h... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO C99... none needed
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for strip... strip
+checking for ranlib... ranlib
+checking for ar... /usr/bin/ar
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc can compile our Altivec/VMX code... no
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc can compile our SSE code... yes
+configure: Activating Intel/AMD SSE vector DP implementation
+checking whether _MM_SET_FLUSH_ZERO_MODE is supported... yes
+checking compiler support --start-group... yes
+checking for gzip... /usr/bin/gzip
+checking for python3... yes
+checking for library containing clock_gettime... none required
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for sys/sysctl.h... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for off_t... yes
+checking whether byte ordering is bigendian... no
+checking for __attribute__((noreturn))... yes
+checking for __attribute__((format))... yes
+checking for mkstemp... yes
+checking for popen... yes
+checking for putenv... yes
+checking for strcasecmp... yes
+checking for strsep... yes
+checking for times... yes
+checking for getpid... yes
+checking for sysctl... yes
+checking for sysconf... yes
+checking for getcwd... yes
+checking for chmod... yes
+checking for stat... yes
+checking for fstat... yes
+checking for erfc... no
+checking for library containing ntohs... none required
+checking for library containing ntohl... none required
+checking for library containing htons... none required
+checking for library containing htonl... none required
+checking for library containing socket... none required
+checking for library containing inet_pton... none required
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating profmark/Makefile
+config.status: creating src/impl_sse/Makefile
+config.status: creating documentation/Makefile
+config.status: creating documentation/man/Makefile
+config.status: creating documentation/userguide/Makefile
+config.status: creating documentation/userguide/inclusions/Makefile
+config.status: creating libdivsufsort/Makefile
+config.status: creating easel/Makefile
+config.status: creating easel/miniapps/Makefile
+config.status: creating easel/testsuite/Makefile
+config.status: creating easel/documentation/Makefile
+config.status: creating documentation/userguide/titlepage.tex
+config.status: creating documentation/userguide/titlepage_daemon.tex
+config.status: creating documentation/userguide/copyright.tex
+config.status: creating documentation/man/alimask.man
+config.status: creating documentation/man/hmmalign.man
+config.status: creating documentation/man/hmmbuild.man
+config.status: creating documentation/man/hmmc2.man
+config.status: creating documentation/man/hmmconvert.man
+config.status: creating documentation/man/hmmemit.man
+config.status: creating documentation/man/hmmer.man
+config.status: creating documentation/man/hmmfetch.man
+config.status: creating documentation/man/hmmlogo.man
+config.status: creating documentation/man/hmmpgmd.man
+config.status: creating documentation/man/hmmpgmd_shard.man
+config.status: creating documentation/man/hmmpress.man
+config.status: creating documentation/man/hmmscan.man
+config.status: creating documentation/man/hmmsearch.man
+config.status: creating documentation/man/hmmsim.man
+config.status: creating documentation/man/hmmstat.man
+config.status: creating documentation/man/jackhmmer.man
+config.status: creating documentation/man/makehmmerdb.man
+config.status: creating documentation/man/nhmmer.man
+config.status: creating documentation/man/nhmmscan.man
+config.status: creating documentation/man/phmmer.man
+config.status: creating easel/miniapps/esl-afetch.man
+config.status: creating easel/miniapps/esl-alimanip.man
+config.status: creating easel/miniapps/esl-alimap.man
+config.status: creating easel/miniapps/esl-alimask.man
+config.status: creating easel/miniapps/esl-alimerge.man
+config.status: creating easel/miniapps/esl-alipid.man
+config.status: creating easel/miniapps/esl-alirev.man
+config.status: creating easel/miniapps/esl-alistat.man
+config.status: creating easel/miniapps/esl-compalign.man
+config.status: creating easel/miniapps/esl-compstruct.man
+config.status: creating easel/miniapps/esl-construct.man
+config.status: creating easel/miniapps/esl-histplot.man
+config.status: creating easel/miniapps/esl-mask.man
+config.status: creating easel/miniapps/esl-mixdchlet.man
+config.status: creating easel/miniapps/esl-reformat.man
+config.status: creating easel/miniapps/esl-selectn.man
+config.status: creating easel/miniapps/esl-seqrange.man
+config.status: creating easel/miniapps/esl-seqstat.man
+config.status: creating easel/miniapps/esl-sfetch.man
+config.status: creating easel/miniapps/esl-shuffle.man
+config.status: creating easel/miniapps/esl-ssdraw.man
+config.status: creating easel/miniapps/esl-translate.man
+config.status: creating easel/miniapps/esl-weight.man
+config.status: creating easel/decoy_config.h
+config.status: creating src/p7_config.h
+config.status: creating easel/esl_config.h
+config.status: creating libdivsufsort/divsufsort.h
+config.status: linking src/impl_sse to src/impl
+
+
+HMMER configuration:
+   compiler:             /home/om/SPACK/spack/lib/spack/env/gcc/gcc -O3   -pthread 
+   host:                 x86_64-pc-linux-gnu
+   linker:               
+   libraries:            -lmpi   
+   DP implementation:    sse
+
+Now do 'make'  to build HMMER, and optionally:
+       'make check'  to run self tests,
+       'make install'  to install programs and man pages,
+       '(cd easel; make install)'  to install Easel tools.
+
+==> [2022-09-19-10:57:23.888695] 'make' '-j8'
+     SUBDIR easel
+     CC easel.o
+     CC esl_alloc.o
+     CC esl_alphabet.o
+     CC esl_arr2.o
+     CC esl_arr3.o
+     CC esl_bitfield.o
+     CC esl_buffer.o
+     CC esl_cluster.o
+     CC esl_composition.o
+     CC esl_cpu.o
+     CC esl_dirichlet.o
+     CC esl_distance.o
+     CC esl_dmatrix.o
+     CC esl_dsqdata.o
+     CC esl_exponential.o
+     CC esl_fileparser.o
+     CC esl_gamma.o
+     CC esl_gencode.o
+     CC esl_getopts.o
+     CC esl_gev.o
+     CC esl_graph.o
+     CC esl_heap.o
+     CC esl_gumbel.o
+     CC esl_histogram.o
+     CC esl_hmm.o
+     CC esl_huffman.o
+     CC esl_hyperexp.o
+     CC esl_json.o
+     CC esl_keyhash.o
+     CC esl_matrixops.o
+     CC esl_mem.o
+     CC esl_minimizer.o
+     CC esl_mixdchlet.o
+     CC esl_mixgev.o
+     CC esl_mpi.o
+     CC esl_msa.o
+     CC esl_msacluster.o
+     CC esl_msafile.o
+     CC esl_msafile2.o
+     CC esl_msafile_a2m.o
+     CC esl_msafile_afa.o
+     CC esl_msafile_clustal.o
+     CC esl_msafile_phylip.o
+     CC esl_msafile_psiblast.o
+     CC esl_msafile_selex.o
+     CC esl_msafile_stockholm.o
+     CC esl_msashuffle.o
+     CC esl_msaweight.o
+     CC esl_normal.o
+     CC esl_paml.o
+     CC esl_quicksort.o
+     CC esl_random.o
+     CC esl_rand64.o
+     CC esl_randomseq.o
+     CC esl_ratematrix.o
+     CC esl_recorder.o
+     CC esl_red_black.o
+     CC esl_regexp.o
+     CC esl_rootfinder.o
+     CC esl_scorematrix.o
+     CC esl_sq.o
+     CC esl_sqio.o
+     CC esl_sqio_ascii.o
+     CC esl_sqio_ncbi.o
+     CC esl_ssi.o
+     CC esl_stack.o
+     CC esl_stats.o
+     CC esl_stopwatch.o
+     CC esl_stretchexp.o
+     CC esl_subcmd.o
+     CC esl_threads.o
+     CC esl_tree.o
+     CC esl_varint.o
+     CC esl_vectorops.o
+     CC esl_weibull.o
+     CC esl_workqueue.o
+     CC esl_wuss.o
+     CC esl_sse.o
+     CC esl_avx.o
+     CC esl_avx512.o
+     CC esl_neon.o
+     CC esl_vmx.o
+     AR libeasel.a
+     SUBDIR miniapps
+     GEN esl-afetch
+     GEN esl-alimanip
+     GEN esl-alimask
+     GEN esl-alimerge
+     GEN esl-alipid
+     GEN esl-alimap
+     GEN esl-alistat
+     GEN esl-alirev
+     GEN esl-compalign
+     GEN esl-compstruct
+     GEN esl-construct
+     GEN esl-histplot
+     GEN esl-mask
+     GEN esl-mixdchlet
+     GEN esl-reformat
+     GEN esl-selectn
+     GEN esl-seqrange
+     GEN esl-seqstat
+     GEN esl-sfetch
+     GEN esl-shuffle
+     GEN esl-ssdraw
+     GEN esl-translate
+     GEN esl-weight
+     CC cmd_alistat.o
+     CC cmd_downsample.o
+     CC cmd_filter.o
+     CC cmd_index.o
+     GEN easel
+     SUBDIR libdivsufsort
+     CC divsufsort.o
+     AR libdivsufsort.a
+     SUBDIR src
+     CC alimask.o
+     CC cachedb.o
+     CC build.o
+     CC cachedb_shard.o
+     CC emit.o
+     CC evalues.o
+     CC errors.o
+     CC eweight.o
+     CC generic_decoding.o
+     CC generic_fwdback.o
+     CC generic_fwdback_chk.o
+     CC generic_fwdback_banded.o
+     CC generic_msv.o
+     CC generic_null2.o
+     CC generic_optacc.o
+     CC generic_stotrace.o
+     CC generic_vtrace.o
+     CC generic_viterbi.o
+     CC heatmap.o
+     CC h2_io.o
+     CC hmmlogo.o
+     CC hmmdmstr.o
+     CC hmmdmstr_shard.o
+     CC hmmd_search_status.o
+     CC hmmdwrkr.o
+     CC hmmdwrkr_shard.o
+     CC hmmdutils.o
+     CC hmmer.o
+     CC logsum.o
+     CC modelconfig.o
+     CC modelstats.o
+     CC mpisupport.o
+     CC seqmodel.o
+     CC tracealign.o
+     CC p7_alidisplay.o
+     CC p7_bg.o
+     CC p7_builder.o
+     CC p7_domain.o
+     CC p7_domaindef.o
+     CC p7_gbands.o
+     CC p7_gmx.o
+     CC p7_gmxb.o
+     CC p7_gmxchk.o
+     CC p7_hit.o
+     CC p7_hmm.o
+     CC p7_hmmcache.o
+     CC p7_hmmd_search_stats.o
+     CC p7_hmmfile.o
+     CC p7_hmmwindow.o
+     CC p7_pipeline.o
+     CC p7_prior.o
+     CC p7_profile.o
+     CC p7_spensemble.o
+     CC p7_tophits.o
+     CC p7_trace.o
+     CC p7_scoredata.o
+     CC hmmpgmd2msa.o
+     CC fm_alphabet.o
+     CC fm_general.o
+     CC fm_sse.o
+     CC fm_ssv.o
+     CC hmmalign.o
+     CC hmmbuild.o
+     CC hmmconvert.o
+     CC hmmemit.o
+     CC hmmfetch.o
+     CC hmmpgmd.o
+     CC hmmpgmd_shard.o
+In file included from hmmbuild.c:13:
+In function 'usual_master',
+    inlined from 'main' at hmmbuild.c:463:7:
+../easel/easel.h:164:17: warning: argument 1 range [18446744022169944064, 18446744073709551592] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  164 |     if ( ((p) = malloc(size)) == NULL)  { \
+      |                 ^~~~~~~~~~~~
+hmmbuild.c:561:3: note: in expansion of macro 'ESL_ALLOC'
+  561 |   ESL_ALLOC(info, sizeof(*info) * infocnt);
+      |   ^~~~~~~~~
+In file included from hmmbuild.c:6:
+hmmbuild.c: In function 'main':
+/usr/include/stdlib.h:465:14: note: in a call to allocation function 'malloc' declared here
+  465 | extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+      |              ^~~~~~
+     CC hmmpress.o
+     CC hmmscan.o
+     CC hmmsearch.o
+     CC hmmsim.o
+     CC hmmstat.o
+     CC jackhmmer.o
+     CC phmmer.o
+     CC nhmmer.o
+     CC makehmmerdb.o
+     CC nhmmscan.o
+In file included from hmmscan.c:14:
+In function 'serial_master',
+    inlined from 'main' at hmmscan.c:302:16:
+../easel/easel.h:164:17: warning: argument 1 range [18446743987810205696, 18446744073709551576] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  164 |     if ( ((p) = malloc(size)) == NULL)  { \
+      |                 ^~~~~~~~~~~~
+hmmscan.c:402:3: note: in expansion of macro 'ESL_ALLOC'
+  402 |   ESL_ALLOC(info, sizeof(*info) * infocnt);
+      |   ^~~~~~~~~
+In file included from hmmscan.c:11:
+hmmscan.c: In function 'main':
+/usr/include/stdlib.h:465:14: note: in a call to allocation function 'malloc' declared here
+  465 | extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+      |              ^~~~~~
+In file included from phmmer.c:9:
+phmmer.c: In function 'serial_master':
+../easel/easel.h:164:17: warning: argument 1 range [18446743987810205696, 18446744073709551576] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  164 |     if ( ((p) = malloc(size)) == NULL)  { \
+      |                 ^~~~~~~~~~~~
+phmmer.c:492:3: note: in expansion of macro 'ESL_ALLOC'
+  492 |   ESL_ALLOC(info, sizeof(*info) * infocnt);
+      |   ^~~~~~~~~
+In file included from phmmer.c:6:
+/usr/include/stdlib.h:465:14: note: in a call to allocation function 'malloc' declared here
+  465 | extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+      |              ^~~~~~
+     CC hmmc2.o
+     CC hmmerfm-exactmatch.o
+In file included from jackhmmer.c:9:
+jackhmmer.c: In function 'serial_master':
+../easel/easel.h:164:17: warning: argument 1 range [18446743987810205696, 18446744073709551576] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  164 |     if ( ((p) = malloc(size)) == NULL)  { \
+      |                 ^~~~~~~~~~~~
+jackhmmer.c:537:3: note: in expansion of macro 'ESL_ALLOC'
+  537 |   ESL_ALLOC(info, sizeof(*info) * infocnt);
+      |   ^~~~~~~~~
+In file included from jackhmmer.c:6:
+/usr/include/stdlib.h:465:14: note: in a call to allocation function 'malloc' declared here
+  465 | extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+      |              ^~~~~~
+     AR libhmmer-src.stamp
+     SUBDIR impl_sse
+     CC decoding.o
+     CC fwdback.o
+     CC io.o
+     CC ssvfilter.o
+     CC msvfilter.o
+     CC null2.o
+     CC optacc.o
+     CC stotrace.o
+     CC vitfilter.o
+     CC p7_omx.o
+     CC p7_oprofile.o
+     CC mpi.o
+     AR libhmmer-impl.stamp
+     GEN hmmalign
+     GEN alimask
+     GEN hmmconvert
+     GEN hmmemit
+     GEN hmmbuild
+     GEN hmmfetch
+     GEN hmmpgmd
+     GEN hmmlogo
+     GEN hmmpgmd_shard
+     GEN hmmpress
+     GEN hmmscan
+     GEN hmmsearch
+     GEN hmmsim
+     GEN hmmstat
+     GEN jackhmmer
+     GEN phmmer
+     GEN nhmmer
+     GEN nhmmscan
+     GEN makehmmerdb
+     GEN hmmc2
+     GEN hmmerfm-exactmatch
+     SUBDIR profmark
+     CC create-profmark.o
+     CC rocplot.o
+     GEN rocplot
+     GEN create-profmark
+==> [2022-09-19-10:57:37.035261] 'make' '-j8' 'install'
+     SUBDIR easel
+     SUBDIR miniapps
+     SUBDIR libdivsufsort
+     SUBDIR src
+     SUBDIR impl_sse
+     SUBDIR profmark
+/usr/bin/install -c -d /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/bin
+/usr/bin/install -c -d /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/share/man/man1
+make -C src install
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/src'
+for file in alimask hmmalign hmmbuild hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpgmd_shard hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer phmmer nhmmer nhmmscan makehmmerdb; do \
+   /usr/bin/install -c -m 0755 $file /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/bin/ ;\
+done
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/src'
+make -C documentation install
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/documentation'
+make -C man install
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/documentation/man'
+for file in hmmer hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpgmd_shard hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer makehmmerdb phmmer nhmmer nhmmscan alimask; do \
+   /usr/bin/install -c -m 0664 $file.man /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/share/man/man1/${file}.1 ;\
+done
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/documentation/man'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s/spack-src/documentation'
+==> hmmer: Successfully installed hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s
+  Fetch: 3.44s.  Build: 26.19s.  Total: 29.64s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hmmer-3.3.2-h3wecftslo6fvezbsbzs5b64sftd7z7s

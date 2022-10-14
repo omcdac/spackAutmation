@@ -1,0 +1,642 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /usr (external openssh-7.4p1-tbpm45drlo2e4s6y5dumgraw35igwnk5)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-2qxbdkoqtgxgpj4kfquh4uik6rmjtvo2
+==> Installing athena-4.2-eqncfdueuggmun6pzzcuqxod6qeszs2d
+==> No binary for athena-4.2-eqncfdueuggmun6pzzcuqxod6qeszs2d found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/63/6334848d7f1325aa44859418feac8ce223b56793ae8907103000af5b27f50e7e.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/athena/missing-separator.patch
+==> athena: Executing phase: 'autoreconf'
+==> athena: Executing phase: 'configure'
+==> athena: Executing phase: 'build'
+==> athena: Executing phase: 'install'
+==> athena: Successfully installed athena-4.2-eqncfdueuggmun6pzzcuqxod6qeszs2d
+  Fetch: 0.01s.  Build: 22.29s.  Total: 22.29s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/athena-4.2-eqncfdueuggmun6pzzcuqxod6qeszs2d
+==> Installing openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x
+==> No binary for openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/5f/5fdb4d5a1662f0cca73fec30f99e67662350b1fa61460fa72e91eb9f66b54d0b.tar.gz
+==> No patches needed for openjdk
+==> openjdk: Executing phase: 'install'
+==> [2022-09-21-18:30:16.717706] Installing . to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x
+==> openjdk: Successfully installed openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x
+  Fetch: 0.30s.  Build: 3.18s.  Total: 3.48s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x
+==> Installing prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd
+==> No binary for prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/1c/1cb7a77538b5c997d98a8c209030c46f9e8f021f7a8332e5eb2fd3b4a23936fd.tar.gz
+==> No patches needed for prism
+==> prism: Executing phase: 'edit'
+==> [2022-09-21-18:30:21.838530] Using default implementation: skipping edit phase.
+==> prism: Executing phase: 'build'
+==> [2022-09-21-18:30:21.865305] 'make' '-j4'
+VERSION: 4.5
+OSTYPE/ARCH: linux amd64
+JAVA_DIR: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x
+JAVA_DIR_BACKUP: 
+JAVAC: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/bin/javac
+Making cudd ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd'
+sh ./setup.sh
+Making cudd ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/cudd'
+gcc -c  cuddAPI.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddAbs.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddApply.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddFind.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddIte.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddInv.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddNeg.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAddWalsh.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAndAbs.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddAnneal.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddApa.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddApprox.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddBddAbs.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddBddCorr.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddBddIte.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddBridge.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddCache.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddCheck.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddClip.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddCof.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddCompose.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddDecomp.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddEssent.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddExact.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddExport.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddGenCof.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddGenetic.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddGroup.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddHarwell.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddInit.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddInteract.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddLCache.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddLevelQ.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddLinear.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddLiteral.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddMatMult.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddPriority.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddRead.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddRef.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddReorder.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSat.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSign.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSolve.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSplit.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSubsetHB.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSubsetSP.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddSymmetry.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddTable.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddUtil.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddWindow.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddCount.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddFuncs.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddGroup.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddIsop.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddLin.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddMisc.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddPort.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddReord.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddSetop.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddSymm.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  cuddZddUtil.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+ar rv libcudd.a cuddAPI.o cuddAddAbs.o cuddAddApply.o cuddAddFind.o cuddAddIte.o cuddAddInv.o cuddAddNeg.o cuddAddWalsh.o cuddAndAbs.o cuddAnneal.o cuddApa.o cuddApprox.o cuddBddAbs.o cuddBddCorr.o cuddBddIte.o cuddBridge.o cuddCache.o cuddCheck.o cuddClip.o cuddCof.o cuddCompose.o cuddDecomp.o cuddEssent.o cuddExact.o cuddExport.o cuddGenCof.o cuddGenetic.o cuddGroup.o cuddHarwell.o cuddInit.o cuddInteract.o cuddLCache.o cuddLevelQ.o cuddLinear.o cuddLiteral.o cuddMatMult.o cuddPriority.o cuddRead.o cuddRef.o cuddReorder.o cuddSat.o cuddSign.o cuddSolve.o cuddSplit.o cuddSubsetHB.o cuddSubsetSP.o cuddSymmetry.o cuddTable.o cuddUtil.o cuddWindow.o cuddZddCount.o cuddZddFuncs.o cuddZddGroup.o cuddZddIsop.o cuddZddLin.o cuddZddMisc.o cuddZddPort.o cuddZddReord.o cuddZddSetop.o cuddZddSymm.o cuddZddUtil.o
+ar: creating libcudd.a
+a - cuddAPI.o
+a - cuddAddAbs.o
+a - cuddAddApply.o
+a - cuddAddFind.o
+a - cuddAddIte.o
+a - cuddAddInv.o
+a - cuddAddNeg.o
+a - cuddAddWalsh.o
+a - cuddAndAbs.o
+a - cuddAnneal.o
+a - cuddApa.o
+a - cuddApprox.o
+a - cuddBddAbs.o
+a - cuddBddCorr.o
+a - cuddBddIte.o
+a - cuddBridge.o
+a - cuddCache.o
+a - cuddCheck.o
+a - cuddClip.o
+a - cuddCof.o
+a - cuddCompose.o
+a - cuddDecomp.o
+a - cuddEssent.o
+a - cuddExact.o
+a - cuddExport.o
+a - cuddGenCof.o
+a - cuddGenetic.o
+a - cuddGroup.o
+a - cuddHarwell.o
+a - cuddInit.o
+a - cuddInteract.o
+a - cuddLCache.o
+a - cuddLevelQ.o
+a - cuddLinear.o
+a - cuddLiteral.o
+a - cuddMatMult.o
+a - cuddPriority.o
+a - cuddRead.o
+a - cuddRef.o
+a - cuddReorder.o
+a - cuddSat.o
+a - cuddSign.o
+a - cuddSolve.o
+a - cuddSplit.o
+a - cuddSubsetHB.o
+a - cuddSubsetSP.o
+a - cuddSymmetry.o
+a - cuddTable.o
+a - cuddUtil.o
+a - cuddWindow.o
+a - cuddZddCount.o
+a - cuddZddFuncs.o
+a - cuddZddGroup.o
+a - cuddZddIsop.o
+a - cuddZddLin.o
+a - cuddZddMisc.o
+a - cuddZddPort.o
+a - cuddZddReord.o
+a - cuddZddSetop.o
+a - cuddZddSymm.o
+a - cuddZddUtil.o
+ranlib libcudd.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/cudd'
+Making dddmp ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/dddmp'
+gcc -c dddmpStoreBdd.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpStoreAdd.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpStoreCnf.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpLoad.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpLoadCnf.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpNodeBdd.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpNodeAdd.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpNodeCnf.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpStoreMisc.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpUtil.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpBinary.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpConvert.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+gcc -c dddmpDbg.c -I../include -g -O3 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat    
+ar rv libdddmp.a dddmpStoreBdd.o dddmpStoreAdd.o dddmpStoreCnf.o dddmpLoad.o dddmpLoadCnf.o dddmpNodeBdd.o dddmpNodeAdd.o dddmpNodeCnf.o dddmpStoreMisc.o dddmpUtil.o dddmpBinary.o dddmpConvert.o dddmpDbg.o
+ar: creating libdddmp.a
+a - dddmpStoreBdd.o
+a - dddmpStoreAdd.o
+a - dddmpStoreCnf.o
+a - dddmpLoad.o
+a - dddmpLoadCnf.o
+a - dddmpNodeBdd.o
+a - dddmpNodeAdd.o
+a - dddmpNodeCnf.o
+a - dddmpStoreMisc.o
+a - dddmpUtil.o
+a - dddmpBinary.o
+a - dddmpConvert.o
+a - dddmpDbg.o
+ranlib libdddmp.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/dddmp'
+Making mtr ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/mtr'
+gcc -c  mtrBasic.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+gcc -c  mtrGroup.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat  
+ar rv libmtr.a mtrBasic.o mtrGroup.o
+ar: creating libmtr.a
+a - mtrBasic.o
+a - mtrGroup.o
+ranlib libmtr.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/mtr'
+Making st ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/st'
+gcc -c st.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+ar rv libst.a st.o
+ar: creating libst.a
+a - st.o
+ranlib libst.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/st'
+Making util ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/util'
+gcc -c cpu_time.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c cpu_stats.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c safe_mem.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c strsav.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c texpand.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c ptime.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c prtime.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c pipefork.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c pathsearch.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c stub.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+gcc -c datalimit.c -I../include  -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+ar rv libutil.a cpu_time.o cpu_stats.o safe_mem.o strsav.o texpand.o ptime.o prtime.o pipefork.o pathsearch.o stub.o datalimit.o
+ar: creating libutil.a
+a - cpu_time.o
+a - cpu_stats.o
+a - safe_mem.o
+a - strsav.o
+a - texpand.o
+a - ptime.o
+a - prtime.o
+a - pipefork.o
+a - pathsearch.o
+a - stub.o
+a - datalimit.o
+ranlib libutil.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/util'
+Making epd ...
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/epd'
+gcc -c epd.c -I../include -g -O3  -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat
+ar rv libepd.a epd.o
+ar: creating libepd.a
+a - epd.o
+ranlib libepd.a
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd/epd'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/cudd'
+Making lpsolve55 ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/ext/lpsolve55'
+mkdir -p lib
++ :
++ src='../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c'
++ '[' amd64 = '' ']'
++ '[' amd64 = amd64 ']'
++ CFLAGS='-m64 -fPIC -DPIC'
++ '[' amd64 = ia64 ']'
++ echo '#include <stdlib.h>'
++ echo '#include <stdio.h>'
++ echo 'main(){printf("ux%d", (int) (sizeof(void *)*8));}'
++ gcc -m64 -fPIC -DPIC /tmp/platform.c -o /tmp/platform
+/tmp/platform.c:3:1: warning: return type defaults to 'int' [-Wimplicit-int]
+    3 | main(){printf("ux%d", (int) (sizeof(void *)*8));}
+      | ^~~~
+++ /tmp/platform
++ PLATFORM=ux64
++ rm /tmp/platform /tmp/platform.c
++ mkdir bin bin/ux64
++ echo '#include <stdio.h>'
++ echo '#include <stdlib.h>'
++ echo '#include <math.h>'
++ echo 'main(){isnan(0.0);}'
++ gcc -m64 -fPIC -DPIC /tmp/isnan.c -o /tmp/isnan
++ '[' 0 = 0 ']'
++ NOISNAN=
++ rm /tmp/isnan.c /tmp/isnan
++ def=
++ so=
++ '[' ux64 = SCO_UNIX ']'
++ dl=-ldl
++ so=y
++ opts=-O3
++ gcc -m64 -fPIC -DPIC -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -O3 -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[^ ]*\///g'
+++ sed 's/[.]c/.o/g'
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
++ ar rv bin/ux64/liblpsolve55.a lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o
+ar: creating bin/ux64/liblpsolve55.a
+a - lp_MDO.o
+a - commonlib.o
+a - mmio.o
+a - myblas.o
+a - ini.o
+a - fortify.o
+a - colamd.o
+a - lp_rlp.o
+a - lp_crash.o
+a - lp_LUSOL.o
+a - lusol.o
+a - lp_Hash.o
+a - lp_lib.o
+a - lp_wlp.o
+a - lp_matrix.o
+a - lp_mipbb.o
+a - lp_MPS.o
+a - lp_params.o
+a - lp_presolve.o
+a - lp_price.o
+a - lp_pricePSE.o
+a - lp_report.o
+a - lp_scale.o
+a - lp_simplex.o
+a - lp_SOS.o
+a - lp_utils.o
+a - yacc_read.o
++ ranlib bin/ux64/liblpsolve55.a
++ '[' y '!=' '' ']'
++ gcc -m64 -fPIC -DPIC -s -c -I.. -I../shared -I../bfp -I../bfp/bfp_LUSOL -I../bfp/bfp_LUSOL/LUSOL -I../colamd -I. -O3 -DYY_NEVER_INTERACTIVE -DPARSER_LP -DINVERSE_ACTIVE=INVERSE_LUSOL -DRoleIsExternalInvEngine ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ echo ../lp_MDO.c ../shared/commonlib.c ../shared/mmio.c ../shared/myblas.c ../ini.c ../fortify.c ../colamd/colamd.c ../lp_rlp.c ../lp_crash.c ../bfp/bfp_LUSOL/lp_LUSOL.c ../bfp/bfp_LUSOL/LUSOL/lusol.c ../lp_Hash.c ../lp_lib.c ../lp_wlp.c ../lp_matrix.c ../lp_mipbb.c ../lp_MPS.c ../lp_params.c ../lp_presolve.c ../lp_price.c ../lp_pricePSE.c ../lp_report.c ../lp_scale.c ../lp_simplex.c ../lp_SOS.c ../lp_utils.c ../yacc_read.c
+++ sed 's/[^ ]*\///g'
+++ sed 's/[.]c/.o/g'
++ gcc -m64 -fPIC -DPIC -shared -Wl,-Bsymbolic -Wl,-soname,liblpsolve55.so -o bin/ux64/liblpsolve55.so lp_MDO.o commonlib.o mmio.o myblas.o ini.o fortify.o colamd.o lp_rlp.o lp_crash.o lp_LUSOL.o lusol.o lp_Hash.o lp_lib.o lp_wlp.o lp_matrix.o lp_mipbb.o lp_MPS.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_scale.o lp_simplex.o lp_SOS.o lp_utils.o yacc_read.o -lc -lm -ldl
++ mv bin/ux64/liblpsolve55.so ../../../lib
++ rm colamd.o commonlib.o fortify.o ini.o lp_Hash.o lp_LUSOL.o lp_MDO.o lp_MPS.o lp_SOS.o lp_crash.o lp_lib.o lp_matrix.o lp_mipbb.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_rlp.o lp_scale.o lp_simplex.o lp_utils.o lp_wlp.o lusol.o mmio.o myblas.o yacc_read.o
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/ext/lpsolve55'
+Making lp_solve_5.5_java ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/ext/lp_solve_5.5_java'
+Making sure lpsolve55 Java wrapper is compatible with linux amd64
+Rebuild lpsolve55 Java wrapper for Linux
+/tmp/platform.c:3:1: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+    3 | main(){printf("ux%d", (int) (sizeof(void *)*8));}
+      | ^~~~
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/ext/lp_solve_5.5_java'
+Making src/dd ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/dd'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_abstr.cc -o ../../obj/dd/dd_abstr.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_test.cc -o ../../obj/dd/dd_test.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_vars.cc -o ../../obj/dd/dd_vars.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_matrix.cc -o ../../obj/dd/dd_matrix.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_export.cc -o ../../obj/dd/dd_export.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_basics.cc -o ../../obj/dd/dd_basics.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_term.cc -o ../../obj/dd/dd_term.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd.cc -o ../../obj/dd/dd.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_info.cc -o ../../obj/dd/dd_info.o -I../../../cudd/include -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dd_cudd.cc -o ../../obj/dd/dd_cudd.o -I../../../cudd/include -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libdd.so ../../obj/dd/dd_abstr.o ../../obj/dd/dd_test.o ../../obj/dd/dd_vars.o ../../obj/dd/dd_matrix.o ../../obj/dd/dd_export.o ../../obj/dd/dd_basics.o ../../obj/dd/dd_term.o ../../obj/dd/dd.o ../../obj/dd/dd_info.o ../../obj/dd/dd_cudd.o -L../../../cudd/lib -lcudd -lutil -lmtr -lst -lepd
+g++ -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../obj/dd/dd_test ../../obj/dd/dd_test.o -L../../lib -ldd
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/dd'
+Making src/jdd ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jdd'
+(cd ..; javac -encoding UTF8 -sourcepath jdd/../../src -classpath "jdd/../../classes:jdd/../../lib/*" -h jdd/../../include/jni -d jdd/../../classes jdd/SanityJDD.java)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath jdd/../../src -classpath "jdd/../../classes:jdd/../../lib/*" -h jdd/../../include/jni -d jdd/../../classes jdd/JDDTest.java)
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c JDD.cc -o ../../obj/jdd/JDD.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libjdd.so ../../obj/jdd/JDD.o -L../../lib -ldd
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jdd'
+Making src/odd ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/odd'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c ODDUtils.cc -o ../../obj/odd/ODDUtils.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c odd.cc -o ../../obj/odd/odd.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libodd.so ../../obj/odd/ODDUtils.o ../../obj/odd/odd.o -L../../lib -ldd
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/odd'
+Making src/dv ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/dv'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c dv.cc -o ../../obj/dv/dv.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c DoubleVector.cc -o ../../obj/dv/DoubleVector.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c iv.cc -o ../../obj/dv/iv.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c IntegerVector.cc -o ../../obj/dv/IntegerVector.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libdv.so ../../obj/dv/dv.o ../../obj/dv/DoubleVector.o ../../obj/dv/iv.o ../../obj/dv/IntegerVector.o -L../../lib -lodd -ldd -lm
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/dv'
+Making src/prism ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/prism'
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/RangingConstant.java)
+Note: prism/RangingConstant.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/ModelTransformationNested.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/PrismStaTra.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/DefaultModelGenerator.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/PrismTest.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/ModelExpressionTransformation.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/ReactionsText2Prism.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/TestModelGenerator.java)
+(cd ..; javac -encoding UTF8 -sourcepath prism/../../src -classpath "prism/../../classes:prism/../../lib/*" -h prism/../../include/jni -d prism/../../classes prism/ModelExpressionTransformationNested.java)
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PrismNative.cc -o ../../obj/prism/PrismNative.o -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c prism.cc -o ../../obj/prism/prism.o -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c NativeIntArray.cc -o ../../obj/prism/NativeIntArray.o -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libprism.so ../../obj/prism/prism.o ../../obj/prism/PrismNative.o ../../obj/prism/NativeIntArray.o -lm
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/prism'
+Making src/mtbdd ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/mtbdd'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetUntil.cc -o ../../obj/mtbdd/PM_NondetUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbBoundedUntil.cc -o ../../obj/mtbdd/PM_ProbBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ExportVector.cc -o ../../obj/mtbdd/PM_ExportVector.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Reachability.cc -o ../../obj/mtbdd/PM_Reachability.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetReachReward.cc -o ../../obj/mtbdd/PM_NondetReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob1A.cc -o ../../obj/mtbdd/PM_Prob1A.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbUntil.cc -o ../../obj/mtbdd/PM_ProbUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetInstReward.cc -o ../../obj/mtbdd/PM_NondetInstReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ExportLabels.cc -o ../../obj/mtbdd/PM_ExportLabels.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbCumulReward.cc -o ../../obj/mtbdd/PM_ProbCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbReachReward.cc -o ../../obj/mtbdd/PM_ProbReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetReachRewardInterval.cc -o ../../obj/mtbdd/PM_NondetReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbTransient.cc -o ../../obj/mtbdd/PM_ProbTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_StochCumulReward.cc -o ../../obj/mtbdd/PM_StochCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PrismMTBDD.cc -o ../../obj/mtbdd/PrismMTBDD.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbUntilInterval.cc -o ../../obj/mtbdd/PM_ProbUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_StochSteadyState.cc -o ../../obj/mtbdd/PM_StochSteadyState.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Power.cc -o ../../obj/mtbdd/PM_Power.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbReachRewardInterval.cc -o ../../obj/mtbdd/PM_ProbReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_StochTransient.cc -o ../../obj/mtbdd/PM_StochTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob1E.cc -o ../../obj/mtbdd/PM_Prob1E.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob0.cc -o ../../obj/mtbdd/PM_Prob0.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_JOR.cc -o ../../obj/mtbdd/PM_JOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_PowerInterval.cc -o ../../obj/mtbdd/PM_PowerInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_StochBoundedUntil.cc -o ../../obj/mtbdd/PM_StochBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ExportMatrix.cc -o ../../obj/mtbdd/PM_ExportMatrix.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetUntilInterval.cc -o ../../obj/mtbdd/PM_NondetUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_ProbInstReward.cc -o ../../obj/mtbdd/PM_ProbInstReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob0E.cc -o ../../obj/mtbdd/PM_Prob0E.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob1.cc -o ../../obj/mtbdd/PM_Prob1.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_Prob0A.cc -o ../../obj/mtbdd/PM_Prob0A.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_JORInterval.cc -o ../../obj/mtbdd/PM_JORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PM_NondetBoundedUntil.cc -o ../../obj/mtbdd/PM_NondetBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libprismmtbdd.so ../../obj/mtbdd/PM_NondetUntil.o ../../obj/mtbdd/PM_ProbBoundedUntil.o ../../obj/mtbdd/PM_ExportVector.o ../../obj/mtbdd/PM_Reachability.o ../../obj/mtbdd/PM_NondetReachReward.o ../../obj/mtbdd/PM_Prob1A.o ../../obj/mtbdd/PM_ProbUntil.o ../../obj/mtbdd/PM_NondetInstReward.o ../../obj/mtbdd/PM_ExportLabels.o ../../obj/mtbdd/PM_ProbCumulReward.o ../../obj/mtbdd/PM_ProbReachReward.o ../../obj/mtbdd/PM_NondetReachRewardInterval.o ../../obj/mtbdd/PM_ProbTransient.o ../../obj/mtbdd/PM_StochCumulReward.o ../../obj/mtbdd/PrismMTBDD.o ../../obj/mtbdd/PM_ProbUntilInterval.o ../../obj/mtbdd/PM_StochSteadyState.o ../../obj/mtbdd/PM_Power.o ../../obj/mtbdd/PM_ProbReachRewardInterval.o ../../obj/mtbdd/PM_StochTransient.o ../../obj/mtbdd/PM_Prob1E.o ../../obj/mtbdd/PM_Prob0.o ../../obj/mtbdd/PM_JOR.o ../../obj/mtbdd/PM_PowerInterval.o ../../obj/mtbdd/PM_StochBoundedUntil.o ../../obj/mtbdd/PM_ExportMatrix.o ../../obj/mtbdd/PM_NondetUntilInterval.o ../../obj/mtbdd/PM_ProbInstReward.o ../../obj/mtbdd/PM_Prob0E.o ../../obj/mtbdd/PM_Prob1.o ../../obj/mtbdd/PM_Prob0A.o ../../obj/mtbdd/PM_JORInterval.o ../../obj/mtbdd/PM_NondetBoundedUntil.o -L../../lib -lodd -ldd -ldv -lprism -lm
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/mtbdd'
+Making src/sparse ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/sparse'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_SORInterval.cc -o ../../obj/sparse/PS_SORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_JORInterval.cc -o ../../obj/sparse/PS_JORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_SOR.cc -o ../../obj/sparse/PS_SOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetUntil.cc -o ../../obj/sparse/PS_NondetUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbBoundedUntil.cc -o ../../obj/sparse/PS_ProbBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiObjGS.cc -o ../../obj/sparse/PS_NondetMultiObjGS.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiReachReward1.cc -o ../../obj/sparse/PS_NondetMultiReachReward1.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbUntil.cc -o ../../obj/sparse/PS_ProbUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetInstReward.cc -o ../../obj/sparse/PS_NondetInstReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetBoundedUntil.cc -o ../../obj/sparse/PS_NondetBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbCumulReward.cc -o ../../obj/sparse/PS_ProbCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbReachReward.cc -o ../../obj/sparse/PS_ProbReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetReachRewardInterval.cc -o ../../obj/sparse/PS_NondetReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_StochCumulReward.cc -o ../../obj/sparse/PS_StochCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbUntilInterval.cc -o ../../obj/sparse/PS_ProbUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_StochSteadyState.cc -o ../../obj/sparse/PS_StochSteadyState.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetReachReward.cc -o ../../obj/sparse/PS_NondetReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_Power.cc -o ../../obj/sparse/PS_Power.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetCumulReward.cc -o ../../obj/sparse/PS_NondetCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiObj.cc -o ../../obj/sparse/PS_NondetMultiObj.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ExportMDP.cc -o ../../obj/sparse/PS_ExportMDP.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbReachRewardInterval.cc -o ../../obj/sparse/PS_ProbReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiReach.cc -o ../../obj/sparse/PS_NondetMultiReach.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_StochTransient.cc -o ../../obj/sparse/PS_StochTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_JOR.cc -o ../../obj/sparse/PS_JOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c sparse.cc -o ../../obj/sparse/sparse.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiReachReward.cc -o ../../obj/sparse/PS_NondetMultiReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_PowerInterval.cc -o ../../obj/sparse/PS_PowerInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_StochBoundedUntil.cc -o ../../obj/sparse/PS_StochBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ExportMatrix.cc -o ../../obj/sparse/PS_ExportMatrix.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetUntilInterval.cc -o ../../obj/sparse/PS_NondetUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbTransient.cc -o ../../obj/sparse/PS_ProbTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PrismSparse.cc -o ../../obj/sparse/PrismSparse.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ProbInstReward.cc -o ../../obj/sparse/PS_ProbInstReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_ExportSubMDP.cc -o ../../obj/sparse/PS_ExportSubMDP.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PS_NondetMultiReach1.cc -o ../../obj/sparse/PS_NondetMultiReach1.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c sparse_adv.cc -o ../../obj/sparse/sparse_adv.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include -I../../ext/lpsolve55/include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libprismsparse.so ../../obj/sparse/PS_SORInterval.o ../../obj/sparse/PS_NondetReachReward.o ../../obj/sparse/PS_NondetInstReward.o ../../obj/sparse/PS_NondetUntilInterval.o ../../obj/sparse/PS_ProbCumulReward.o ../../obj/sparse/PS_Power.o ../../obj/sparse/PS_NondetCumulReward.o ../../obj/sparse/PS_ProbReachReward.o ../../obj/sparse/PS_NondetMultiObj.o ../../obj/sparse/PS_ExportMDP.o ../../obj/sparse/sparse.o ../../obj/sparse/PS_NondetBoundedUntil.o ../../obj/sparse/PS_StochTransient.o ../../obj/sparse/PS_JOR.o ../../obj/sparse/PS_SOR.o ../../obj/sparse/PS_StochBoundedUntil.o ../../obj/sparse/PS_ProbTransient.o ../../obj/sparse/PrismSparse.o ../../obj/sparse/PS_ProbInstReward.o ../../obj/sparse/PS_ExportSubMDP.o ../../obj/sparse/sparse_adv.o ../../obj/sparse/PS_NondetMultiReach.o ../../obj/sparse/PS_NondetUntil.o ../../obj/sparse/PS_NondetMultiReachReward1.o ../../obj/sparse/PS_ProbReachRewardInterval.o ../../obj/sparse/PS_NondetMultiObjGS.o ../../obj/sparse/PS_StochCumulReward.o ../../obj/sparse/PS_ProbUntilInterval.o ../../obj/sparse/PS_StochSteadyState.o ../../obj/sparse/PS_ProbBoundedUntil.o ../../obj/sparse/PS_NondetMultiReachReward.o ../../obj/sparse/PS_PowerInterval.o ../../obj/sparse/PS_NondetReachRewardInterval.o ../../obj/sparse/PS_ExportMatrix.o ../../obj/sparse/PS_JORInterval.o ../../obj/sparse/PS_ProbUntil.o ../../obj/sparse/PS_NondetMultiReach1.o -L../../lib -lodd -ldd -ldv -lprism -lm -llpsolve55
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/sparse'
+Making src/hybrid ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/hybrid'
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_SORInterval.cc -o ../../obj/hybrid/PH_SORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_NondetUntil.cc -o ../../obj/hybrid/PH_NondetUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_NondetReachReward.cc -o ../../obj/hybrid/PH_NondetReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c hybrid.cc -o ../../obj/hybrid/hybrid.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_NondetUntilInterval.cc -o ../../obj/hybrid/PH_NondetUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_NondetBoundedUntil.cc -o ../../obj/hybrid/PH_NondetBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbCumulReward.cc -o ../../obj/hybrid/PH_ProbCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbUntil.cc -o ../../obj/hybrid/PH_ProbUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbReachReward.cc -o ../../obj/hybrid/PH_ProbReachReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_NondetReachRewardInterval.cc -o ../../obj/hybrid/PH_NondetReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_StochCumulReward.cc -o ../../obj/hybrid/PH_StochCumulReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_StochSteadyState.cc -o ../../obj/hybrid/PH_StochSteadyState.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbUntilInterval.cc -o ../../obj/hybrid/PH_ProbUntilInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbBoundedUntil.cc -o ../../obj/hybrid/PH_ProbBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_Power.cc -o ../../obj/hybrid/PH_Power.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbReachRewardInterval.cc -o ../../obj/hybrid/PH_ProbReachRewardInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_StochTransient.cc -o ../../obj/hybrid/PH_StochTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_JOR.cc -o ../../obj/hybrid/PH_JOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_PowerInterval.cc -o ../../obj/hybrid/PH_PowerInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_StochBoundedUntil.cc -o ../../obj/hybrid/PH_StochBoundedUntil.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_PSORInterval.cc -o ../../obj/hybrid/PH_PSORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_SOR.cc -o ../../obj/hybrid/PH_SOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbTransient.cc -o ../../obj/hybrid/PH_ProbTransient.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_ProbInstReward.cc -o ../../obj/hybrid/PH_ProbInstReward.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_JORInterval.cc -o ../../obj/hybrid/PH_JORInterval.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PH_PSOR.cc -o ../../obj/hybrid/PH_PSOR.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ --std=c++11 -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -c PrismHybrid.cc -o ../../obj/hybrid/PrismHybrid.o -I../../../cudd/include -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include" -I"/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openjdk-11.0.15_10-mn6b4xoj3x3xkjjlyila6pngz27a7n2x/include/linux" -I../../include
+g++ -shared -m64 -fPIC -DPIC -DHAVE_IEEE_754 -DBSD -DSIZEOF_VOID_P=8 -DSIZEOF_LONG=8  -Wformat -O3 -o ../../lib/libprismhybrid.so ../../obj/hybrid/PH_SORInterval.o ../../obj/hybrid/PH_NondetUntil.o ../../obj/hybrid/PH_NondetReachReward.o ../../obj/hybrid/hybrid.o ../../obj/hybrid/PH_NondetUntilInterval.o ../../obj/hybrid/PH_NondetBoundedUntil.o ../../obj/hybrid/PH_ProbCumulReward.o ../../obj/hybrid/PH_ProbUntil.o ../../obj/hybrid/PH_ProbReachReward.o ../../obj/hybrid/PH_NondetReachRewardInterval.o ../../obj/hybrid/PH_StochCumulReward.o ../../obj/hybrid/PH_StochSteadyState.o ../../obj/hybrid/PH_ProbUntilInterval.o ../../obj/hybrid/PH_ProbBoundedUntil.o ../../obj/hybrid/PH_Power.o ../../obj/hybrid/PH_ProbReachRewardInterval.o ../../obj/hybrid/PH_StochTransient.o ../../obj/hybrid/PH_JOR.o ../../obj/hybrid/PH_PowerInterval.o ../../obj/hybrid/PH_StochBoundedUntil.o ../../obj/hybrid/PH_PSORInterval.o ../../obj/hybrid/PH_SOR.o ../../obj/hybrid/PH_ProbTransient.o ../../obj/hybrid/PH_ProbInstReward.o ../../obj/hybrid/PH_JORInterval.o ../../obj/hybrid/PH_PSOR.o ../../obj/hybrid/PrismHybrid.o -L../../lib -lprismsparse -lodd -ldd -ldv -lprism -lm
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/hybrid'
+Making src/parser ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/parser'
+(cd ..; javac -encoding UTF8 -sourcepath parser/../../src -classpath "parser/../../classes:parser/../../lib/*" -h parser/../../include/jni -d parser/../../classes parser/Prism3To4TokenManager.java)
+(cd ..; javac -encoding UTF8 -sourcepath parser/../../src -classpath "parser/../../classes:parser/../../lib/*" -h parser/../../include/jni -d parser/../../classes parser/Prism3To4.java)
+(cd ..; javac -encoding UTF8 -sourcepath parser/../../src -classpath "parser/../../classes:parser/../../lib/*" -h parser/../../include/jni -d parser/../../classes parser/type/TypePathInt.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/parser'
+Making src/settings ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/settings'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/settings'
+Making src/userinterface ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/userinterface'
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/GUIGeneralOptions.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/model/computation/SavePRISMModelThread.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/model/computation/SavePEPAModelThread.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/MultipleProperty.java)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: userinterface/../../src/userinterface/util/PropertyTableModel.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/BooleanProperty.java)
+Note: userinterface/util/BooleanProperty.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/FontColorProperty.java)
+Note: userinterface/../../src/userinterface/util/FontChooser.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/ColourProperty.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/SelectionListener.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/ChoiceProperty.java)
+Note: userinterface/util/ChoiceProperty.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/DoubleProperty.java)
+Note: userinterface/util/DoubleProperty.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/ExpressionProperty.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/PropertyConstants.java)
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/SelectionModel.java)
+Note: userinterface/util/SelectionModel.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/util/PropertyTable.java)
+Note: userinterface/util/PropertyTable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/simulator/networking/GUISimulatorDistributionDialog.java)
+Note: userinterface/simulator/networking/GUISimulatorDistributionDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: userinterface/simulator/networking/GUISimulatorDistributionDialog.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+(cd ..; javac -encoding UTF8 -sourcepath userinterface/../../src -classpath "userinterface/../../classes:userinterface/../../lib/*" -h userinterface/../../include/jni -d userinterface/../../classes userinterface/properties/computation/SavePropertiesThread.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/userinterface'
+Making src/pepa/compiler ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/pepa/compiler'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/pepa/compiler'
+Making src/simulator ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/simulator'
+(cd ..; javac -encoding UTF8 -sourcepath simulator/../../src -classpath "simulator/../../classes:simulator/../../lib/*" -h simulator/../../include/jni -d simulator/../../classes simulator/ChoiceSingleton.java)
+(cd ..; javac -encoding UTF8 -sourcepath simulator/../../src -classpath "simulator/../../classes:simulator/../../lib/*" -h simulator/../../include/jni -d simulator/../../classes simulator/ChoiceList.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/simulator'
+Making src/jltl2ba ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jltl2ba'
+(cd ..; javac -encoding UTF8 -sourcepath jltl2ba/../../src -classpath "jltl2ba/../../classes:jltl2ba/../../lib/*" -h jltl2ba/../../include/jni -d jltl2ba/../../classes jltl2ba/Jltl2baCmdLine.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jltl2ba'
+Making src/jltl2dstar ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jltl2dstar'
+(cd ..; javac -encoding UTF8 -sourcepath jltl2dstar/../../src -classpath "jltl2dstar/../../classes:jltl2dstar/../../lib/*" -h jltl2dstar/../../include/jni -d jltl2dstar/../../classes jltl2dstar/Jltl2dstarCmdLine.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/jltl2dstar'
+Making src/explicit ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/explicit'
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/SCCConsumerBSCCs.java)
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/PrismSTPGAbstractRefine.java)
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/QuantAbstractRefineExample.java)
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/rewards/STPGRewardsSimple.java)
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/rewards/StateRewardsSimple.java)
+(cd ..; javac -encoding UTF8 -sourcepath explicit/../../src -classpath "explicit/../../classes:explicit/../../lib/*" -h explicit/../../include/jni -d explicit/../../classes explicit/graphviz/ShowStateRewardsDecorator.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/explicit'
+Making src/pta ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/pta'
+(cd ..; javac -encoding UTF8 -sourcepath pta/../../src -classpath "pta/../../classes:pta/../../lib/*" -h pta/../../include/jni -d pta/../../classes pta/LocZoneSetOld.java)
+(cd ..; javac -encoding UTF8 -sourcepath pta/../../src -classpath "pta/../../classes:pta/../../lib/*" -h pta/../../include/jni -d pta/../../classes pta/LocZoneSet.java)
+(cd ..; javac -encoding UTF8 -sourcepath pta/../../src -classpath "pta/../../classes:pta/../../lib/*" -h pta/../../include/jni -d pta/../../classes pta/DBMListFactory.java)
+(cd ..; javac -encoding UTF8 -sourcepath pta/../../src -classpath "pta/../../classes:pta/../../lib/*" -h pta/../../include/jni -d pta/../../classes pta/PTAModelCheckerCL.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/pta'
+Making src/param ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/param'
+(cd ..; javac -encoding UTF8 -sourcepath param/../../src -classpath "param/../../classes:param/../../lib/*" -h param/../../include/jni -d param/../../classes param/ResultExporter.java)
+(cd ..; javac -encoding UTF8 -sourcepath param/../../src -classpath "param/../../classes:param/../../lib/*" -h param/../../include/jni -d param/../../classes param/RahdConstraintChecker.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/param'
+Making src/strat ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/strat'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/strat'
+Making src/automata ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/automata'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/automata'
+Making src/common ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/common'
+(cd ..; javac -encoding UTF8 -sourcepath common/../../src -classpath "common/../../classes:common/../../lib/*" -h common/../../include/jni -d common/../../classes common/iterable/SingletonIterable.java)
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/common'
+Making src/cex ...
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/cex'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/spack-src/prism/src/cex'
+Copying src/bin/prism.linux -> bin/prism
+Copying src/bin/xprism.linux -> bin/xprism
+Copying obj/prism/ngprism -> bin/ngprism
+==> prism: Executing phase: 'install'
+==> [2022-09-21-18:32:12.405420] FILTER FILE: bin/prism [replacing "^PRISM_DIR.*"]
+==> [2022-09-21-18:32:12.408936] FILTER FILE: bin/xprism [replacing "^PRISM_DIR.*"]
+==> [2022-09-21-18:32:12.410447] Installing bin to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/bin
+==> [2022-09-21-18:32:12.413142] Installing classes to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/classes
+==> [2022-09-21-18:32:12.720398] Installing dtds to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/dtds
+==> [2022-09-21-18:32:12.721078] Installing etc to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/etc
+==> [2022-09-21-18:32:12.728731] Installing include to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/include
+==> [2022-09-21-18:32:12.736289] Installing images to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/images
+==> [2022-09-21-18:32:12.747217] Installing lib to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd/lib
+==> prism: Successfully installed prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd
+  Fetch: 0.01s.  Build: 1m 51.42s.  Total: 1m 51.43s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/prism-4.5-zjw52r6ayfrvxdrud6iz3ufa3xlefvhd

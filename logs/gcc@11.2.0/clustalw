@@ -1,0 +1,1913 @@
+==> Installing clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac
+==> No binary for clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/e0/e052059b87abfd8c9e695c280bfba86a65899138c82abccd5b00478a80f49486.tar.gz
+==> No patches needed for clustalw
+==> clustalw: Executing phase: 'autoreconf'
+==> clustalw: Executing phase: 'configure'
+==> [2022-09-19-11:06:20.078608] '/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac'
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+building for linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for gcc... /home/om/SPACK/spack/lib/spack/env/gcc/gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/gcc accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/gcc/gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/gcc... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/gcc/g++ accepts -g... yes
+checking dependency style of /home/om/SPACK/spack/lib/spack/env/gcc/g++... gcc3
+checking for ranlib... ranlib
+checking how to run the C++ preprocessor... /home/om/SPACK/spack/lib/spack/env/gcc/g++ -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... no
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating src/Makefile
+config.status: creating src/clustalw_version.h
+config.status: creating src/config.h
+config.status: executing depfiles commands
+==> clustalw: Executing phase: 'build'
+==> [2022-09-19-11:06:26.458716] 'make' '-j8' 'V=1'
+Making all in m4
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+Making all in src
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make  all-recursive
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[3]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT FullPairwiseAlign.o -MD -MP -MF .deps/FullPairwiseAlign.Tpo -c -o FullPairwiseAlign.o `test -f './pairwise/FullPairwiseAlign.cpp' || echo './'`./pairwise/FullPairwiseAlign.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT FastPairwiseAlign.o -MD -MP -MF .deps/FastPairwiseAlign.Tpo -c -o FastPairwiseAlign.o `test -f './pairwise/FastPairwiseAlign.cpp' || echo './'`./pairwise/FastPairwiseAlign.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT MSFFileParser.o -MD -MP -MF .deps/MSFFileParser.Tpo -c -o MSFFileParser.o `test -f './fileInput/MSFFileParser.cpp' || echo './'`./fileInput/MSFFileParser.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT FileReader.o -MD -MP -MF .deps/FileReader.Tpo -c -o FileReader.o `test -f './fileInput/FileReader.cpp' || echo './'`./fileInput/FileReader.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT PIRFileParser.o -MD -MP -MF .deps/PIRFileParser.Tpo -c -o PIRFileParser.o `test -f './fileInput/PIRFileParser.cpp' || echo './'`./fileInput/PIRFileParser.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT RSFFileParser.o -MD -MP -MF .deps/RSFFileParser.Tpo -c -o RSFFileParser.o `test -f './fileInput/RSFFileParser.cpp' || echo './'`./fileInput/RSFFileParser.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT GDEFileParser.o -MD -MP -MF .deps/GDEFileParser.Tpo -c -o GDEFileParser.o `test -f './fileInput/GDEFileParser.cpp' || echo './'`./fileInput/GDEFileParser.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT InFileStream.o -MD -MP -MF .deps/InFileStream.Tpo -c -o InFileStream.o `test -f './fileInput/InFileStream.cpp' || echo './'`./fileInput/InFileStream.cpp
+In file included from ./pairwise/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./pairwise/../alignment/Alignment.h:42,
+                 from ./pairwise/PairwiseAlignBase.h:10,
+                 from ./pairwise/FastPairwiseAlign.h:9,
+                 from ./pairwise/FastPairwiseAlign.cpp:10:
+./pairwise/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./pairwise/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./fileInput/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./fileInput/../alignment/Alignment.h:42,
+                 from ./fileInput/FileReader.h:12,
+                 from ./fileInput/FileReader.cpp:29:
+./fileInput/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./fileInput/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./fileInput/FileReader.cpp:29:
+./fileInput/FileReader.h:42:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   42 |         void checkInfile(int* nseqs, auto_ptr<FileParser>& fileParser);
+      |                                      ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./fileInput/FileReader.h:11,
+                 from ./fileInput/FileReader.cpp:29:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./pairwise/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./pairwise/../alignment/Alignment.h:42,
+                 from ./pairwise/PairwiseAlignBase.h:10,
+                 from ./pairwise/FullPairwiseAlign.h:9,
+                 from ./pairwise/FullPairwiseAlign.cpp:9:
+./pairwise/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./pairwise/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+./fileInput/FileReader.cpp: In member function 'int clustalw::FileReader::readSeqs(clustalw::Alignment*, int, std::string*)':
+./fileInput/FileReader.cpp:155:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  155 |     auto_ptr<FileParser> fileParser; // Means we dont need to delete it!
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./fileInput/FileReader.h:11,
+                 from ./fileInput/FileReader.cpp:29:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./fileInput/FileReader.cpp: At global scope:
+./fileInput/FileReader.cpp:426:42: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  426 | void FileReader::checkInfile(int *nseqs, auto_ptr<FileParser>& fileParser)
+      |                                          ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./fileInput/FileReader.h:11,
+                 from ./fileInput/FileReader.cpp:29:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/InFileStream.Tpo .deps/InFileStream.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ClustalFileParser.o -MD -MP -MF .deps/ClustalFileParser.Tpo -c -o ClustalFileParser.o `test -f './fileInput/ClustalFileParser.cpp' || echo './'`./fileInput/ClustalFileParser.cpp
+mv -f .deps/MSFFileParser.Tpo .deps/MSFFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT PearsonFileParser.o -MD -MP -MF .deps/PearsonFileParser.Tpo -c -o PearsonFileParser.o `test -f './fileInput/PearsonFileParser.cpp' || echo './'`./fileInput/PearsonFileParser.cpp
+mv -f .deps/PIRFileParser.Tpo .deps/PIRFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT FileParser.o -MD -MP -MF .deps/FileParser.Tpo -c -o FileParser.o `test -f './fileInput/FileParser.cpp' || echo './'`./fileInput/FileParser.cpp
+mv -f .deps/FastPairwiseAlign.Tpo .deps/FastPairwiseAlign.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT EMBLFileParser.o -MD -MP -MF .deps/EMBLFileParser.Tpo -c -o EMBLFileParser.o `test -f './fileInput/EMBLFileParser.cpp' || echo './'`./fileInput/EMBLFileParser.cpp
+mv -f .deps/FullPairwiseAlign.Tpo .deps/FullPairwiseAlign.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT RootedClusterTree.o -MD -MP -MF .deps/RootedClusterTree.Tpo -c -o RootedClusterTree.o `test -f './tree/UPGMA/RootedClusterTree.cpp' || echo './'`./tree/UPGMA/RootedClusterTree.cpp
+mv -f .deps/GDEFileParser.Tpo .deps/GDEFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT UPGMAAlgorithm.o -MD -MP -MF .deps/UPGMAAlgorithm.Tpo -c -o UPGMAAlgorithm.o `test -f './tree/UPGMA/UPGMAAlgorithm.cpp' || echo './'`./tree/UPGMA/UPGMAAlgorithm.cpp
+mv -f .deps/RSFFileParser.Tpo .deps/RSFFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Node.o -MD -MP -MF .deps/Node.Tpo -c -o Node.o `test -f './tree/UPGMA/Node.cpp' || echo './'`./tree/UPGMA/Node.cpp
+mv -f .deps/FileReader.Tpo .deps/FileReader.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT RootedGuideTree.o -MD -MP -MF .deps/RootedGuideTree.Tpo -c -o RootedGuideTree.o `test -f './tree/UPGMA/RootedGuideTree.cpp' || echo './'`./tree/UPGMA/RootedGuideTree.cpp
+./fileInput/FileParser.cpp: In member function 'void clustalw::FileParser::fillCharTab()':
+./fileInput/FileParser.cpp:37:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+   37 |     register int i;
+      |                  ^
+./fileInput/FileParser.cpp:38:19: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+   38 |     register char c;
+      |                   ^
+In file included from ./tree/UPGMA/../../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/UPGMA/../../alignment/Alignment.h:42,
+                 from ./tree/UPGMA/RootedGuideTree.h:17,
+                 from ./tree/UPGMA/UPGMAAlgorithm.h:8,
+                 from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/UPGMA/../../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/UPGMA/../../alignment/Alignment.h:42,
+                 from ./tree/UPGMA/../ClusterTree.h:20,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/UPGMA/../ClusterTree.h:23,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+./tree/UPGMA/../../general/OutputFile.h:26:14: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         std::auto_ptr<std::ofstream> file;
+      |              ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+./tree/UPGMA/../ClusterTree.h:70:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   70 |         auto_ptr<clustalw::DistMatrix> quickDistMat;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/RootedClusterTree.cpp:9:
+./tree/UPGMA/RootedClusterTree.h:22:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   22 |         auto_ptr<AlignmentSteps> treeFromDistMatrix(RootedGuideTree* phyloTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/RootedClusterTree.cpp:11:
+./tree/UPGMA/UPGMAAlgorithm.h:23:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   23 |         auto_ptr<AlignmentSteps> generateTree(RootedGuideTree* phyTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/RootedClusterTree.cpp:11:
+./tree/UPGMA/UPGMAAlgorithm.h:51:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   51 |         auto_ptr<AlignmentSteps> progSteps;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/UPGMA/RootedClusterTree.cpp:17:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   17 | auto_ptr<AlignmentSteps> RootedClusterTree::treeFromDistMatrix(RootedGuideTree* phyloTree,DistMatrix* distMat, Alignment *alignPtr,
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/UPGMA/RootedClusterTree.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::RootedClusterTree::treeFromDistMatrix(clustalw::RootedGuideTree*, clustalw::DistMatrix*, clustalw::Alignment*, int, int, std::string&)':
+./tree/UPGMA/RootedClusterTree.cpp:21:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   21 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/UPGMA/../ClusterTree.h:16,
+                 from ./tree/UPGMA/RootedClusterTree.h:8,
+                 from ./tree/UPGMA/RootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+./tree/UPGMA/UPGMAAlgorithm.h:23:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   23 |         auto_ptr<AlignmentSteps> generateTree(RootedGuideTree* phyTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/UPGMA/../../general/SquareMat.h:9,
+                 from ./tree/UPGMA/../../general/clustalw.h:43,
+                 from ./tree/UPGMA/UPGMAAlgorithm.h:6,
+                 from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+./tree/UPGMA/UPGMAAlgorithm.h:51:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   51 |         auto_ptr<AlignmentSteps> progSteps;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/UPGMA/../../general/SquareMat.h:9,
+                 from ./tree/UPGMA/../../general/clustalw.h:43,
+                 from ./tree/UPGMA/UPGMAAlgorithm.h:6,
+                 from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/UPGMA/UPGMAAlgorithm.cpp:27:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   27 | auto_ptr<AlignmentSteps> UPGMAAlgorithm::generateTree(RootedGuideTree* phyTree,
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/UPGMA/../../general/SquareMat.h:9,
+                 from ./tree/UPGMA/../../general/clustalw.h:43,
+                 from ./tree/UPGMA/UPGMAAlgorithm.h:6,
+                 from ./tree/UPGMA/UPGMAAlgorithm.cpp:4:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/FileParser.Tpo .deps/FileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT RootedTreeOutput.o -MD -MP -MF .deps/RootedTreeOutput.Tpo -c -o RootedTreeOutput.o `test -f './tree/UPGMA/RootedTreeOutput.cpp' || echo './'`./tree/UPGMA/RootedTreeOutput.cpp
+mv -f .deps/ClustalFileParser.Tpo .deps/ClustalFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Tree.o -MD -MP -MF .deps/Tree.Tpo -c -o Tree.o `test -f './tree/Tree.cpp' || echo './'`./tree/Tree.cpp
+In file included from ./tree/UPGMA/../../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/UPGMA/../../alignment/Alignment.h:42,
+                 from ./tree/UPGMA/RootedGuideTree.h:17,
+                 from ./tree/UPGMA/RootedGuideTree.cpp:10:
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/Node.Tpo .deps/Node.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ClusterTree.o -MD -MP -MF .deps/ClusterTree.Tpo -c -o ClusterTree.o `test -f './tree/ClusterTree.cpp' || echo './'`./tree/ClusterTree.cpp
+mv -f .deps/PearsonFileParser.Tpo .deps/PearsonFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT TreeInterface.o -MD -MP -MF .deps/TreeInterface.Tpo -c -o TreeInterface.o `test -f './tree/TreeInterface.cpp' || echo './'`./tree/TreeInterface.cpp
+mv -f .deps/UPGMAAlgorithm.Tpo .deps/UPGMAAlgorithm.Po
+mv -f .deps/EMBLFileParser.Tpo .deps/EMBLFileParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT UnRootedClusterTree.o -MD -MP -MF .deps/UnRootedClusterTree.Tpo -c -o UnRootedClusterTree.o `test -f './tree/UnRootedClusterTree.cpp' || echo './'`./tree/UnRootedClusterTree.cpp
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ClusterTreeOutput.o -MD -MP -MF .deps/ClusterTreeOutput.Tpo -c -o ClusterTreeOutput.o `test -f './tree/ClusterTreeOutput.cpp' || echo './'`./tree/ClusterTreeOutput.cpp
+mv -f .deps/RootedClusterTree.Tpo .deps/RootedClusterTree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT RandomGenerator.o -MD -MP -MF .deps/RandomGenerator.Tpo -c -o RandomGenerator.o `test -f './tree/RandomGenerator.cpp' || echo './'`./tree/RandomGenerator.cpp
+In file included from ./tree/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/../alignment/Alignment.h:42,
+                 from ./tree/Tree.h:13,
+                 from ./tree/Tree.cpp:10:
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/UPGMA/../../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/UPGMA/../../alignment/Alignment.h:42,
+                 from ./tree/UPGMA/RootedGuideTree.h:17,
+                 from ./tree/UPGMA/RootedTreeOutput.h:15,
+                 from ./tree/UPGMA/RootedTreeOutput.cpp:9:
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/UPGMA/../../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/RandomGenerator.Tpo .deps/RandomGenerator.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT NJTree.o -MD -MP -MF .deps/NJTree.Tpo -c -o NJTree.o `test -f './tree/NJTree.cpp' || echo './'`./tree/NJTree.cpp
+mv -f .deps/RootedGuideTree.Tpo .deps/RootedGuideTree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT AlignmentSteps.o -MD -MP -MF .deps/AlignmentSteps.Tpo -c -o AlignmentSteps.o `test -f './tree/AlignmentSteps.cpp' || echo './'`./tree/AlignmentSteps.cpp
+In file included from ./tree/Tree.cpp:10:
+./tree/Tree.h:26:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         auto_ptr<AlignmentSteps> createSets(int firstSeq, int lastSeq);
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/../alignment/Alignment.h:38,
+                 from ./tree/Tree.h:13,
+                 from ./tree/Tree.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/Tree.cpp:278:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  278 | auto_ptr<AlignmentSteps> Tree::createSets(int firstSeq, int lastSeq)
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/../alignment/Alignment.h:38,
+                 from ./tree/Tree.h:13,
+                 from ./tree/Tree.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/Tree.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::Tree::createSets(int, int)':
+./tree/Tree.cpp:280:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  280 |     auto_ptr<AlignmentSteps> progAlignSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./tree/../alignment/Alignment.h:38,
+                 from ./tree/Tree.h:13,
+                 from ./tree/Tree.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/../alignment/Alignment.h:42,
+                 from ./tree/ClusterTree.h:20,
+                 from ./tree/ClusterTree.cpp:9:
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/ClusterTree.h:23,
+                 from ./tree/ClusterTree.cpp:9:
+./tree/../general/OutputFile.h:26:14: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         std::auto_ptr<std::ofstream> file;
+      |              ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/ClusterTree.h:16,
+                 from ./tree/ClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/ClusterTree.cpp:9:
+./tree/ClusterTree.h:70:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   70 |         auto_ptr<clustalw::DistMatrix> quickDistMat;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/ClusterTree.h:16,
+                 from ./tree/ClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/../alignment/Alignment.h:42,
+                 from ./tree/TreeInterface.h:19,
+                 from ./tree/TreeInterface.cpp:15:
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/RootedTreeOutput.Tpo .deps/RootedTreeOutput.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT InteractiveMenu.o -MD -MP -MF .deps/InteractiveMenu.Tpo -c -o InteractiveMenu.o `test -f './interface/InteractiveMenu.cpp' || echo './'`./interface/InteractiveMenu.cpp
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:38:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   38 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMat(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:57:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   57 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTree(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:102:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  102 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatNJ(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:108:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  108 |         auto_ptr<AlignmentSteps> getWeightsAndStepsUseOldGuideTreeNJ(DistMatrix* distMat,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:133:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  133 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTreeNJ(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:138:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  138 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatUPGMA(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:15:
+./tree/TreeInterface.h:142:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  142 |         auto_ptr<AlignmentSteps> generateTreeFromDistMatUPGMA(RootedGuideTree* guideTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/ClusterTree.h:23,
+                 from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/TreeInterface.cpp:17:
+./tree/../general/OutputFile.h:26:14: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         std::auto_ptr<std::ofstream> file;
+      |              ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/TreeInterface.cpp:17:
+./tree/ClusterTree.h:70:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   70 |         auto_ptr<clustalw::DistMatrix> quickDistMat;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:18:
+./tree/Tree.h:26:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         auto_ptr<AlignmentSteps> createSets(int firstSeq, int lastSeq);
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/TreeInterface.cpp:23:
+./tree/UPGMA/RootedClusterTree.h:22:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   22 |         auto_ptr<AlignmentSteps> treeFromDistMatrix(RootedGuideTree* phyloTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp:31:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   31 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp:103:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  103 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp:195:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  195 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::TreeInterface::getWeightsAndStepsFromDistMatNJ(std::vector<int>*, clustalw::DistMatrix*, clustalw::Alignment*, int, int, std::string*, bool*)':
+./tree/TreeInterface.cpp:200:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  200 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: At global scope:
+./tree/TreeInterface.cpp:208:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  208 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::TreeInterface::getWeightsAndStepsUseOldGuideTreeNJ(clustalw::DistMatrix*, clustalw::Alignment*, std::string*, std::vector<int>*, int, int, bool*)':
+./tree/TreeInterface.cpp:214:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  214 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: At global scope:
+./tree/TreeInterface.cpp:439:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  439 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::TreeInterface::getWeightsAndStepsFromTreeNJ(clustalw::Alignment*, clustalw::DistMatrix*, std::string*, std::vector<int>*, int, int, bool*)':
+./tree/TreeInterface.cpp:445:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  445 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: At global scope:
+./tree/TreeInterface.cpp:485:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  485 | auto_ptr<AlignmentSteps>
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::TreeInterface::getWeightsAndStepsFromDistMatUPGMA(std::vector<int>*, clustalw::DistMatrix*, clustalw::Alignment*, int, int, std::string*, bool*)':
+./tree/TreeInterface.cpp:490:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  490 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: At global scope:
+./tree/TreeInterface.cpp:503:1: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  503 | auto_ptr<AlignmentSteps> TreeInterface::generateTreeFromDistMatUPGMA(RootedGuideTree* guideTree, DistMatrix* distMat, Alignment *alignPtr, int seq1, int nSeqs,
+      | ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/TreeInterface.cpp: In member function 'std::auto_ptr<clustalw::AlignmentSteps> clustalw::TreeInterface::generateTreeFromDistMatUPGMA(clustalw::RootedGuideTree*, clustalw::DistMatrix*, clustalw::Alignment*, int, int, std::string*, bool*)':
+./tree/TreeInterface.cpp:506:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  506 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/TreeInterface.h:17,
+                 from ./tree/TreeInterface.cpp:15:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/../alignment/Alignment.h:42,
+                 from ./tree/ClusterTreeOutput.h:11,
+                 from ./tree/ClusterTreeOutput.cpp:9:
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./tree/../alignment/Alignment.h:42,
+                 from ./tree/ClusterTree.h:20,
+                 from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/UnRootedClusterTree.cpp:9:
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./tree/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./tree/ClusterTree.h:23,
+                 from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/UnRootedClusterTree.cpp:9:
+./tree/../general/OutputFile.h:26:14: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         std::auto_ptr<std::ofstream> file;
+      |              ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/ClusterTree.h:16,
+                 from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/UnRootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/UnRootedClusterTree.cpp:9:
+./tree/ClusterTree.h:70:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   70 |         auto_ptr<clustalw::DistMatrix> quickDistMat;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./tree/ClusterTree.h:16,
+                 from ./tree/UnRootedClusterTree.h:8,
+                 from ./tree/UnRootedClusterTree.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./tree/NJTree.cpp: In member function 'virtual void clustalw::NJTree::generateTree(clustalw::PhyloTree*, clustalw::DistMatrix*, clustalw::SeqInfo*, std::ofstream*)':
+./tree/NJTree.cpp:164:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+  164 |     register int i;
+      |                  ^
+mv -f .deps/AlignmentSteps.Tpo .deps/AlignmentSteps.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT CommandLineParser.o -MD -MP -MF .deps/CommandLineParser.Tpo -c -o CommandLineParser.o `test -f './interface/CommandLineParser.cpp' || echo './'`./interface/CommandLineParser.cpp
+mv -f .deps/ClusterTreeOutput.Tpo .deps/ClusterTreeOutput.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT SubMatrix.o -MD -MP -MF .deps/SubMatrix.Tpo -c -o SubMatrix.o `test -f './substitutionMatrix/SubMatrix.cpp' || echo './'`./substitutionMatrix/SubMatrix.cpp
+mv -f .deps/Tree.Tpo .deps/Tree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Iteration.o -MD -MP -MF .deps/Iteration.Tpo -c -o Iteration.o `test -f './multipleAlign/Iteration.cpp' || echo './'`./multipleAlign/Iteration.cpp
+In file included from ./interface/../fileInput/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./interface/../fileInput/../alignment/Alignment.h:42,
+                 from ./interface/../fileInput/FileReader.h:12,
+                 from ./interface/../Clustal.h:18,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../fileInput/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./interface/../fileInput/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./interface/../Clustal.h:18,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../fileInput/FileReader.h:42:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   42 |         void checkInfile(int* nseqs, auto_ptr<FileParser>& fileParser);
+      |                                      ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:68:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   68 |         bool openExplicitFile(auto_ptr<ofstream>& outFile, string fileName);
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:69:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   69 |         string openOutputFile(auto_ptr<ofstream>& outFile, string prompt, string path,
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:75:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   75 |         auto_ptr<ofstream> clustalOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:76:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   76 |         auto_ptr<ofstream> gcgOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:77:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   77 |         auto_ptr<ofstream> nbrfOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:78:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   78 |         auto_ptr<ofstream> phylipOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:79:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   79 |         auto_ptr<ofstream> gdeOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:80:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   80 |         auto_ptr<ofstream> nexusOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./interface/InteractiveMenu.cpp:23:
+./interface/../alignment/AlignmentOutput.h:81:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   81 |         auto_ptr<ofstream> fastaOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/InteractiveMenu.cpp:21:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/ClusterTree.Tpo .deps/ClusterTree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT MSA.o -MD -MP -MF .deps/MSA.Tpo -c -o MSA.o `test -f './multipleAlign/MSA.cpp' || echo './'`./multipleAlign/MSA.cpp
+mv -f .deps/TreeInterface.Tpo .deps/TreeInterface.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT MyersMillerProfileAlign.o -MD -MP -MF .deps/MyersMillerProfileAlign.Tpo -c -o MyersMillerProfileAlign.o `test -f './multipleAlign/MyersMillerProfileAlign.cpp' || echo './'`./multipleAlign/MyersMillerProfileAlign.cpp
+mv -f .deps/NJTree.Tpo .deps/NJTree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ProfileStandard.o -MD -MP -MF .deps/ProfileStandard.Tpo -c -o ProfileStandard.o `test -f './multipleAlign/ProfileStandard.cpp' || echo './'`./multipleAlign/ProfileStandard.cpp
+In file included from ./interface/../fileInput/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./interface/../fileInput/../alignment/Alignment.h:42,
+                 from ./interface/../fileInput/FileReader.h:12,
+                 from ./interface/../Clustal.h:18,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../fileInput/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./interface/../fileInput/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./interface/../Clustal.h:18,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../fileInput/FileReader.h:42:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   42 |         void checkInfile(int* nseqs, auto_ptr<FileParser>& fileParser);
+      |                                      ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:68:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   68 |         bool openExplicitFile(auto_ptr<ofstream>& outFile, string fileName);
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:69:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   69 |         string openOutputFile(auto_ptr<ofstream>& outFile, string prompt, string path,
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:75:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   75 |         auto_ptr<ofstream> clustalOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:76:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   76 |         auto_ptr<ofstream> gcgOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:77:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   77 |         auto_ptr<ofstream> nbrfOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:78:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   78 |         auto_ptr<ofstream> phylipOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:79:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   79 |         auto_ptr<ofstream> gdeOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:80:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   80 |         auto_ptr<ofstream> nexusOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+./interface/../alignment/AlignmentOutput.h:81:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   81 |         auto_ptr<ofstream> fastaOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./interface/../general/SquareMat.h:9,
+                 from ./interface/../general/clustalw.h:43,
+                 from ./interface/../Clustal.h:15,
+                 from ./interface/CommandLineParser.h:18,
+                 from ./interface/CommandLineParser.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./substitutionMatrix/SubMatrix.cpp:15:
+./substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/UnRootedClusterTree.Tpo .deps/UnRootedClusterTree.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ProfileWithSub.o -MD -MP -MF .deps/ProfileWithSub.Tpo -c -o ProfileWithSub.o `test -f './multipleAlign/ProfileWithSub.cpp' || echo './'`./multipleAlign/ProfileWithSub.cpp
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:38:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   38 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMat(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:57:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   57 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTree(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:102:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  102 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatNJ(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:108:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  108 |         auto_ptr<AlignmentSteps> getWeightsAndStepsUseOldGuideTreeNJ(DistMatrix* distMat,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:133:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  133 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTreeNJ(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:138:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  138 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatUPGMA(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/Iteration.cpp:17:
+./multipleAlign/../tree/TreeInterface.h:142:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  142 |         auto_ptr<AlignmentSteps> generateTreeFromDistMatUPGMA(RootedGuideTree* guideTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./multipleAlign/../alignment/Alignment.h:38,
+                 from ./multipleAlign/Iteration.h:8,
+                 from ./multipleAlign/Iteration.cpp:13:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/ProfileBase.h:14,
+                 from ./multipleAlign/MSA.h:10,
+                 from ./multipleAlign/MSA.cpp:16:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/ProfileAlignAlgorithm.h:10,
+                 from ./multipleAlign/MyersMillerProfileAlign.h:10,
+                 from ./multipleAlign/MyersMillerProfileAlign.cpp:10:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/ProfileStandard.h:9,
+                 from ./multipleAlign/ProfileStandard.cpp:9:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/InteractiveMenu.Tpo .deps/InteractiveMenu.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ProfileBase.o -MD -MP -MF .deps/ProfileBase.Tpo -c -o ProfileBase.o `test -f './multipleAlign/ProfileBase.cpp' || echo './'`./multipleAlign/ProfileBase.cpp
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/ProfileWithSub.h:9,
+                 from ./multipleAlign/ProfileWithSub.cpp:9:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/ProfileStandard.Tpo .deps/ProfileStandard.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT LowScoreSegProfile.o -MD -MP -MF .deps/LowScoreSegProfile.Tpo -c -o LowScoreSegProfile.o `test -f './multipleAlign/LowScoreSegProfile.cpp' || echo './'`./multipleAlign/LowScoreSegProfile.cpp
+mv -f .deps/MSA.Tpo .deps/MSA.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT OutputFile.o -MD -MP -MF .deps/OutputFile.Tpo -c -o OutputFile.o `test -f './general/OutputFile.cpp' || echo './'`./general/OutputFile.cpp
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/LowScoreSegProfile.h:13,
+                 from ./multipleAlign/LowScoreSegProfile.cpp:9:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/ProfileWithSub.Tpo .deps/ProfileWithSub.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT UserParameters.o -MD -MP -MF .deps/UserParameters.Tpo -c -o UserParameters.o `test -f './general/UserParameters.cpp' || echo './'`./general/UserParameters.cpp
+In file included from ./multipleAlign/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./multipleAlign/../alignment/Alignment.h:42,
+                 from ./multipleAlign/ProfileBase.h:14,
+                 from ./multipleAlign/ProfileBase.cpp:9:
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./multipleAlign/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/Iteration.Tpo .deps/Iteration.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Utility.o -MD -MP -MF .deps/Utility.Tpo -c -o Utility.o `test -f './general/Utility.cpp' || echo './'`./general/Utility.cpp
+In file included from ./general/OutputFile.cpp:9:
+./general/OutputFile.h:26:14: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   26 |         std::auto_ptr<std::ofstream> file;
+      |              ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./general/OutputFile.h:8,
+                 from ./general/OutputFile.cpp:9:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/SubMatrix.Tpo .deps/SubMatrix.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT InvalidCombination.o -MD -MP -MF .deps/InvalidCombination.Tpo -c -o InvalidCombination.o `test -f './general/InvalidCombination.cpp' || echo './'`./general/InvalidCombination.cpp
+mv -f .deps/MyersMillerProfileAlign.Tpo .deps/MyersMillerProfileAlign.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT DebugLog.o -MD -MP -MF .deps/DebugLog.Tpo -c -o DebugLog.o `test -f './general/DebugLog.cpp' || echo './'`./general/DebugLog.cpp
+mv -f .deps/LowScoreSegProfile.Tpo .deps/LowScoreSegProfile.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ClustalWResources.o -MD -MP -MF .deps/ClustalWResources.Tpo -c -o ClustalWResources.o `test -f './general/ClustalWResources.cpp' || echo './'`./general/ClustalWResources.cpp
+./general/UserParameters.cpp: In member function 'int clustalw::UserParameters::resIndex(std::string, char)':
+./general/UserParameters.cpp:475:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+  475 |     register int i;
+      |                  ^
+mv -f .deps/InvalidCombination.Tpo .deps/InvalidCombination.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT VectorOutOfRange.o -MD -MP -MF .deps/VectorOutOfRange.Tpo -c -o VectorOutOfRange.o `test -f './general/VectorOutOfRange.cpp' || echo './'`./general/VectorOutOfRange.cpp
+mv -f .deps/OutputFile.Tpo .deps/OutputFile.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT SymMatrix.o -MD -MP -MF .deps/SymMatrix.Tpo -c -o SymMatrix.o `test -f './general/SymMatrix.cpp' || echo './'`./general/SymMatrix.cpp
+mv -f .deps/DebugLog.Tpo .deps/DebugLog.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Stats.o -MD -MP -MF .deps/Stats.Tpo -c -o Stats.o `test -f './general/Stats.cpp' || echo './'`./general/Stats.cpp
+./general/Utility.cpp: In member function 'char* clustalw::Utility::rTrim(char*)':
+./general/Utility.cpp:53:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+   53 |     register int p;
+      |                  ^
+mv -f .deps/ProfileBase.Tpo .deps/ProfileBase.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Help.o -MD -MP -MF .deps/Help.Tpo -c -o Help.o `test -f './Help.cpp' || echo './'`./Help.cpp
+mv -f .deps/VectorOutOfRange.Tpo .deps/VectorOutOfRange.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Alignment.o -MD -MP -MF .deps/Alignment.Tpo -c -o Alignment.o `test -f './alignment/Alignment.cpp' || echo './'`./alignment/Alignment.cpp
+mv -f .deps/UserParameters.Tpo .deps/UserParameters.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT AlignmentOutput.o -MD -MP -MF .deps/AlignmentOutput.Tpo -c -o AlignmentOutput.o `test -f './alignment/AlignmentOutput.cpp' || echo './'`./alignment/AlignmentOutput.cpp
+mv -f .deps/CommandLineParser.Tpo .deps/CommandLineParser.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT ObjectiveScore.o -MD -MP -MF .deps/ObjectiveScore.Tpo -c -o ObjectiveScore.o `test -f './alignment/ObjectiveScore.cpp' || echo './'`./alignment/ObjectiveScore.cpp
+In file included from ./general/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./general/../alignment/Alignment.h:42,
+                 from ./general/Stats.cpp:15:
+./general/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./general/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/Utility.Tpo .deps/Utility.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Sequence.o -MD -MP -MF .deps/Sequence.Tpo -c -o Sequence.o `test -f './alignment/Sequence.cpp' || echo './'`./alignment/Sequence.cpp
+mv -f .deps/SymMatrix.Tpo .deps/SymMatrix.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT Clustal.o -MD -MP -MF .deps/Clustal.Tpo -c -o Clustal.o `test -f './Clustal.cpp' || echo './'`./Clustal.cpp
+mv -f .deps/ClustalWResources.Tpo .deps/ClustalWResources.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++ -DHAVE_CONFIG_H -I.     -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o `test -f './main.cpp' || echo './'`./main.cpp
+In file included from ./alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./alignment/Alignment.h:42,
+                 from ./alignment/Alignment.cpp:25:
+./alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+mv -f .deps/Help.Tpo .deps/Help.Po
+./alignment/Alignment.cpp: In member function 'void clustalw::Alignment::resetProfile1()':
+./alignment/Alignment.cpp:47:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+   47 |     register int sl;                /* which have  code = gap_pos2  */
+      |                  ^~
+./alignment/Alignment.cpp: In member function 'void clustalw::Alignment::resetProfile2()':
+./alignment/Alignment.cpp:122:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+  122 |     register int sl;                /* which have  code = gap_pos2  */
+      |                  ^~
+In file included from ./alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./alignment/ObjectiveScore.h:15,
+                 from ./alignment/ObjectiveScore.cpp:10:
+./alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+./alignment/Alignment.cpp: In member function 'void clustalw::Alignment::resetAlign()':
+./alignment/Alignment.cpp:617:18: warning: ISO C++17 does not allow 'register' storage class specifier [-Wregister]
+  617 |     register int sl;
+      |                  ^~
+mv -f .deps/Stats.Tpo .deps/Stats.Po
+In file included from ./alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./alignment/Alignment.h:42,
+                 from ./alignment/AlignmentOutput.h:24,
+                 from ./alignment/AlignmentOutput.cpp:27:
+./alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:68:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   68 |         bool openExplicitFile(auto_ptr<ofstream>& outFile, string fileName);
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:69:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   69 |         string openOutputFile(auto_ptr<ofstream>& outFile, string prompt, string path,
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:75:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   75 |         auto_ptr<ofstream> clustalOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:76:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   76 |         auto_ptr<ofstream> gcgOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:77:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   77 |         auto_ptr<ofstream> nbrfOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:78:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   78 |         auto_ptr<ofstream> phylipOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:79:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   79 |         auto_ptr<ofstream> gdeOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:80:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   80 |         auto_ptr<ofstream> nexusOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./alignment/AlignmentOutput.cpp:27:
+./alignment/AlignmentOutput.h:81:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   81 |         auto_ptr<ofstream> fastaOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./alignment/AlignmentOutput.cpp:512:40: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  512 | bool AlignmentOutput::openExplicitFile(auto_ptr<ofstream>& outFile, string fileName)
+      |                                        ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./alignment/AlignmentOutput.cpp:535:40: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  535 | string AlignmentOutput::openOutputFile(auto_ptr<ofstream>& outFile, string prompt,
+      |                                        ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/memory:76,
+                 from ./alignment/AlignmentOutput.h:20,
+                 from ./alignment/AlignmentOutput.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./fileInput/../alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./fileInput/../alignment/Alignment.h:42,
+                 from ./fileInput/FileReader.h:12,
+                 from ./Clustal.h:18,
+                 from ./Clustal.cpp:27:
+./fileInput/../alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./fileInput/../alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./Clustal.h:18,
+                 from ./Clustal.cpp:27:
+./fileInput/FileReader.h:42:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   42 |         void checkInfile(int* nseqs, auto_ptr<FileParser>& fileParser);
+      |                                      ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:68:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   68 |         bool openExplicitFile(auto_ptr<ofstream>& outFile, string fileName);
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:69:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   69 |         string openOutputFile(auto_ptr<ofstream>& outFile, string prompt, string path,
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:75:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   75 |         auto_ptr<ofstream> clustalOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:76:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   76 |         auto_ptr<ofstream> gcgOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:77:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   77 |         auto_ptr<ofstream> nbrfOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:78:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   78 |         auto_ptr<ofstream> phylipOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:79:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   79 |         auto_ptr<ofstream> gdeOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:80:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   80 |         auto_ptr<ofstream> nexusOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.h:20,
+                 from ./Clustal.cpp:27:
+./alignment/AlignmentOutput.h:81:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   81 |         auto_ptr<ofstream> fastaOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:38:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   38 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMat(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:57:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   57 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTree(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:102:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  102 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatNJ(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:108:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  108 |         auto_ptr<AlignmentSteps> getWeightsAndStepsUseOldGuideTreeNJ(DistMatrix* distMat,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:133:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  133 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromTreeNJ(Alignment* alignPtr,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:138:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  138 |         auto_ptr<AlignmentSteps> getWeightsAndStepsFromDistMatUPGMA(vector<int>* seqWeights,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./Clustal.cpp:33:
+./tree/TreeInterface.h:142:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  142 |         auto_ptr<AlignmentSteps> generateTreeFromDistMatUPGMA(RootedGuideTree* guideTree,
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./Clustal.cpp: In member function 'void clustalw::Clustal::align(std::string*, bool)':
+./Clustal.cpp:162:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  162 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+./Clustal.cpp: In member function 'void clustalw::Clustal::doAlignUseOldTree(std::string*)':
+./Clustal.cpp:837:5: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+  837 |     auto_ptr<AlignmentSteps> progSteps;
+      |     ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./general/SquareMat.h:9,
+                 from ./general/clustalw.h:43,
+                 from ./Clustal.h:15,
+                 from ./Clustal.cpp:27:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/ObjectiveScore.Tpo .deps/ObjectiveScore.Po
+In file included from ./alignment/../substitutionMatrix/globalmatrix.h:8,
+                 from ./alignment/Alignment.h:42,
+                 from ./main.cpp:10:
+./alignment/../substitutionMatrix/SubMatrix.h:96:62: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   96 |         void printInFormat(vector<short>& temp, char* name = "tempfile.out");
+      |                                                              ^~~~~~~~~~~~~~
+./alignment/../substitutionMatrix/SubMatrix.h:97:66: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   97 |         void printVectorToFile(vector<short>& temp, char* name = "tempfile.out");
+      |                                                                  ^~~~~~~~~~~~~~
+In file included from ./main.cpp:16:
+./fileInput/FileReader.h:42:38: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   42 |         void checkInfile(int* nseqs, auto_ptr<FileParser>& fileParser);
+      |                                      ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:68:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   68 |         bool openExplicitFile(auto_ptr<ofstream>& outFile, string fileName);
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:69:31: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   69 |         string openOutputFile(auto_ptr<ofstream>& outFile, string prompt, string path,
+      |                               ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:75:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   75 |         auto_ptr<ofstream> clustalOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:76:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   76 |         auto_ptr<ofstream> gcgOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:77:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   77 |         auto_ptr<ofstream> nbrfOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:78:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   78 |         auto_ptr<ofstream> phylipOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:79:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   79 |         auto_ptr<ofstream> gdeOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:80:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   80 |         auto_ptr<ofstream> nexusOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+In file included from ./interface/../Clustal.h:20,
+                 from ./interface/InteractiveMenu.h:15,
+                 from ./main.cpp:17:
+./interface/../alignment/AlignmentOutput.h:81:9: warning: 'template<class> class std::auto_ptr' is deprecated: use 'std::unique_ptr' instead [-Wdeprecated-declarations]
+   81 |         auto_ptr<ofstream> fastaOutFile;
+      |         ^~~~~~~~
+In file included from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/locale_conv.h:41,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/locale:43,
+                 from /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/iomanip:43,
+                 from ./alignment/Alignment.h:38,
+                 from ./main.cpp:10:
+/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/lib/gcc/x86_64-pc-linux-gnu/11.2.0/../../../../include/c++/11.2.0/bits/unique_ptr.h:57:28: note: declared here
+   57 |   template<typename> class auto_ptr;
+      |                            ^~~~~~~~
+mv -f .deps/Sequence.Tpo .deps/Sequence.Po
+mv -f .deps/main.Tpo .deps/main.Po
+mv -f .deps/Alignment.Tpo .deps/Alignment.Po
+mv -f .deps/Clustal.Tpo .deps/Clustal.Po
+mv -f .deps/AlignmentOutput.Tpo .deps/AlignmentOutput.Po
+/home/om/SPACK/spack/lib/spack/env/gcc/g++  -g -O2   -o clustalw2 FullPairwiseAlign.o FastPairwiseAlign.o MSFFileParser.o FileReader.o PIRFileParser.o RSFFileParser.o GDEFileParser.o InFileStream.o ClustalFileParser.o PearsonFileParser.o FileParser.o EMBLFileParser.o RootedClusterTree.o UPGMAAlgorithm.o Node.o RootedGuideTree.o RootedTreeOutput.o Tree.o ClusterTree.o TreeInterface.o UnRootedClusterTree.o ClusterTreeOutput.o RandomGenerator.o NJTree.o AlignmentSteps.o InteractiveMenu.o CommandLineParser.o SubMatrix.o Iteration.o MSA.o MyersMillerProfileAlign.o ProfileStandard.o ProfileWithSub.o ProfileBase.o LowScoreSegProfile.o OutputFile.o UserParameters.o Utility.o InvalidCombination.o DebugLog.o ClustalWResources.o VectorOutOfRange.o SymMatrix.o Stats.o Help.o Alignment.o AlignmentOutput.o ObjectiveScore.o Sequence.o Clustal.o main.o  
+/usr/bin/ld: Dwarf Error: found dwarf version '5', this reader only handles version 2, 3 and 4 information.
+Iteration.o: In function `clustalw::Iteration::removeFirstIterate(clustalw::Alignment*)':
+Iteration.cpp:(.text+0xf08): warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+make[3]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+==> clustalw: Executing phase: 'install'
+==> [2022-09-19-11:06:34.816435] 'make' '-j8' 'install'
+Making install in m4
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/share/aclocal" || /usr/bin/mkdir -p "/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/share/aclocal"
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/m4'
+Making install in src
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[3]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[3]: Nothing to be done for `install-data-am'.
+test -z "/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/bin" || /usr/bin/mkdir -p "/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/bin"
+  /usr/bin/install -c clustalw2 '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/bin'
+make[3]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src/src'
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac/spack-src'
+==> clustalw: Successfully installed clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac
+  Fetch: 1.96s.  Build: 15.19s.  Total: 17.15s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/clustalw-2.1-noyqhberz2hv56sbb5b7b5uesf34wlac

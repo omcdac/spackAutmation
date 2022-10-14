@@ -1,0 +1,1194 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /usr (external openssh-7.4p1-tbpm45drlo2e4s6y5dumgraw35igwnk5)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-2qxbdkoqtgxgpj4kfquh4uik6rmjtvo2
+==> Installing hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup
+==> No binary for hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/92/92fee9b5efe37a5276352d3502775e7c46e9f7a0ee45a331eacb2a0cac713c69.tar.gz
+==> No patches needed for hmmer
+==> hmmer: Executing phase: 'install'
+==> [2022-09-21-15:13:06.349723] './configure' '--prefix=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup' '--enable-mpi'
+configure: Configuring HMMER3 for your system.
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether to compile using MPI... yes
+checking for gcc... /home/om/SPACK/spack/lib/spack/env/oneapi/icx
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/oneapi/icx accepts -g... yes
+checking for /home/om/SPACK/spack/lib/spack/env/oneapi/icx option to accept ISO C89... none needed
+checking for function MPI_Init... no
+checking for function MPI_Init in -lmpi... yes
+checking for mpi.h... yes
+checking for /home/om/SPACK/spack/lib/spack/env/oneapi/icx option to accept ISO C99... none needed
+checking for /home/om/SPACK/spack/lib/spack/env/oneapi/icx option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... /home/om/SPACK/spack/lib/spack/env/oneapi/icx -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for strip... strip
+checking for ranlib... ranlib
+checking for ar... /usr/bin/ar
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking whether /home/om/SPACK/spack/lib/spack/env/oneapi/icx is Clang... yes
+checking whether Clang needs flag to prevent "argument unused" warning when linking with -pthread... no
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking whether /home/om/SPACK/spack/lib/spack/env/oneapi/icx can compile our Altivec/VMX code... no
+checking whether /home/om/SPACK/spack/lib/spack/env/oneapi/icx can compile our SSE code... yes
+configure: Activating Intel/AMD SSE vector DP implementation
+checking whether _MM_SET_FLUSH_ZERO_MODE is supported... yes
+checking compiler support --start-group... yes
+checking for gzip... /usr/bin/gzip
+checking for python3... yes
+checking for library containing clock_gettime... none required
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for sys/sysctl.h... yes
+checking for uint8_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for off_t... yes
+checking whether byte ordering is bigendian... no
+checking for __attribute__((noreturn))... yes
+checking for __attribute__((format))... yes
+checking for mkstemp... yes
+checking for popen... yes
+checking for putenv... yes
+checking for strcasecmp... yes
+checking for strsep... yes
+checking for times... yes
+checking for getpid... yes
+checking for sysctl... yes
+checking for sysconf... yes
+checking for getcwd... yes
+checking for chmod... yes
+checking for stat... yes
+checking for fstat... yes
+checking for erfc... yes
+checking for library containing ntohs... none required
+checking for library containing ntohl... none required
+checking for library containing htons... none required
+checking for library containing htonl... none required
+checking for library containing socket... none required
+checking for library containing inet_pton... none required
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating profmark/Makefile
+config.status: creating src/impl_sse/Makefile
+config.status: creating documentation/Makefile
+config.status: creating documentation/man/Makefile
+config.status: creating documentation/userguide/Makefile
+config.status: creating documentation/userguide/inclusions/Makefile
+config.status: creating libdivsufsort/Makefile
+config.status: creating easel/Makefile
+config.status: creating easel/miniapps/Makefile
+config.status: creating easel/testsuite/Makefile
+config.status: creating easel/documentation/Makefile
+config.status: creating documentation/userguide/titlepage.tex
+config.status: creating documentation/userguide/titlepage_daemon.tex
+config.status: creating documentation/userguide/copyright.tex
+config.status: creating documentation/man/alimask.man
+config.status: creating documentation/man/hmmalign.man
+config.status: creating documentation/man/hmmbuild.man
+config.status: creating documentation/man/hmmc2.man
+config.status: creating documentation/man/hmmconvert.man
+config.status: creating documentation/man/hmmemit.man
+config.status: creating documentation/man/hmmer.man
+config.status: creating documentation/man/hmmfetch.man
+config.status: creating documentation/man/hmmlogo.man
+config.status: creating documentation/man/hmmpgmd.man
+config.status: creating documentation/man/hmmpgmd_shard.man
+config.status: creating documentation/man/hmmpress.man
+config.status: creating documentation/man/hmmscan.man
+config.status: creating documentation/man/hmmsearch.man
+config.status: creating documentation/man/hmmsim.man
+config.status: creating documentation/man/hmmstat.man
+config.status: creating documentation/man/jackhmmer.man
+config.status: creating documentation/man/makehmmerdb.man
+config.status: creating documentation/man/nhmmer.man
+config.status: creating documentation/man/nhmmscan.man
+config.status: creating documentation/man/phmmer.man
+config.status: creating easel/miniapps/esl-afetch.man
+config.status: creating easel/miniapps/esl-alimanip.man
+config.status: creating easel/miniapps/esl-alimap.man
+config.status: creating easel/miniapps/esl-alimask.man
+config.status: creating easel/miniapps/esl-alimerge.man
+config.status: creating easel/miniapps/esl-alipid.man
+config.status: creating easel/miniapps/esl-alirev.man
+config.status: creating easel/miniapps/esl-alistat.man
+config.status: creating easel/miniapps/esl-compalign.man
+config.status: creating easel/miniapps/esl-compstruct.man
+config.status: creating easel/miniapps/esl-construct.man
+config.status: creating easel/miniapps/esl-histplot.man
+config.status: creating easel/miniapps/esl-mask.man
+config.status: creating easel/miniapps/esl-mixdchlet.man
+config.status: creating easel/miniapps/esl-reformat.man
+config.status: creating easel/miniapps/esl-selectn.man
+config.status: creating easel/miniapps/esl-seqrange.man
+config.status: creating easel/miniapps/esl-seqstat.man
+config.status: creating easel/miniapps/esl-sfetch.man
+config.status: creating easel/miniapps/esl-shuffle.man
+config.status: creating easel/miniapps/esl-ssdraw.man
+config.status: creating easel/miniapps/esl-translate.man
+config.status: creating easel/miniapps/esl-weight.man
+config.status: creating easel/decoy_config.h
+config.status: creating src/p7_config.h
+config.status: creating easel/esl_config.h
+config.status: creating libdivsufsort/divsufsort.h
+config.status: linking src/impl_sse to src/impl
+
+
+HMMER configuration:
+   compiler:             /home/om/SPACK/spack/lib/spack/env/oneapi/icx -O3   -pthread 
+   host:                 x86_64-pc-linux-gnu
+   linker:               
+   libraries:            -lmpi   
+   DP implementation:    sse
+
+Now do 'make'  to build HMMER, and optionally:
+       'make check'  to run self tests,
+       'make install'  to install programs and man pages,
+       '(cd easel; make install)'  to install Easel tools.
+
+==> [2022-09-21-15:13:23.648883] 'make' '-j8'
+     SUBDIR easel
+     CC easel.o
+     CC esl_alphabet.o
+     CC esl_alloc.o
+     CC esl_arr2.o
+     CC esl_arr3.o
+     CC esl_bitfield.o
+     CC esl_buffer.o
+     CC esl_cluster.o
+     CC esl_composition.o
+     CC esl_cpu.o
+     CC esl_dirichlet.o
+     CC esl_distance.o
+     CC esl_dmatrix.o
+     CC esl_dsqdata.o
+     CC esl_exponential.o
+esl_dmatrix.c:534:30: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if      (D->mx[i][j] == -eslINFINITY) bin = 0;
+                 ~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+esl_dmatrix.c:535:30: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        else if (D->mx[i][j] ==  eslINFINITY) bin = nshades-1;
+                 ~~~~~~~~~~~ ^   ~~~~~~~~~~~
+     CC esl_fileparser.o
+     CC esl_gamma.o
+esl_exponential.c:72:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  if (lambda == eslINFINITY) 
+      ~~~~~~ ^  ~~~~~~~~~~~
+     CC esl_gencode.o
+1 warning generated.
+     CC esl_getopts.o
+     CC esl_gev.o
+     CC esl_graph.o
+     CC esl_gumbel.o
+     CC esl_heap.o
+     CC esl_histogram.o
+     CC esl_hmm.o
+     CC esl_huffman.o
+2 warnings generated.
+     CC esl_hyperexp.o
+     CC esl_json.o
+     CC esl_keyhash.o
+     CC esl_matrixops.o
+esl_histogram.c:1357:15: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  else if (X2 != eslINFINITY) {
+           ~~ ^  ~~~~~~~~~~~
+esl_histogram.c:1388:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  else if (G != eslINFINITY)
+           ~ ^  ~~~~~~~~~~~
+     CC esl_mem.o
+     CC esl_minimizer.o
+     CC esl_mixdchlet.o
+     CC esl_mixgev.o
+     CC esl_mpi.o
+2 warnings generated.
+     CC esl_msa.o
+     CC esl_msacluster.o
+     CC esl_msafile.o
+     CC esl_msafile2.o
+     CC esl_msafile_a2m.o
+     CC esl_msafile_afa.o
+     CC esl_msafile_clustal.o
+     CC esl_msafile_phylip.o
+     CC esl_msafile_psiblast.o
+     CC esl_msafile_selex.o
+     CC esl_msafile_stockholm.o
+     CC esl_msashuffle.o
+     CC esl_normal.o
+     CC esl_msaweight.o
+     CC esl_paml.o
+     CC esl_quicksort.o
+     CC esl_random.o
+     CC esl_rand64.o
+     CC esl_randomseq.o
+     CC esl_ratematrix.o
+     CC esl_recorder.o
+     CC esl_red_black.o
+     CC esl_regexp.o
+     CC esl_rootfinder.o
+     CC esl_scorematrix.o
+     CC esl_sq.o
+     CC esl_sqio.o
+     CC esl_sqio_ascii.o
+     CC esl_sqio_ncbi.o
+     CC esl_ssi.o
+     CC esl_stack.o
+     CC esl_stats.o
+     CC esl_stopwatch.o
+     CC esl_stretchexp.o
+     CC esl_subcmd.o
+     CC esl_threads.o
+     CC esl_tree.o
+     CC esl_varint.o
+     CC esl_vectorops.o
+     CC esl_weibull.o
+     CC esl_workqueue.o
+     CC esl_wuss.o
+     CC esl_sse.o
+esl_vectorops.c:1239:11: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  if (max == eslINFINITY) return eslINFINITY; /* avoid inf-inf below! */
+      ~~~ ^  ~~~~~~~~~~~
+esl_vectorops.c:1254:11: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  if (max == eslINFINITY) return eslINFINITY; 
+      ~~~ ^  ~~~~~~~~~~~
+esl_vectorops.c:1269:11: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  if (max == eslINFINITY) return eslINFINITY; /* avoid inf-inf below! */
+      ~~~ ^  ~~~~~~~~~~~
+esl_vectorops.c:1284:11: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  if (max == eslINFINITY) return eslINFINITY; 
+      ~~~ ^  ~~~~~~~~~~~
+     CC esl_avx.o
+     CC esl_avx512.o
+     CC esl_neon.o
+     CC esl_vmx.o
+4 warnings generated.
+     AR libeasel.a
+     SUBDIR miniapps
+     GEN esl-alimanip
+     GEN esl-alimap
+     GEN esl-alimask
+     GEN esl-afetch
+     GEN esl-alimerge
+     GEN esl-alipid
+     GEN esl-alirev
+     GEN esl-alistat
+     GEN esl-compalign
+     GEN esl-compstruct
+     GEN esl-construct
+     GEN esl-histplot
+     GEN esl-mask
+     GEN esl-mixdchlet
+     GEN esl-reformat
+     GEN esl-selectn
+     GEN esl-seqrange
+     GEN esl-seqstat
+     GEN esl-sfetch
+     GEN esl-shuffle
+     GEN esl-ssdraw
+     GEN esl-translate
+esl-ssdraw.c:2323:39: warning: implicit conversion from 'int' to 'float' changes value from 987654321 to 987654336 [-Wimplicit-const-int-float-conversion]
+    if(esl_FCompare(scl->limits[c+1], SSDRAWINFINITY, eslSMALLX1) == eslOK) { /* max value is infinity, special case */
+       ~~~~~~~~~~~~                   ^~~~~~~~~~~~~~
+esl-ssdraw.c:34:24: note: expanded from macro 'SSDRAWINFINITY'
+#define SSDRAWINFINITY 987654321
+                       ^~~~~~~~~
+     GEN esl-weight
+esl-ssdraw.c:3439:17: warning: implicit conversion from 'int' to 'float' changes value from 987654321 to 987654336 [-Wimplicit-const-int-float-conversion]
+  limits_s[5] = SSDRAWINFINITY;
+              ~ ^~~~~~~~~~~~~~
+esl-ssdraw.c:34:24: note: expanded from macro 'SSDRAWINFINITY'
+#define SSDRAWINFINITY 987654321
+                       ^~~~~~~~~
+esl-ssdraw.c:4820:15: warning: implicit conversion from 'int' to 'float' changes value from 987654321 to 987654336 [-Wimplicit-const-int-float-conversion]
+  limits[6] = SSDRAWINFINITY;
+            ~ ^~~~~~~~~~~~~~
+esl-ssdraw.c:34:24: note: expanded from macro 'SSDRAWINFINITY'
+#define SSDRAWINFINITY 987654321
+                       ^~~~~~~~~
+     CC cmd_alistat.o
+     CC cmd_downsample.o
+     CC cmd_filter.o
+     CC cmd_index.o
+     GEN easel
+3 warnings generated.
+     SUBDIR libdivsufsort
+     CC divsufsort.o
+     AR libdivsufsort.a
+     SUBDIR src
+     CC build.o
+     CC cachedb.o
+     CC cachedb_shard.o
+     CC alimask.o
+     CC emit.o
+     CC evalues.o
+     CC errors.o
+     CC eweight.o
+     CC generic_decoding.o
+     CC generic_fwdback.o
+     CC generic_fwdback_chk.o
+     CC generic_fwdback_banded.o
+     CC generic_null2.o
+     CC generic_msv.o
+     CC generic_optacc.o
+     CC generic_stotrace.o
+     CC generic_viterbi.o
+generic_optacc.c:97:35: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          MMX(i,k)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, k-1) * (MMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:98:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_IM, k-1) * (IMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M])),
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:97:35: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          MMX(i,k)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, k-1) * (MMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:98:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_IM, k-1) * (IMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M])),
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:99:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 ESL_MAX(TSCDELTA(p7P_DM, k-1) * (DMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:100:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_BM, k-1) * (XMX(i-1,p7G_B)+ pp->dp[i][k*p7G_NSCELLS + p7G_M])));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:99:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 ESL_MAX(TSCDELTA(p7P_DM, k-1) * (DMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:100:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_BM, k-1) * (XMX(i-1,p7G_B)+ pp->dp[i][k*p7G_NSCELLS + p7G_M])));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:97:35: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          MMX(i,k)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, k-1) * (MMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:98:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_IM, k-1) * (IMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M])),
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:97:35: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          MMX(i,k)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, k-1) * (MMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                         ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:98:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_IM, k-1) * (IMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M])),
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:99:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 ESL_MAX(TSCDELTA(p7P_DM, k-1) * (DMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:100:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_BM, k-1) * (XMX(i-1,p7G_B)+ pp->dp[i][k*p7G_NSCELLS + p7G_M])));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:99:14: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 ESL_MAX(TSCDELTA(p7P_DM, k-1) * (DMX(i-1,k-1)  + pp->dp[i][k*p7G_NSCELLS + p7G_M]),
+                                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:100:7: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                         TSCDELTA(p7P_BM, k-1) * (XMX(i-1,p7G_B)+ pp->dp[i][k*p7G_NSCELLS + p7G_M])));
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:105:27: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          IMX(i,k)     = ESL_MAX(TSCDELTA(p7P_MI, k) * (MMX(i-1,k) + pp->dp[i][k*p7G_NSCELLS + p7G_I]),
+                         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:106:6: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 TSCDELTA(p7P_II, k) * (IMX(i-1,k) + pp->dp[i][k*p7G_NSCELLS + p7G_I]));
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:105:27: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          IMX(i,k)     = ESL_MAX(TSCDELTA(p7P_MI, k) * (MMX(i-1,k) + pp->dp[i][k*p7G_NSCELLS + p7G_I]),
+                         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:106:6: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 TSCDELTA(p7P_II, k) * (IMX(i-1,k) + pp->dp[i][k*p7G_NSCELLS + p7G_I]));
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:108:27: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          DMX(i,k)     = ESL_MAX(TSCDELTA(p7P_MD, k-1) * MMX(i,k-1),
+                         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:109:6: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 TSCDELTA(p7P_DD, k-1) * DMX(i,k-1));
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:108:27: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+          DMX(i,k)     = ESL_MAX(TSCDELTA(p7P_MD, k-1) * MMX(i,k-1),
+                         ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:109:6: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                 TSCDELTA(p7P_DD, k-1) * DMX(i,k-1));
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:113:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      MMX(i,M)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, M-1) * (MMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:114:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_IM, M-1) * (IMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M])),
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:113:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      MMX(i,M)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, M-1) * (MMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:114:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_IM, M-1) * (IMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M])),
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:115:17: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             ESL_MAX(TSCDELTA(p7P_DM, M-1) * (DMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:116:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_BM, M-1) * (XMX(i-1,p7G_B)+ pp->dp[i][M*p7G_NSCELLS + p7G_M])));
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:115:17: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             ESL_MAX(TSCDELTA(p7P_DM, M-1) * (DMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:116:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_BM, M-1) * (XMX(i-1,p7G_B)+ pp->dp[i][M*p7G_NSCELLS + p7G_M])));
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:113:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      MMX(i,M)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, M-1) * (MMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:114:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_IM, M-1) * (IMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M])),
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:113:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      MMX(i,M)     = ESL_MAX(ESL_MAX(TSCDELTA(p7P_MM, M-1) * (MMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                     ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:114:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_IM, M-1) * (IMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M])),
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:115:17: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             ESL_MAX(TSCDELTA(p7P_DM, M-1) * (DMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:116:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_BM, M-1) * (XMX(i-1,p7G_B)+ pp->dp[i][M*p7G_NSCELLS + p7G_M])));
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:115:17: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             ESL_MAX(TSCDELTA(p7P_DM, M-1) * (DMX(i-1,M-1)  + pp->dp[i][M*p7G_NSCELLS + p7G_M]),
+                             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:116:10: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                                     TSCDELTA(p7P_BM, M-1) * (XMX(i-1,p7G_B)+ pp->dp[i][M*p7G_NSCELLS + p7G_M])));
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:118:30: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      DMX(i,M)     = ESL_MAX(TSCDELTA(p7P_MD, M-1) * MMX(i,M-1),
+                     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:34: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                 ^
+generic_optacc.c:119:9: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             TSCDELTA(p7P_DD, M-1) * DMX(i,M-1));
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:38: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                     ^
+generic_optacc.c:118:30: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      DMX(i,M)     = ESL_MAX(TSCDELTA(p7P_MD, M-1) * MMX(i,M-1),
+                     ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:43: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                          ^
+generic_optacc.c:119:9: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+                             TSCDELTA(p7P_DD, M-1) * DMX(i,M-1));
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                                                     ^
+../easel/easel.h:417:47: note: expanded from macro 'ESL_MAX'
+#define ESL_MAX(a,b)          (((a)>(b))?(a):(b))
+                                              ^
+generic_optacc.c:127:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t1 = ( (gm->xsc[p7P_J][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:128:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t2 = ( (gm->xsc[p7P_E][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:132:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t1 = ( (gm->xsc[p7P_C][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:133:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t2 = ( (gm->xsc[p7P_E][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:137:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t1 = ( (gm->xsc[p7P_N][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:140:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t1 = ( (gm->xsc[p7P_N][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:141:40: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      t2 = ( (gm->xsc[p7P_J][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+              ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+     CC generic_vtrace.o
+generic_optacc.c:264:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[0] = TSCDELTA(p7P_MM, k-1) * MMX(i-1,k-1);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:265:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[1] = TSCDELTA(p7P_IM, k-1) * IMX(i-1,k-1);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:266:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[2] = TSCDELTA(p7P_DM, k-1) * DMX(i-1,k-1);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:267:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[3] = TSCDELTA(p7P_BM, k-1) * XMX(i-1,p7G_B);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:278:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[0] = TSCDELTA(p7P_MD, k-1) * MMX(i, k-1);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:279:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[1] = TSCDELTA(p7P_DD, k-1) * DMX(i, k-1);
+            ^~~~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:290:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[0] = TSCDELTA(p7P_MI, k) * MMX(i-1,k);
+            ^~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:291:13: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  path[1] = TSCDELTA(p7P_II, k) * IMX(i-1,k);
+            ^~~~~~~~~~~~~~~~~~~
+generic_optacc.c:30:54: note: expanded from macro 'TSCDELTA'
+#define TSCDELTA(s,k) ( (tsc[(k) * p7P_NTRANS + (s)] == -eslINFINITY) ? FLT_MIN : 1.0)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:304:46: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float  t1   =  ( (gm->xsc[p7P_C][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+                    ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:305:46: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float  t2   =  ( (gm->xsc[p7P_E][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+                    ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:317:45: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float  t1   = ( (gm->xsc[p7P_J][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+                   ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:318:45: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float  t2   = ( (gm->xsc[p7P_E][p7P_LOOP] == -eslINFINITY) ? FLT_MIN : 1.0);
+                   ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:354:42: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float t1 = ( (gm->xsc[p7P_N][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+                ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_optacc.c:355:42: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  float t2 = ( (gm->xsc[p7P_J][p7P_MOVE] == -eslINFINITY) ? FLT_MIN : 1.0);
+                ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+     CC heatmap.o
+     CC h2_io.o
+generic_stotrace.c:72:21: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if   (XMX(i,p7G_C) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible C reached at i=%d", i);
+              ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:82:20: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (XMX(i, p7G_E) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible E reached at i=%d", i);
+            ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:103:15: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (MMX(i,k) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible M reached at k=%d,i=%d", k,i);
+            ~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:122:16: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (DMX(i, k) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible D reached at k=%d,i=%d", k,i);
+            ~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:133:15: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (IMX(i,k) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible I reached at k=%d,i=%d", k,i);
+            ~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:144:20: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (XMX(i, p7G_N) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible N reached at i=%d", i);
+            ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:150:19: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (XMX(i,p7G_B) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible B reached at i=%d", i);
+            ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_stotrace.c:160:19: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (XMX(i,p7G_J) == -eslINFINITY) ESL_XEXCEPTION(eslFAIL, "impossible J reached at i=%d", i);
+            ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+65 warnings generated.
+     CC hmmlogo.o
+     CC hmmdmstr.o
+heatmap.c:86:23: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if      (D->mx[i][j] == -eslINFINITY) bin = 0;
+                 ~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+heatmap.c:87:23: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        else if (D->mx[i][j] ==  eslINFINITY) bin = nshades-1;
+                 ~~~~~~~~~~~ ^   ~~~~~~~~~~~
+8 warnings generated.
+     CC hmmdmstr_shard.o
+generic_vtrace.c:76:26: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if   (XMX(i,p7G_C) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible C reached at i=%d", i);
+            ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+     CC hmmd_search_status.o
+generic_vtrace.c:84:25: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (XMX(i, p7G_E) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible E reached at i=%d", i);
+          ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:101:20: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (MMX(i,k) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible M reached at k=%d,i=%d", k,i);
+          ~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:112:21: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (DMX(i, k) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible D reached at k=%d,i=%d", k,i);
+          ~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:121:20: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (IMX(i,k) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible I reached at k=%d,i=%d", k,i);
+          ~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:130:25: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (XMX(i, p7G_N) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible N reached at i=%d", i);
+          ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:135:24: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (XMX(i,p7G_B) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible B reached at i=%d", i);
+          ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+generic_vtrace.c:143:24: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (XMX(i,p7G_J) == -eslINFINITY) ESL_EXCEPTION(eslFAIL, "impossible J reached at i=%d", i);
+          ~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+2 warnings generated.
+     CC hmmdwrkr.o
+     CC hmmdwrkr_shard.o
+8 warnings generated.
+     CC hmmdutils.o
+     CC hmmer.o
+     CC logsum.o
+     CC modelconfig.o
+     CC modelstats.o
+logsum.c:111:15: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+  return (min == -eslINFINITY || (max-min) >= 15.7f) ? max : max + flogsum_lookup[(int)((max-min)*p7_LOGSUM_SCALE)];
+          ~~~ ^  ~~~~~~~~~~~~
+     CC mpisupport.o
+1 warning generated.
+     CC seqmodel.o
+     CC tracealign.o
+     CC p7_alidisplay.o
+     CC p7_bg.o
+     CC p7_builder.o
+     CC p7_domain.o
+     CC p7_domaindef.o
+     CC p7_gbands.o
+     CC p7_gmx.o
+     CC p7_gmxb.o
+     CC p7_gmxchk.o
+     CC p7_hit.o
+     CC p7_hmm.o
+     CC p7_hmmcache.o
+     CC p7_hmmd_search_stats.o
+     CC p7_hmmfile.o
+     CC p7_hmmwindow.o
+     CC p7_pipeline.o
+     CC p7_prior.o
+     CC p7_profile.o
+     CC p7_spensemble.o
+     CC p7_tophits.o
+     CC p7_trace.o
+     CC p7_scoredata.o
+     CC hmmpgmd2msa.o
+     CC fm_alphabet.o
+p7_tophits.c:1935:23: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (scores[i] == -eslINFINITY)
+            ~~~~~~~~~ ^  ~~~~~~~~~~~~
+     CC fm_general.o
+     CC fm_sse.o
+     CC fm_ssv.o
+     CC hmmalign.o
+     CC hmmbuild.o
+     CC hmmconvert.o
+     CC hmmemit.o
+     CC hmmfetch.o
+     CC hmmpgmd.o
+     CC hmmpress.o
+     CC hmmpgmd_shard.o
+1 warning generated.
+     CC hmmscan.o
+     CC hmmsearch.o
+     CC hmmsim.o
+     CC hmmstat.o
+     CC phmmer.o
+     CC jackhmmer.o
+     CC nhmmer.o
+hmmsim.c:690:52: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      if (! esl_opt_GetBoolean(go, "--fast") || sc == eslINFINITY) /* note, if a filter overflows, failover to slow versions */
+                                                ~~ ^  ~~~~~~~~~~~
+     CC nhmmscan.o
+     CC makehmmerdb.o
+     CC hmmc2.o
+1 warning generated.
+     CC hmmerfm-exactmatch.o
+     AR libhmmer-src.stamp
+     SUBDIR impl_sse
+     CC decoding.o
+     CC fwdback.o
+     CC io.o
+     CC ssvfilter.o
+     CC msvfilter.o
+     CC null2.o
+     CC optacc.o
+     CC stotrace.o
+     CC vitfilter.o
+     CC p7_omx.o
+     CC p7_oprofile.o
+     CC mpi.o
+p7_oprofile.c:544:43: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (x==K || x>Kp-3 || sc_arr[idx] == -eslINFINITY)
+                              ~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+p7_oprofile.c:635:43: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        if (x==K || x>Kp-3 || sc_arr[idx] == -eslINFINITY)
+                              ~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+p7_oprofile.c:1911:39: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        gm->rsc[x][k*2]   = (gm->rsc[x][k*2] <= -eslINFINITY) ? -eslINFINITY : roundf(om->scale_b * gm->rsc[x][k*2]);
+                             ~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+p7_oprofile.c:1918:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      gm->xsc[k][x] = (gm->xsc[k][x] <= -eslINFINITY) ? -eslINFINITY : roundf(om->scale_b * gm->xsc[k][x]);
+                       ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+p7_oprofile.c:1966:30: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+    gm->tsc[x] = (gm->tsc[x] <= -eslINFINITY) ? -eslINFINITY : roundf(om->scale_w * gm->tsc[x]);
+                  ~~~~~~~~~~ ^  ~~~~~~~~~~~~
+p7_oprofile.c:1976:41: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+        gm->rsc[x][k*2]   = (gm->rsc[x][k*2]   <= -eslINFINITY) ? -eslINFINITY : roundf(om->scale_w * gm->rsc[x][k*2]);
+                             ~~~~~~~~~~~~~~~   ^  ~~~~~~~~~~~~
+p7_oprofile.c:1983:38: warning: comparison with infinity always evaluates to false in fast floating point modes [-Wtautological-constant-compare]
+      gm->xsc[k][x] = (gm->xsc[k][x] <= -eslINFINITY) ? -eslINFINITY : roundf(om->scale_w * gm->xsc[k][x]);
+                       ~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+7 warnings generated.
+     AR libhmmer-impl.stamp
+     GEN hmmbuild
+     GEN alimask
+     GEN hmmemit
+     GEN hmmalign
+     GEN hmmlogo
+     GEN hmmconvert
+     GEN hmmfetch
+     GEN hmmpgmd
+     GEN hmmpgmd_shard
+     GEN hmmpress
+     GEN hmmscan
+     GEN hmmsearch
+     GEN hmmsim
+     GEN hmmstat
+     GEN jackhmmer
+     GEN phmmer
+     GEN nhmmer
+     GEN nhmmscan
+     GEN makehmmerdb
+     GEN hmmc2
+     GEN hmmerfm-exactmatch
+     SUBDIR profmark
+     CC create-profmark.o
+     CC rocplot.o
+     GEN create-profmark
+     GEN rocplot
+==> [2022-09-21-15:13:37.809428] 'make' '-j8' 'install'
+     SUBDIR easel
+     SUBDIR miniapps
+     SUBDIR libdivsufsort
+     SUBDIR src
+     SUBDIR impl_sse
+     SUBDIR profmark
+/usr/bin/install -c -d /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/bin
+/usr/bin/install -c -d /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/share/man/man1
+make -C src install
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/src'
+for file in alimask hmmalign hmmbuild hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpgmd_shard hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer phmmer nhmmer nhmmscan makehmmerdb; do \
+   /usr/bin/install -c -m 0755 $file /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/bin/ ;\
+done
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/src'
+make -C documentation install
+make[1]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/documentation'
+make -C man install
+make[2]: Entering directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/documentation/man'
+for file in hmmer hmmalign hmmbuild hmmc2 hmmconvert hmmemit hmmfetch hmmlogo hmmpgmd hmmpgmd_shard hmmpress hmmscan hmmsearch hmmsim hmmstat jackhmmer makehmmerdb phmmer nhmmer nhmmscan alimask; do \
+   /usr/bin/install -c -m 0664 $file.man /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/share/man/man1/${file}.1 ;\
+done
+make[2]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/documentation/man'
+make[1]: Leaving directory `/tmp/om/spack-stage/spack-stage-hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup/spack-src/documentation'
+==> hmmer: Successfully installed hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup
+  Fetch: 0.02s.  Build: 32.10s.  Total: 32.12s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hmmer-3.3.2-t6ukvcndv5qvsw5toeq5tsk5eigeclup

@@ -1,0 +1,288 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external openssh-7.4p1-xdrtaw3mpifrx4alom7bgveodendft4c)
+[+] /usr (external slurm-20.11.9-c4ohri2xe2co5rncvvijwa3r4lbb7naw)
+[+] /usr (external curl-7.29.0-j2iwyd6dkw5tyqvyjetvvkud66o7voae)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libmd-1.0.4-hazh4bhkyy62tsk6gb6x7qzjo7xxtndh
+[+] /usr (external tar-1.26-4zlkug6geslk5z6mx4wjxbiwjcvdso3c)
+==> Installing pcre2-10.39-puvsuf6v6wdsr7ptxmjz24wtsdfkivpu
+==> No binary for pcre2-10.39-puvsuf6v6wdsr7ptxmjz24wtsdfkivpu found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/0f/0f03caf57f81d9ff362ac28cd389c055ec2bf0678d277349a1a4bee00ad6d440.tar.bz2
+==> No patches needed for pcre2
+==> pcre2: Executing phase: 'autoreconf'
+==> pcre2: Executing phase: 'configure'
+==> pcre2: Executing phase: 'build'
+==> pcre2: Executing phase: 'install'
+==> pcre2: Successfully installed pcre2-10.39-puvsuf6v6wdsr7ptxmjz24wtsdfkivpu
+  Fetch: 1.16s.  Build: 23.46s.  Total: 24.63s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pcre2-10.39-puvsuf6v6wdsr7ptxmjz24wtsdfkivpu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+==> Installing libunistring-0.9.10-mqf6g4zumpbyynbffd6topkrkfrlutsj
+==> No binary for libunistring-0.9.10-mqf6g4zumpbyynbffd6topkrkfrlutsj found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/eb/eb8fb2c3e4b6e2d336608377050892b54c3c983b646c561836550863003c05d7.tar.xz
+==> Ran patch() for libunistring
+==> libunistring: Executing phase: 'autoreconf'
+==> libunistring: Executing phase: 'configure'
+==> libunistring: Executing phase: 'build'
+==> libunistring: Executing phase: 'install'
+==> libunistring: Successfully installed libunistring-0.9.10-mqf6g4zumpbyynbffd6topkrkfrlutsj
+  Fetch: 1.16s.  Build: 2m 40.04s.  Total: 2m 41.20s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libunistring-0.9.10-mqf6g4zumpbyynbffd6topkrkfrlutsj
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libbsd-0.11.5-gm75o6w2kss3cxf4vlrr64gcnbhtzuz2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+==> Installing libidn2-2.3.0-gqsvfbc7nrylqtua6uw5gxjay2coxpcz
+==> No binary for libidn2-2.3.0-gqsvfbc7nrylqtua6uw5gxjay2coxpcz found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/e1/e1cb1db3d2e249a6a3eb6f0946777c2e892d5c5dc7bd91c74394fc3a01cab8b5.tar.gz
+==> No patches needed for libidn2
+==> libidn2: Executing phase: 'autoreconf'
+==> libidn2: Executing phase: 'configure'
+==> libidn2: Executing phase: 'build'
+==> libidn2: Executing phase: 'install'
+==> libidn2: Successfully installed libidn2-2.3.0-gqsvfbc7nrylqtua6uw5gxjay2coxpcz
+  Fetch: 2.41s.  Build: 48.69s.  Total: 51.09s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libidn2-2.3.0-gqsvfbc7nrylqtua6uw5gxjay2coxpcz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/expat-2.4.8-3vg5fppryacu4o6nfet3vsvbtdwdmvzt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gettext-0.21-pgx4a3l6riiem4uxy6xrhpxhqgokv2wa
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+==> Installing git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr
+==> No binary for git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr found: installing from source
+==> Fetching https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.37.0.tar.gz
+==> Fetching https://www.kernel.org/pub/software/scm/git/git-manpages-2.37.0.tar.gz
+==> Moving resource stage
+	source: /tmp/om/spack-stage/resource-git-manpages-5phpf3eu34cyqthgzo6reopr63zenrlr/spack-src/
+	destination: /tmp/om/spack-stage/spack-stage-git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr/spack-src/git-manpages
+==> Ran patch() for git
+==> git: Executing phase: 'autoreconf'
+==> git: Executing phase: 'configure'
+==> git: Executing phase: 'build'
+==> git: Executing phase: 'install'
+==> git: Successfully installed git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr
+  Fetch: 2m 49.59s.  Build: 23.36s.  Total: 3m 12.95s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli
+==> Installing netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk
+==> No binary for netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/40/40b9406c20735a9a3009d863318cb8d3e496fb073d201c5463df810e01ab2a57.tgz
+==> Fetching https://mirror.spack.io/_source-cache/archive/07/072b006e485f0ca4cba56096912a986e4d3da73aae51c2205928aa5eb842cefd
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/netlib-scalapack/gcc10-compatibility.patch
+==> Applied patch https://github.com/Reference-ScaLAPACK/scalapack/commit/d4d0066c041cf19a23f8b3aa62fbcf5f0a33c166.patch?full_index=1
+==> netlib-scalapack: Executing phase: 'cmake'
+==> netlib-scalapack: Executing phase: 'build'
+==> netlib-scalapack: Executing phase: 'install'
+==> netlib-scalapack: Successfully installed netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk
+  Fetch: 1.79s.  Build: 28.84s.  Total: 30.63s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk
+==> Installing fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl
+==> No binary for fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/56/56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467.tar.gz
+==> Ran patch() for fftw
+==> fftw: Executing phase: 'autoreconf'
+==> fftw: Executing phase: 'configure'
+==> fftw: Executing phase: 'build'
+==> fftw: Executing phase: 'install'
+==> fftw: Successfully installed fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl
+  Fetch: 0.01s.  Build: 4m 41.91s.  Total: 4m 41.92s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl
+==> Installing quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55
+==> No binary for quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55 found: installing from source
+==> Fetching https://gitlab.com/QEF/q-e/-/archive/qe-7.1/q-e-qe-7.1.tar.gz
+==> No patches needed for quantum-espresso
+==> quantum-espresso: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55/lib64;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk/lib' '-DCMAKE_PREFIX_PATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-niaog5wdlekwxfxsgl2h3zmhptaj3grk;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/git-2.37.0-5phpf3eu34cyqthgzo6reopr63zenrlr;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-i7vnqlbipgcbep6f47hsyqx4ylc3lvvl;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs' '-DQE_ENABLE_MPI:BOOL=ON' '-DQE_ENABLE_OPENMP:BOOL=ON' '-DQE_ENABLE_SCALAPACK:BOOL=ON' '-DQE_ENABLE_ELPA:BOOL=OFF' '-DQE_ENABLE_LIBXC:BOOL=OFF' '' '-DQE_ENABLE_PROFILE_NVTX:BOOL=OFF' '' '-DCMAKE_C_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli/bin/mpicc' '-DCMAKE_Fortran_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-f7tedwcgmqbrm3qlmyt3gdkudduyaoli/bin/mpif90' '/tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55/spack-src'
+
+1 error found in build log:
+     54    -- Found BLAS: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-
+           laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib/libblas.so
+     55    -- Looking for Fortran cheev
+     56    -- Looking for Fortran cheev - not found
+     57    -- Looking for Fortran cheev
+     58    -- Looking for Fortran cheev - not found
+     59    -- Could NOT find LAPACK (missing: LAPACK_LIBRARIES)
+  >> 60    CMake Error at CMakeLists.txt:457 (message):
+     61      Failed to find a complete set of external BLAS/LAPACK library by
+     62      FindLAPACK.  Variables controlling FindLAPACK can be found at CMake online
+     63      documentation.  Alternatively, '-DQE_LAPACK_INTERNAL=ON' may be used to
+     64      enable reference LAPACK at a performance loss compared to optimized
+     65      libraries.
+     66    
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-t2kkm3osouloidjqjrf45aslc76egl55/spack-build-out.txt
+
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt
+[+] /usr (external openssl-1.0.2k-fips-owyexnvyjy755hu2mniscy4fow7jo6bl)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libsigsegv-2.13-wver6r2czgv7fjbx372hzeo2k3olyvxz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/util-macros-1.19.3-6xsttvo7g4xmmuj7sjorndqkghtjrwji
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/berkeley-db-18.1.40-wfbmsdmohyamqldyfkufrgddckdjvr4p
+[+] /usr (external tar-1.26-4zlkug6geslk5z6mx4wjxbiwjcvdso3c)
+[+] /usr (external curl-7.29.0-j2iwyd6dkw5tyqvyjetvvkud66o7voae)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libmd-1.0.4-hazh4bhkyy62tsk6gb6x7qzjo7xxtndh
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pcre2-10.39-puvsuf6v6wdsr7ptxmjz24wtsdfkivpu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/diffutils-3.8-qdhogyw3bzodxnmb63gmrqwouvpmu7dv
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libunistring-0.9.10-mqf6g4zumpbyynbffd6topkrkfrlutsj
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libbsd-0.11.5-gm75o6w2kss3cxf4vlrr64gcnbhtzuz2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4
+==> Installing libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4
+==> No binary for libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/22/2283f741d2aab935c8c52c04b57bf952d02c2c02e651172f8ac811f77b1fc77a.tar.gz
+==> No patches needed for libedit
+==> libedit: Executing phase: 'autoreconf'
+==> libedit: Executing phase: 'configure'
+==> libedit: Executing phase: 'build'
+==> libedit: Executing phase: 'install'
+==> libedit: Successfully installed libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4
+  Fetch: 0.26s.  Build: 20.23s.  Total: 20.49s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libedit-3.1-20210216-564oeu3mu52f3zqpx6u6agxkyycwk6m4
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/readline-8.1.2-5l3owhoi3gepalws5fv4ydbxgta6ljto
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bzip2-1.0.8-2ympd7usty32cf2t3uldsb5mq47ghdr5
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libidn2-2.3.0-gqsvfbc7nrylqtua6uw5gxjay2coxpcz
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/expat-2.4.8-3vg5fppryacu4o6nfet3vsvbtdwdmvzt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gdbm-1.19-efpzcfu7fiptjpsf4n22ztzxhkvy4mnd
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libtool-2.4.7-frbbc4pjuefyymas7p34einifrzkab3r
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/gettext-0.21-pgx4a3l6riiem4uxy6xrhpxhqgokv2wa
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/perl-5.34.1-5tcub2hmtmy57fzizfcgx5uufdramlgw
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/autoconf-2.69-miwetjrxclb2cdw552frko6aktvg5ugc
+==> Installing bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7
+==> No binary for bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7 found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/06/06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb.tar.gz
+==> No patches needed for bison
+==> bison: Executing phase: 'autoreconf'
+==> bison: Executing phase: 'configure'
+==> bison: Executing phase: 'build'
+==> bison: Executing phase: 'install'
+==> bison: Successfully installed bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7
+  Fetch: 0.37s.  Build: 1m 1.78s.  Total: 1m 2.15s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/bison-3.8.2-maqlja2v5si6g7pr4pq6ouihmgkf2xd7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/automake-1.16.5-apv5425meeqjzpg4qzjzp3b2iitp4ezy
+==> Installing krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza
+==> No binary for krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/56/56d04863cfddc9d9eb7af17556e043e3537d41c6e545610778676cf551b9dcd0.tar.gz
+==> Ran patch() for krb5
+==> krb5: Executing phase: 'autoreconf'
+==> krb5: Executing phase: 'configure'
+==> krb5: Executing phase: 'build'
+==> krb5: Executing phase: 'install'
+==> krb5: Successfully installed krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza
+  Fetch: 0.39s.  Build: 1m 31.89s.  Total: 1m 32.28s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/krb5-1.19.3-sfjgwys2j3usdg3xpde3lhwe6lazheza
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h
+==> Installing openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia
+==> No binary for openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/03/03974302161e9ecce32153cfa10012f1e65c8f3750f573a73ab1befd5972a28a.tar.gz
+==> Ran patch() for openssh
+==> openssh: Executing phase: 'autoreconf'
+==> openssh: Executing phase: 'configure'
+==> openssh: Executing phase: 'build'
+==> openssh: Executing phase: 'install'
+==> openssh: Successfully installed openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia
+  Fetch: 0.74s.  Build: 1m 35.74s.  Total: 1m 36.48s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openssh-9.0p1-mbcokpo2m3h4mur7wpxhxek3brhfv4ia
+==> Installing git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf
+==> No binary for git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/fc/fc3ffe6c65c1f7c681a1ce6bb91703866e432c762731d4b57c566d696f6d62c3.tar.gz
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/69/69386ab0dcdbc8398ebb97487733166033f1c7711b02b8861b1ae8f4f46e6e4e.tar.gz
+==> Moving resource stage
+	source: /tmp/om/spack-stage/resource-git-manpages-mhy4yablyl6tcp5m5lltbyywjutofwzf/spack-src/
+	destination: /tmp/om/spack-stage/spack-stage-git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf/spack-src/git-manpages
+==> Ran patch() for git
+==> git: Executing phase: 'autoreconf'
+==> git: Executing phase: 'configure'
+==> git: Executing phase: 'build'
+==> git: Executing phase: 'install'
+==> git: Successfully installed git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf
+  Fetch: 0.01s.  Build: 22.91s.  Total: 22.92s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf
+==> Installing openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz
+==> No binary for openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/92/92912e175fd1234368c8730c03f4996fe5942e7479bb1d10059405e7f2b3930d.tar.bz2
+==> No patches needed for openmpi
+==> openmpi: Executing phase: 'autoreconf'
+==> openmpi: Executing phase: 'configure'
+==> openmpi: Executing phase: 'build'
+==> openmpi: Executing phase: 'install'
+==> openmpi: Successfully installed openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz
+  Fetch: 0.03s.  Build: 11m 11.82s.  Total: 11m 11.85s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz
+==> Installing netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl
+==> No binary for netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/40/40b9406c20735a9a3009d863318cb8d3e496fb073d201c5463df810e01ab2a57.tgz
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/07/072b006e485f0ca4cba56096912a986e4d3da73aae51c2205928aa5eb842cefd
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/netlib-scalapack/gcc10-compatibility.patch
+==> Applied patch https://github.com/Reference-ScaLAPACK/scalapack/commit/d4d0066c041cf19a23f8b3aa62fbcf5f0a33c166.patch?full_index=1
+==> netlib-scalapack: Executing phase: 'cmake'
+==> netlib-scalapack: Executing phase: 'build'
+==> netlib-scalapack: Executing phase: 'install'
+==> netlib-scalapack: Successfully installed netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl
+  Fetch: 0.02s.  Build: 26.93s.  Total: 26.95s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl
+==> Installing fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta
+==> No binary for fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/56/56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467.tar.gz
+==> Ran patch() for fftw
+==> fftw: Executing phase: 'autoreconf'
+==> fftw: Executing phase: 'configure'
+==> fftw: Executing phase: 'build'
+==> fftw: Executing phase: 'install'
+==> fftw: Successfully installed fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta
+  Fetch: 0.01s.  Build: 4m 43.96s.  Total: 4m 43.97s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta
+==> Installing quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6
+==> No binary for quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6 found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/d5/d56dea096635808843bd5a9be2dee3d1f60407c01dbeeda03f8256a3bcfc4eb6.tar.gz
+==> No patches needed for quantum-espresso
+==> quantum-espresso: Executing phase: 'cmake'
+==> Error: ProcessError: Command exited with status 1:
+    '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4/bin/cmake' '-G' 'Unix Makefiles' '-DCMAKE_INSTALL_PREFIX:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6' '-DCMAKE_BUILD_TYPE:STRING=RelWithDebInfo' '-DBUILD_TESTING:BOOL=OFF' '-DCMAKE_INTERPROCEDURAL_OPTIMIZATION:BOOL=OFF' '-DCMAKE_VERBOSE_MAKEFILE:BOOL=ON' '-DCMAKE_INSTALL_RPATH_USE_LINK_PATH:BOOL=ON' '-DCMAKE_INSTALL_RPATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6/lib64;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe/lib;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl/lib' '-DCMAKE_PREFIX_PATH:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/netlib-scalapack-2.2.0-qbxny2fqf2z6myev7iu72llr5shvcuzl;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/git-2.37.0-mhy4yablyl6tcp5m5lltbyywjutofwzf;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/fftw-3.3.10-y455ux76zpssfs4xnrsrorkpqg5s63ta;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pmix-4.1.2-nlz2m6kg6kdmxjqi6mqn5r6ua35u5v4e;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libevent-2.1.12-22cvxxktuxikwrjue5sktypsjyzejwoe;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/numactl-2.0.14-vdfa74sugt6yxbmn6zxkfi4was5usl4h;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hwloc-2.8.0-h36cszatvqejjs5uzru63gtyrsd6ftzb;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libxml2-2.10.1-5yjdgdlusew5tdi5imssx6pkm7aku7xu;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/xz-5.2.5-mwe3hxckhexweofcldk74uwlpvwmo3be;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpciaccess-0.16-cp5wkap4rfk67bzmjm5kpg72phkke6lp;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/m4-1.4.19-p2k6jfy5x2vywkokgx6lqvp2s5onjfef;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libiconv-1.16-pzbshdpo3hxz6kah3lmrq34xsxzp3r3c;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/cmake-3.23.3-dfji2fthgxexbtof3p7cfembwebj7ic4;/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/ncurses-6.3-i3kcxfmsqe2osdxaouzttrdiy7kczjxs' '-DQE_ENABLE_MPI:BOOL=ON' '-DQE_ENABLE_OPENMP:BOOL=ON' '-DQE_ENABLE_SCALAPACK:BOOL=ON' '-DQE_ENABLE_ELPA:BOOL=OFF' '-DQE_ENABLE_LIBXC:BOOL=OFF' '' '-DQE_ENABLE_PROFILE_NVTX:BOOL=OFF' '' '-DCMAKE_C_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz/bin/mpicc' '-DCMAKE_Fortran_COMPILER:STRING=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/openmpi-4.1.4-poqulogozpwrf2o55rwn5qoe3pxcvmgz/bin/mpif90' '/tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6/spack-src'
+
+1 error found in build log:
+     54    -- Found BLAS: /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-
+           laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/lib/libblas.so
+     55    -- Looking for Fortran cheev
+     56    -- Looking for Fortran cheev - not found
+     57    -- Looking for Fortran cheev
+     58    -- Looking for Fortran cheev - not found
+     59    -- Could NOT find LAPACK (missing: LAPACK_LIBRARIES)
+  >> 60    CMake Error at CMakeLists.txt:457 (message):
+     61      Failed to find a complete set of external BLAS/LAPACK library by
+     62      FindLAPACK.  Variables controlling FindLAPACK can be found at CMake online
+     63      documentation.  Alternatively, '-DQE_LAPACK_INTERNAL=ON' may be used to
+     64      enable reference LAPACK at a performance loss compared to optimized
+     65      libraries.
+     66    
+
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-quantum-espresso-7.1-yothqrfdd3xyqqdlpdacbzeofjo3wvr6/spack-build-out.txt
+

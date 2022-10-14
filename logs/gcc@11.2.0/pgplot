@@ -1,0 +1,825 @@
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/zlib-1.2.12-3gr4xn4drbrkvylx65ylpd7ruqqkngp6
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr
+==> Installing pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f
+==> No binary for pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/a5/a5799ff719a510d84d26df4ae7409ae61fe66477e3f1e8820422a9a4727a5be4.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/pgplot/g77_gcc.conf.patch
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/pgplot/pndriv.c.patch
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/pgplot/grsy00.f.patch
+==> pgplot: Executing phase: 'edit'
+==> [2022-09-20-18:50:37.919847] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! PNDRIV 1 /PNG"]
+==> [2022-09-20-18:50:37.922046] FILTER FILE: makemake [replacing "pndriv.o : ./png.h ./pngconf.h ./zlib.h ./zconf.h"]
+==> [2022-09-20-18:50:37.926845] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! PSDRIV 1 /PS"]
+==> [2022-09-20-18:50:37.939594] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! PSDRIV 2 /VPS"]
+==> [2022-09-20-18:50:37.941603] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! PSDRIV 3 /CPS"]
+==> [2022-09-20-18:50:37.943873] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! PSDRIV 4 /VCPS"]
+==> [2022-09-20-18:50:37.946183] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers.list [replacing "! LXDRIV 0 /LATEX"]
+==> [2022-09-20-18:50:37.948391] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@CCOMPL@"]
+==> [2022-09-20-18:50:37.950537] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@CFLAGC@"]
+==> [2022-09-20-18:50:37.952492] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@CFLAGD@"]
+==> [2022-09-20-18:50:37.954363] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@FCOMPL@"]
+==> [2022-09-20-18:50:37.956203] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@FFLAGC@"]
+==> [2022-09-20-18:50:37.958024] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@FFLAGD@"]
+==> [2022-09-20-18:50:37.959876] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@LIBS@"]
+==> [2022-09-20-18:50:37.984625] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@SHARED_LD@"]
+==> [2022-09-20-18:50:37.986539] FILTER FILE: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf [replacing "@SHARED_LIB_LIBS@"]
+==> pgplot: Executing phase: 'build'
+==> [2022-09-20-18:50:38.008267] '/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/makemake' '/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src' 'linux' 'g77_gcc'
+For additional information, read file /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/aaaread.me
+Reading configuration file: /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys_linux/g77_gcc.conf
+Selecting uncommented drivers from ./drivers.list
+Found drivers LXDRIV NUDRIV PNDRIV PSDRIV
+Creating make file: makefile
+Determining object file dependencies.
+==> [2022-09-20-18:50:38.225839] 'make'
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgarro.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgask.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxis.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxlg.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxlg.f:85:14:
+
+   85 |       NSUBT = DVMAJ/DVMIN
+      |              1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgband.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbbuf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbeg.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbeg.f:4:34:
+
+    4 |       INTEGER FUNCTION PGBEG (UNIT, FILE, NXSUB, NYSUB)
+      |                                  1
+Warning: Unused dummy argument 'unit' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbin.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcirc.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcl.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcl.f:2:33:
+
+    2 |       SUBROUTINE PGCL (K, X, Y, Z)
+      |                                 1
+Warning: Unused dummy argument 'z' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgclos.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcn01.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcn01.f:1:33:
+
+    1 |       SUBROUTINE PGCN01(Z, MX, MY, IA, IB, JA, JB, Z0, PLOT,
+      |                                 1
+Warning: Unused dummy argument 'my' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcnsc.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcnsc.f:42:36:
+
+   42 |       LOGICAL FLAGS(MAXEMX,MAXEMY,2), RANGE
+      |                                    1
+Warning: Array 'flags' at (1) is larger than limit set by '-fmax-stack-var-size=', moved from stack to static storage. This makes the procedure unsafe when called recursively, or concurrently from multiple threads. Consider using '-frecursive', or increase the '-fmax-stack-var-size=' limit, or change the code to use an ALLOCATABLE array. [-Wsurprising]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconb.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconb.f:61:22:
+
+   61 |       DO 130 I=I1+1,I2
+      |                      1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 130 at (1)
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcons.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcons.f:64:22:
+
+   64 |       DO 130 I=I1+1,I2
+      |                      1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 130 at (1)
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcont.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconx.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcp.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcp.f:2:33:
+
+    2 |       SUBROUTINE PGCP (K, X, Y, Z)
+      |                                 1
+Warning: Unused dummy argument 'z' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgctab.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgdraw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgebuf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgend.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgenv.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgeras.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerr1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrb.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrx.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerry.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgetxt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunx.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfuny.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pggray.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghi2d.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghis1.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghis1.f:47:9:
+
+   47 |       END
+      |         ^
+Warning: 'xn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghis1.f:23:13:
+
+   23 |       REAL XN
+      |             ^
+note: 'xn' was declared here
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghist.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghist.f:69:17:
+
+   69 |           IBIN = (DATA(I)-DATMIN)/(DATMAX-DATMIN)*NBIN+1
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghtch.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgiden.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgimag.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pginit.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglab.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglcur.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgldev.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglen.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgline.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmove.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtxt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncur.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncur.f:124:39:
+
+  124 |           CALL PGPT(1,X(J),Y(J),SYMBOL)
+      |                                       ^
+Warning: 'j' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnoto.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnpl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnumb.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnumb.f:145:30:
+
+  145 |               WORK = '0'//TEMP
+      |                              1
+Warning: CHARACTER expression will be truncated in assignment (20/21) at (1) [-Wcharacter-truncation]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnumb.f:150:31:
+
+  150 |               WORK = '00'//TEMP
+      |                               1
+Warning: CHARACTER expression will be truncated in assignment (20/22) at (1) [-Wcharacter-truncation]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgolin.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgopen.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpage.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpanl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpap.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpixl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpnts.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoly.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptxt.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptxt.f:65:5:
+
+   65 |    30 CALL PGEBUF
+      |     1
+Warning: Label 30 at (1) defined but not used [-Wunused-label]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqah.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqch.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqci.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcir.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqclp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcol.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcr.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqdt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqfs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqhs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqid.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqinf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqitf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqlw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqndt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqpos.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtbg.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtxt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvsz.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqwin.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrect.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnd.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnd.f:36:13:
+
+   36 |       ILOG = XLOG
+      |             1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnge.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsah.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsave.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsch.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsci.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscir.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsclp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscr.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrn.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsfs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshs.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsitf.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslct.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgstbg.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsubp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsvp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgswin.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtbox.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtbox.f:767:11:
+
+  767 |       NT = TMIN / TICK
+      |           1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtext.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtick.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtikl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgupdt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvect.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsiz.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstd.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwedg.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwedg.f:184:12:
+
+  184 |         IF (IMAGE) THEN
+      |            ^
+Warning: 'image' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwnad.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgadvance.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbegin.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurse.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglabel.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtext.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncurse.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpaper.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoint.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptext.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvport.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsize.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstand.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwindow.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grarea.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grbpic.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grchsz.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grclip.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grclos.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grclpl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grctoi.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grcurs.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grcurs.f:96:15:
+
+   96 |           IX = RBUF(1)
+      |               1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grcurs.f:97:15:
+
+   97 |           IY = RBUF(2)
+      |               1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grdot0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grdot1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grdtyp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gresc.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grepic.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gretxt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grfa.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grfao.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grgfil.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grgfil.f:63:23:
+
+   63 |                L = L+LD
+      |                       ^
+Warning: 'ld' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grgray.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grimg0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grimg1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grimg2.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grimg3.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grimg3.f:84:18:
+
+   84 |               IF (VALUE.GT.RAND) CALL GRDOT0(REAL(IX),REAL(IY))
+      |                  ^
+Warning: 'value' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grinit.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gritoc.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlen.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlin0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlin1.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlin2.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlin3.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grlina.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grmcur.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grmker.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grmova.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grmsg.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:97:27:
+
+   97 |       GRFILE(IDENT) = FFILE
+      |                           1
+Warning: CHARACTER expression will be truncated in assignment (90/128) at (1) [-Wcharacter-truncation]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:106:13:
+
+  106 |       GROPEN=RBUF(2)
+      |             1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:112:20:
+
+  112 |       GRUNIT(IDENT)=RBUF(1)
+      |                    1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:121:20:
+
+  121 |       GRMNCI(IDENT)=RBUF(5)
+      |                    1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:122:20:
+
+  122 |       GRMXCI(IDENT)=RBUF(6)
+      |                    1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:133:22:
+
+  133 |       GRXMXA(IDENT) = RBUF(2)
+      |                      1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:134:22:
+
+  134 |       GRYMXA(IDENT) = RBUF(4)
+      |                      1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/gropen.f:3:41:
+
+    3 |       INTEGER FUNCTION GROPEN (TYPE,DUMMY,FILE,IDENT)
+      |                                         1
+Warning: Unused dummy argument 'dummy' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpage.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpage.f:51:27:
+
+   51 |           GRXMXA(GRCIDE) = RBUF(2)
+      |                           1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpage.f:52:27:
+
+   52 |           GRYMXA(GRCIDE) = RBUF(4)
+      |                           1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpars.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:106:8:
+
+  106 |      1               XMIN,XMAX,YMIN,YMAX)
+      |                1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:125:8:
+
+  125 |      1               XMIN, XMAX, YMIN, YMAX)
+      |                1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:170:8:
+
+  170 |      1               XMIN, XMAX, YMIN, YMAX)
+      |                1
+Warning: Nonconforming tab character at (1) [-Wtabs]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:67:14:
+
+   67 |          IL = I1 + (GRXMIN(GRCIDE) - XMIN) * (I2 - I1 + 1) / XPIX
+      |              1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:76:14:
+
+   76 |          IR = I2 - (XMAX - GRXMAX(GRCIDE)) * (I2 - I1 + 1) / XPIX + 1
+      |              1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:86:14:
+
+   86 |          JB = J1 + (GRYMIN(GRCIDE) - YMIN) * (J2 - J1 + 1) / YPIX
+      |              1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpixl.f:95:14:
+
+   95 |          JT = J2 - (YMAX - GRYMAX(GRCIDE)) * (J2 - J1 + 1) / YPIX + 1
+      |              1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpocl.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpocl.f:83:47:
+
+   83 |       ELSE IF ((EDGE.EQ.3 .OR. EDGE.EQ.4) .AND.
+      |                                               ^
+Warning: 'sy' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpocl.f:76:42:
+
+   76 |       IF ((EDGE.EQ.1 .OR. EDGE.EQ.2) .AND.
+      |                                          ^
+Warning: 'sx' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpocl.f:83:47:
+
+   83 |       ELSE IF ((EDGE.EQ.3 .OR. EDGE.EQ.4) .AND.
+      |                                               ^
+Warning: 'fy' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpocl.f:76:42:
+
+   76 |       IF ((EDGE.EQ.1 .OR. EDGE.EQ.2) .AND.
+      |                                          ^
+Warning: 'fx' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grprom.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpxpo.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpxps.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpxpx.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grpxre.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqcap.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqci.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqcol.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqcr.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqdev.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqdt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqfnt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqlw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqpos.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqtxt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grqtyp.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grquit.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grrec0.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grrec0.f:90:15:
+
+   90 |       NLINES = ABS((YMAX-YMIN)/DY)
+      |               1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grrect.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsci.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grscr.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grscrl.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsetc.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsets.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsets.f:34:26:
+
+   34 |           GRXMXA(IDENT) = RBUF(2)
+      |                          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsets.f:35:26:
+
+   35 |           GRYMXA(IDENT) = RBUF(4)
+      |                          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsets.f:40:13:
+
+   40 |           IX=RBUF(2)
+      |             1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsets.f:41:13:
+
+   41 |           IY=RBUF(4)
+      |             1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsfnt.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsize.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grskpb.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grslct.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grslw.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsyds.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsymk.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grsyxd.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grterm.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtext.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtext.f:3:31:
+
+    3 |       SUBROUTINE GRTEXT (CENTER,ORIENT,ABSXY,X0,Y0,STRING)
+      |                               1
+Warning: Unused dummy argument 'center' at (1) [-Wunused-dummy-argument]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtext.f:169:51:
+
+  169 |          STEMP = '% End "' // STRING(1:SLEN) // '"'
+      |                                                   ^
+Warning: 'slen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtoup.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtrim.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtrn0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grtxy0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grvct0.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grwarn.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grxhls.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/grxrgb.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz grexec.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/lxdriv.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/lxdriv.f:155:10:
+
+  155 |       IXO=X1
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/lxdriv.f:156:10:
+
+  156 |       IYO=Y1
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/lxdriv.f:157:11:
+
+  157 |       IXPS=X2
+      |           1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/lxdriv.f:158:11:
+
+  158 |       IYPS=Y2
+      |           1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/nudriv.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/nudriv.f:162:10:
+
+  162 |       I = RBUF(2) - 67890
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/nudriv.f:308:10:
+
+  308 |       I = RBUF(1)
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/nudriv.f:360:10:
+
+  360 |       I = RBUF(1)
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I.  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/pndriv.c
+In file included from /usr/include/string.h:633,
+                 from /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/pndriv.c:34:
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/pndriv.c: In function 'pndriv_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/pndriv.c:600:9: warning: '__builtin_strncpy' output truncated before terminating nul copying 10 bytes from a string of the same length [-Wstringop-truncation]
+  600 |         strncpy(chr,DEFAULT_FILENAME,*lchr);
+      |         ^~~~~~~
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/pndriv.c:594:9: warning: '__builtin_strncpy' output truncated before terminating nul copying 10 bytes from a string of the same length [-Wstringop-truncation]
+  594 |         strncpy(chr,DEVICE_CAPABILITIES,*lchr);
+      |         ^~~~~~~
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:507:18:
+
+  507 |          HEIGHT = RBUF(1)
+      |                  1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:508:17:
+
+  508 |          WIDTH = RBUF(2)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:510:17:
+
+  510 |          WIDTH = RBUF(1)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:511:18:
+
+  511 |          HEIGHT = RBUF(2)
+      |                  1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:685:17:
+
+  685 |           NPTS = RBUF(1)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:719:15:
+
+  719 |           CI = RBUF(1)
+      |               1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:724:15:
+
+  724 |           CI = RBUF(1)
+      |               1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:759:10:
+
+  759 |       N = RBUF(1)
+      |          1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:763:16:
+
+  763 |           NXP = RBUF(2)
+      |                1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:764:16:
+
+  764 |           NYP = RBUF(3)
+      |                1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:765:17:
+
+  765 |           XORG = RBUF(4)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:766:17:
+
+  766 |           XLEN = RBUF(5) - RBUF(4)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:767:17:
+
+  767 |           YORG = RBUF(6)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:768:17:
+
+  768 |           YLEN = RBUF(7) - RBUF(6)
+      |                 1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/drivers/psdriv.f:805:19:
+
+  805 |               CI = RBUF(I+1)
+      |                   1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(4) at (1) [-Wconversion]
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grdate.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c: In function 'grofil_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:82:5: warning: implicit declaration of function 'strncpy' [-Wimplicit-function-declaration]
+   82 |     strncpy(buff, name, slen);
+      |     ^~~~~~~
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:23:1: note: include '<string.h>' or provide a declaration of 'strncpy'
+   22 | #include <fcntl.h>
+  +++ |+#include <string.h>
+   23 | 
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:82:5: warning: incompatible implicit declaration of built-in function 'strncpy' [-Wbuiltin-declaration-mismatch]
+   82 |     strncpy(buff, name, slen);
+      |     ^~~~~~~
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:82:5: note: include '<string.h>' or provide a declaration of 'strncpy'
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c: In function 'grcfil_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:129:12: warning: implicit declaration of function 'close'; did you mean 'fclose'? [-Wimplicit-function-declaration]
+  129 |     return close(*fd);
+      |            ^~~~~
+      |            fclose
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c: In function 'grwfil_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:158:10: warning: implicit declaration of function 'write'; did you mean 'fwrite'? [-Wimplicit-function-declaration]
+  158 |   return write(*fd, (void *) buf, *nbytes);
+      |          ^~~~~
+      |          fwrite
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c: In function 'grofil_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grfileio.c:82:5: warning: 'strncpy' destination unchanged after copying no bytes [-Wstringop-truncation]
+   82 |     strncpy(buff, name, slen);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grflun.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grflun.f:3:27:
+
+    3 |       SUBROUTINE GRFLUN(LUN)
+      |                           1
+Warning: Unused dummy argument 'lun' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grgcom.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grgenv.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grgetc.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grglun.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grgmem.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grgmsg.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grlgtr.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grlgtr.f:3:29:
+
+    3 |       SUBROUTINE GRLGTR (NAME)
+      |                             1
+Warning: Unused dummy argument 'name' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/groptx.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/groptx.f:3:49:
+
+    3 |       INTEGER FUNCTION GROPTX (UNIT, NAME, DEFNAM, MODE)
+      |                                                 1
+Warning: Unused dummy argument 'defnam' at (1) [-Wunused-dummy-argument]
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grsy00.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c: In function 'groter_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:39:5: warning: implicit declaration of function 'strncpy' [-Wimplicit-function-declaration]
+   39 |     strncpy(name, cdev, *ldev);
+      |     ^~~~~~~
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:10:1: note: include '<string.h>' or provide a declaration of 'strncpy'
+    9 | #include <termios.h>
+  +++ |+#include <string.h>
+   10 | 
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:39:5: warning: incompatible implicit declaration of built-in function 'strncpy' [-Wbuiltin-declaration-mismatch]
+   39 |     strncpy(name, cdev, *ldev);
+      |     ^~~~~~~
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:39:5: note: include '<string.h>' or provide a declaration of 'strncpy'
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:48:12: warning: implicit declaration of function 'open'; did you mean 'fopen'? [-Wimplicit-function-declaration]
+   48 |   if((fd = open(name, 2)) == -1) {
+      |            ^~~~
+      |            fopen
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c: In function 'grcter_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:63:3: warning: implicit declaration of function 'close'; did you mean 'fclose'? [-Wimplicit-function-declaration]
+   63 |   close(*fd);
+      |   ^~~~~
+      |   fclose
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c: In function 'grwter_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:77:19: warning: implicit declaration of function 'write'; did you mean 'fwrite'? [-Wimplicit-function-declaration]
+   77 |    int nwritten = write (*fd, cbuf, *lbuf);
+      |                   ^~~~~
+      |                   fwrite
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c: In function 'grpter_':
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtermio.c:132:16: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+  132 |        nread = read(*fd, &buff[ndone], ntry);
+      |                ^~~~
+      |                fread
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtrml.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -c -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/grtter.f
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/sys/gruser.c
+ar ru libpgplot.a \
+	`ls pgarro.o pgask.o  pgaxis.o pgaxlg.o pgband.o pgbbuf.o pgbeg.o  pgbin.o  pgbox.o  pgbox1.o pgcirc.o pgcl.o   pgclos.o pgcn01.o pgcnsc.o pgconb.o pgconf.o pgconl.o pgcons.o pgcont.o pgconx.o pgcp.o   pgctab.o pgcurs.o pgdraw.o pgebuf.o pgend.o  pgenv.o  pgeras.o pgerr1.o pgerrb.o pgerrx.o pgerry.o pgetxt.o pgfunt.o pgfunx.o pgfuny.o pggray.o pghi2d.o pghis1.o pghist.o pghtch.o pgiden.o pgimag.o pginit.o pglab.o  pglcur.o pgldev.o pglen.o  pgline.o pgmove.o pgmtxt.o pgncur.o pgnoto.o pgnpl.o  pgnumb.o pgolin.o pgopen.o pgpage.o pgpanl.o pgpap.o  pgpixl.o pgpnts.o pgpoly.o pgpt.o   pgpt1.o  pgptxt.o pgqah.o  pgqcf.o  pgqch.o  pgqci.o  pgqcir.o pgqclp.o pgqcol.o pgqcr.o  pgqcs.o  pgqdt.o  pgqfs.o  pgqhs.o  pgqid.o  pgqinf.o pgqitf.o pgqls.o  pgqlw.o  pgqndt.o pgqpos.o pgqtbg.o pgqtxt.o pgqvp.o  pgqvsz.o pgqwin.o pgrect.o pgrnd.o  pgrnge.o pgsah.o  pgsave.o pgscf.o  pgsch.o  pgsci.o  pgscir.o pgsclp.o pgscr.o  pgscrl.o pgscrn.o pgsfs.o  pgshls.o pgshs.o  pgsitf.o pgslct.o pgsls.o  pgslw.o  pgstbg.o pgsubp.o pgsvp.o  pgswin.o pgtbox.o pgtext.o pgtick.o pgtikl.o pgupdt.o pgvect.o pgvsiz.o pgvstd.o pgvw.o   pgwedg.o pgwnad.o \
+	pgadvance.o pgbegin.o   pgcurse.o   pglabel.o   pgmtext.o   pgncurse.o  pgpaper.o   pgpoint.o   pgptext.o   pgvport.o   pgvsize.o   pgvstand.o  pgwindow.o  grarea.o grbpic.o grchsz.o grclip.o grclos.o grclpl.o grctoi.o grcurs.o grdot0.o grdot1.o grdtyp.o gresc.o  grepic.o gretxt.o grfa.o   grfao.o  grgfil.o grgray.o grimg0.o grimg1.o grimg2.o grimg3.o grinit.o gritoc.o grlen.o  grlin0.o grlin1.o grlin2.o grlin3.o grlina.o grmcur.o grmker.o grmova.o grmsg.o gropen.o grpage.o grpars.o grpixl.o grpocl.o grprom.o grpxpo.o grpxps.o grpxpx.o grpxre.o grqcap.o grqci.o  grqcol.o grqcr.o  grqdev.o grqdt.o  grqfnt.o grqls.o  grqlw.o  grqpos.o grqtxt.o grqtyp.o grquit.o grrec0.o grrect.o grsci.o  grscr.o  grscrl.o grsetc.o grsets.o grsfnt.o grsize.o grskpb.o grslct.o grsls.o  grslw.o  grsyds.o grsymk.o grsyxd.o grterm.o grtext.o grtoup.o grtrim.o grtrn0.o grtxy0.o grvct0.o grwarn.o grxhls.o grxrgb.o grexec.o \
+	lxdriv.o nudriv.o pndriv.o psdriv.o  grdate.o grfileio.o grflun.o grgcom.o grgenv.o grgetc.o grglun.o grgmem.o grgmsg.o grlgtr.o groptx.o grsy00.o grtermio.o grtrml.o grtter.o gruser.o | sort | uniq`
+ar: creating libpgplot.a
+ranlib libpgplot.a
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -shared -o libpgplot.so `ls pgarro.o pgask.o  pgaxis.o pgaxlg.o pgband.o pgbbuf.o pgbeg.o  pgbin.o  pgbox.o  pgbox1.o pgcirc.o pgcl.o   pgclos.o pgcn01.o pgcnsc.o pgconb.o pgconf.o pgconl.o pgcons.o pgcont.o pgconx.o pgcp.o   pgctab.o pgcurs.o pgdraw.o pgebuf.o pgend.o  pgenv.o  pgeras.o pgerr1.o pgerrb.o pgerrx.o pgerry.o pgetxt.o pgfunt.o pgfunx.o pgfuny.o pggray.o pghi2d.o pghis1.o pghist.o pghtch.o pgiden.o pgimag.o pginit.o pglab.o  pglcur.o pgldev.o pglen.o  pgline.o pgmove.o pgmtxt.o pgncur.o pgnoto.o pgnpl.o  pgnumb.o pgolin.o pgopen.o pgpage.o pgpanl.o pgpap.o  pgpixl.o pgpnts.o pgpoly.o pgpt.o   pgpt1.o  pgptxt.o pgqah.o  pgqcf.o  pgqch.o  pgqci.o  pgqcir.o pgqclp.o pgqcol.o pgqcr.o  pgqcs.o  pgqdt.o  pgqfs.o  pgqhs.o  pgqid.o  pgqinf.o pgqitf.o pgqls.o  pgqlw.o  pgqndt.o pgqpos.o pgqtbg.o pgqtxt.o pgqvp.o  pgqvsz.o pgqwin.o pgrect.o pgrnd.o  pgrnge.o pgsah.o  pgsave.o pgscf.o  pgsch.o  pgsci.o  pgscir.o pgsclp.o pgscr.o  pgscrl.o pgscrn.o pgsfs.o  pgshls.o pgshs.o  pgsitf.o pgslct.o pgsls.o  pgslw.o  pgstbg.o pgsubp.o pgsvp.o  pgswin.o pgtbox.o pgtext.o pgtick.o pgtikl.o pgupdt.o pgvect.o pgvsiz.o pgvstd.o pgvw.o   pgwedg.o pgwnad.o \
+pgadvance.o pgbegin.o   pgcurse.o   pglabel.o   pgmtext.o   pgncurse.o  pgpaper.o   pgpoint.o   pgptext.o   pgvport.o   pgvsize.o   pgvstand.o  pgwindow.o  grarea.o grbpic.o grchsz.o grclip.o grclos.o grclpl.o grctoi.o grcurs.o grdot0.o grdot1.o grdtyp.o gresc.o  grepic.o gretxt.o grfa.o   grfao.o  grgfil.o grgray.o grimg0.o grimg1.o grimg2.o grimg3.o grinit.o gritoc.o grlen.o  grlin0.o grlin1.o grlin2.o grlin3.o grlina.o grmcur.o grmker.o grmova.o grmsg.o gropen.o grpage.o grpars.o grpixl.o grpocl.o grprom.o grpxpo.o grpxps.o grpxpx.o grpxre.o grqcap.o grqci.o  grqcol.o grqcr.o  grqdev.o grqdt.o  grqfnt.o grqls.o  grqlw.o  grqpos.o grqtxt.o grqtyp.o grquit.o grrec0.o grrect.o grsci.o  grscr.o  grscrl.o grsetc.o grsets.o grsfnt.o grsize.o grskpb.o grslct.o grsls.o  grslw.o  grsyds.o grsymk.o grsyxd.o grterm.o grtext.o grtoup.o grtrim.o grtrn0.o grtxy0.o grvct0.o grwarn.o grxhls.o grxrgb.o grexec.o \
+lxdriv.o nudriv.o pndriv.o psdriv.o  grdate.o grfileio.o grflun.o grgcom.o grgenv.o grgetc.o grglun.o grgmem.o grgmsg.o grlgtr.o groptx.o grsy00.o grtermio.o grtrml.o grtter.o gruser.o | sort | uniq` -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -Wall -fPIC -O -ffixed-line-length-none -fallow-invalid-boz -o pgpack /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/fonts/pgpack.f
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/fonts/pgpack.f:70:24:
+
+   70 |           BUFFER(LOC) = XYGRID(1)
+      |                        1
+Warning: Possible change of value in conversion from INTEGER(4) to INTEGER(2) at (1) [-Wconversion]
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/fonts/pgpack.f:74:28:
+
+   74 |               BUFFER(LOC) = 128*(XYGRID(I)+64) + XYGRID(I+1) + 64
+      |                            1
+Warning: Possible change of value in conversion from INTEGER(4) to INTEGER(2) at (1) [-Wconversion]
+rm -f grfont.dat
+./pgpack </tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/fonts/grfont.txt
+ Characters defined:   996
+ Array cells used:   26732
+rm -f pgpack
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo1 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo1.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo2 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo2.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo3 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo3.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo4 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo4.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo5 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo5.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo6 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo6.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo7 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo7.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo8 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo8.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo9 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo9.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo10 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo10.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo11 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo11.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo12 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo12.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo13 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo13.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo14 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo14.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo15 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo15.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo16 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo16.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -fno-backslash -o pgdemo17 /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/examples/pgdemo17.f -L`pwd` -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+/tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/makedoc /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgarro.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgask.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxis.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxlg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgband.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbbuf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbeg.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbin.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcirc.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcl.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgclos.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcn01.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcnsc.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcons.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcont.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcp.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgctab.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurs.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgdraw.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgebuf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgend.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgenv.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgeras.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerr1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerry.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgetxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfuny.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pggray.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghi2d.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghis1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghist.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghtch.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgiden.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgimag.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pginit.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglab.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglcur.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgldev.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglen.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgline.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmove.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncur.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnoto.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnpl.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnumb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgolin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgopen.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpage.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpanl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpap.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpixl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpnts.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoly.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt1.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqah.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcf.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqch.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqci.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcir.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqclp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcol.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcr.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqdt.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqfs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqhs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqid.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqinf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqitf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqls.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqlw.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqndt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqpos.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtbg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvp.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvsz.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqwin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrect.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnd.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnge.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsah.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsave.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscf.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsch.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsci.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscir.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsclp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscr.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrn.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsfs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshls.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsitf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslct.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsls.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslw.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgstbg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsubp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsvp.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgswin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtbox.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtext.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtick.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtikl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgupdt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvect.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsiz.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstd.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvw.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwedg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwnad.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgadvance.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbegin.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurse.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglabel.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtext.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncurse.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpaper.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoint.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptext.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvport.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsize.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstand.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwindow.f  > pgplot.doc
+ 
+*** Finished compilation of PGPLOT ***
+ 
+Note that if you plan to install PGPLOT in a different
+directory than the current one, the following files will be
+needed.
+ 
+       libpgplot.a
+       libpgplot.so
+       grfont.dat
+       rgb.txt
+ 
+Also note that subsequent usage of PGPLOT programs requires that
+the full path of the chosen installation directory be named in
+an environment variable named PGPLOT_DIR.
+ 
+==> [2022-09-20-18:50:57.365809] 'make' 'clean'
+==> [2022-09-20-18:50:57.394674] 'make' 'cpg'
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/cpg/pgbind.c -o pgbind
+./pgbind bsd -h -w /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgarro.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgask.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxis.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgaxlg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgband.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbbuf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbeg.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbin.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbox1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcirc.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcl.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgclos.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcn01.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcnsc.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcons.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcont.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgconx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcp.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgctab.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurs.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgdraw.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgebuf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgend.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgenv.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgeras.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerr1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerrx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgerry.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgetxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfunx.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgfuny.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pggray.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghi2d.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghis1.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghist.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pghtch.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgiden.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgimag.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pginit.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglab.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglcur.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgldev.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglen.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgline.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmove.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncur.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnoto.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnpl.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgnumb.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgolin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgopen.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpage.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpanl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpap.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpixl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpnts.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoly.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpt1.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqah.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcf.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqch.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqci.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcir.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqclp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcol.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcr.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqcs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqdt.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqfs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqhs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqid.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqinf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqitf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqls.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqlw.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqndt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqpos.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtbg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqtxt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvp.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqvsz.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgqwin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrect.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnd.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgrnge.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsah.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsave.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscf.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsch.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsci.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscir.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsclp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscr.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgscrn.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsfs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshls.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgshs.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsitf.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslct.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsls.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgslw.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgstbg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsubp.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgsvp.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgswin.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtbox.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtext.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtick.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgtikl.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgupdt.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvect.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsiz.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstd.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvw.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwedg.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwnad.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgadvance.f /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgbegin.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgcurse.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pglabel.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgmtext.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgncurse.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpaper.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgpoint.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgptext.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvport.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvsize.f   /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgvstand.f  /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/src/pgwindow.f 
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -c -Wall -fPIC -DPG_PPU -O -std=c89 -Wno-error=implicit-function-declaration -I. cpg*.c
+rm -f cpg*.c
+ar ru libcpgplot.a cpg*.o
+ar: creating libcpgplot.a
+ranlib libcpgplot.a
+rm -f cpg*.o
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -O2 -c -I. /tmp/om/spack-stage/spack-stage-pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/spack-src/cpg/cpgdemo.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gfortran -o cpgdemo cpgdemo.o -L`pwd` -lcpgplot -lpgplot -lpng -lz -L/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/libpng-1.6.37-ortom7llmwxsbmo2hih2fidcrqtivgyr/lib -lpng -lgfortran
+rm -f cpgdemo.o
+ 
+*** Finished compilation of the C PGPLOT wrapper library ***
+ 
+Note that if you plan to install the library in a different
+directory than the current one, both libcpgplot.a and cpgplot.h
+will be needed.
+ 
+==> pgplot: Executing phase: 'install'
+==> [2022-09-20-18:50:59.981130] Installing cpgdemo to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.982299] Installing pgbind to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.983086] Installing pgdemo1 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.992098] Installing pgdemo2 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.992835] Installing pgdemo3 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.994494] Installing pgdemo4 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.995136] Installing pgdemo5 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.995729] Installing pgdemo6 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.996313] Installing pgdemo7 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.996914] Installing pgdemo8 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.997501] Installing pgdemo9 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.998086] Installing pgdemo10 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.998668] Installing pgdemo11 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.999243] Installing pgdemo12 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:50:59.999827] Installing pgdemo13 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:51:00.000458] Installing pgdemo14 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:51:00.001065] Installing pgdemo15 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:51:00.001724] Installing pgdemo16 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:51:00.002335] Installing pgdemo17 to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/bin
+==> [2022-09-20-18:51:00.004525] Installing cpgplot.h to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/include
+==> [2022-09-20-18:51:00.005347] Installing libcpgplot.a to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/lib
+==> [2022-09-20-18:51:00.006220] Installing libpgplot.a to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/lib
+==> [2022-09-20-18:51:00.008017] Installing libpgplot.so to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/lib
+==> [2022-09-20-18:51:00.009015] Installing grfont.dat to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f/include
+==> pgplot: Successfully installed pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f
+  Fetch: 4.03s.  Build: 22.31s.  Total: 26.34s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pgplot-5.2.2-vrfzwh2vggu56fd4avnvkqkmno3dpd5f

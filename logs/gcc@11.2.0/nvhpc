@@ -1,0 +1,11 @@
+==> Installing nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+==> No binary for nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi found: installing from source
+==> Fetching https://developer.download.nvidia.com/hpc-sdk/22.7/nvhpc_2022_227_Linux_x86_64_cuda_multi.tar.gz
+==> No patches needed for nvhpc
+==> nvhpc: Executing phase: 'install'
+==> [2022-09-16-18:12:51.653197] './install'
+generating environment modules for NV HPC SDK 22.7 ... done.
+==> [2022-09-16-18:13:11.781479] '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/bin/makelocalrc' '-gcc' '/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/gcc' '-gpp' '/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/g++' '-g77' '/home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/gcc-11.2.0-yq5yxpbp3ztbljfsnbwtpjclrlnvjoec/bin/gfortran' '-x' '/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi/Linux_x86_64/22.7/compilers/bin'
+==> nvhpc: Successfully installed nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi
+  Fetch: 48m 6.12s.  Build: 2m 45.70s.  Total: 50m 51.83s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/nvhpc-22.7-laensa5m5o5udgqtakjlxo55o2htpyvi

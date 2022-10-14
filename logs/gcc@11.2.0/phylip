@@ -1,0 +1,122 @@
+==> Installing phylip-3.697-o7gnhavwqgxk2lojp43hzuclvupdzh3n
+==> No binary for phylip-3.697-o7gnhavwqgxk2lojp43hzuclvupdzh3n found: installing from source
+==> Fetching https://mirror.spack.io/_source-cache/archive/9a/9a26d8b08b8afea7f708509ef41df484003101eaf4beceb5cf7851eb940510c1.tar.gz
+==> Ran patch() for phylip
+==> phylip: Executing phase: 'install'
+==> [2022-09-20-18:24:54.438515] 'make' '-j8' 'all' '-f' 'Makefile.unx'
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o clique.o clique.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o disc.o disc.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o phylip.o phylip.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o consense.o consense.c
+Building PHYLIP version 3.696
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o cons.o cons.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o contml.o contml.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o cont.o cont.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o contrast.o contrast.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnacomp.o dnacomp.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o seq.o seq.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnadist.o dnadist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnainvar.o dnainvar.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnaml.o dnaml.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnamlk.o dnamlk.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o mlclock.o mlclock.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o printree.o printree.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnamove.o dnamove.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o moves.o moves.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnapars.o dnapars.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dnapenny.o dnapenny.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dolmove.o dolmove.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dollo.o dollo.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dollop.o dollop.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dolpenny.o dolpenny.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o factor.o factor.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o fitch.o fitch.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o dist.o dist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o gendist.o gendist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o kitsch.o kitsch.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o mix.o mix.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o wagner.o wagner.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o move.o move.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o neighbor.o neighbor.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o pars.o pars.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o discrete.o discrete.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o penny.o penny.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o proml.o proml.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o promlk.o promlk.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o protdist.o protdist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o protpars.o protpars.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o restdist.o restdist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o restml.o restml.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o retree.o retree.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o seqboot.o seqboot.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon   -c -o treedist.o treedist.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon -c drawgram.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon -c draw.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon -c draw2.c
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon  -shared -fPIC -c drawtree.c
+drawgram.c: In function 'drawgram':
+drawgram.c:2111:9: warning: implicit declaration of function 'makebox' [-Wimplicit-function-declaration]
+ 2111 |         makebox(fontname,&xoffset,&yoffset,&scale,spp);
+      |         ^~~~~~~
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon clique.o disc.o phylip.o -lm -o clique
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon consense.o phylip.o cons.o -lm -o consense
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon contml.o cont.o phylip.o -lm -o contml
+drawtree.c: In function 'drawtree':
+drawtree.c:3017:9: warning: implicit declaration of function 'makebox' [-Wimplicit-function-declaration]
+ 3017 |         makebox(fontname,&xoffset,&yoffset,&scale,spp);
+      |         ^~~~~~~
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon contrast.o cont.o phylip.o -lm -o contrast
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnacomp.o seq.o phylip.o -lm -o dnacomp
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnadist.o seq.o phylip.o -lm -o dnadist
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnainvar.o seq.o phylip.o -lm -o dnainvar
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnaml.o seq.o phylip.o -lm -o dnaml
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnamlk.o seq.o phylip.o mlclock.o printree.o -lm -o dnamlk
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnamove.o seq.o moves.o phylip.o -lm -o dnamove
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnapars.o seq.o phylip.o -lm -o dnapars
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dnapenny.o seq.o phylip.o -lm -o dnapenny
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dolmove.o disc.o moves.o dollo.o phylip.o -lm -o dolmove
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dollop.o disc.o dollo.o phylip.o -lm -o dollop
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon dolpenny.o disc.o dollo.o phylip.o -lm -o dolpenny
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon factor.o phylip.o -lm -o factor
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon fitch.o dist.o phylip.o -lm -o fitch
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon gendist.o phylip.o -lm -o gendist
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon kitsch.o dist.o phylip.o -lm -o kitsch
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon mix.o disc.o wagner.o phylip.o -lm -o mix
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon move.o disc.o moves.o wagner.o phylip.o -lm -o move
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon neighbor.o dist.o phylip.o -lm -o neighbor
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon pars.o discrete.o phylip.o -lm -o pars
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon penny.o disc.o wagner.o  phylip.o -lm -o penny
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon proml.o seq.o phylip.o -lm -o proml
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon promlk.o seq.o phylip.o mlclock.o printree.o -lm -o promlk
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon protdist.o seq.o phylip.o -lm -o protdist
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon protpars.o seq.o phylip.o -lm -o protpars
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon restdist.o seq.o phylip.o -lm -o restdist
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon restml.o seq.o phylip.o -lm -o restml
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon retree.o moves.o phylip.o -lm -o retree
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon seqboot.o seq.o phylip.o -lm -o seqboot
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon treedist.o cons.o phylip.o -lm -o treedist
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon draw.o draw2.o drawgram.o phylip.o -lm -o drawgram
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon draw.o draw2.o drawtree.o phylip.o -lm -o drawtree
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon -o libdrawgram.so -shared -fPIC drawgram.c draw.c draw2.c phylip.c 
+/home/om/SPACK/spack/lib/spack/env/gcc/gcc -fcommon -o libdrawtree.so  -shared -fPIC drawtree.c draw.c draw2.c phylip.c 
+drawgram.c: In function 'drawgram':
+drawgram.c:2111:9: warning: implicit declaration of function 'makebox' [-Wimplicit-function-declaration]
+ 2111 |         makebox(fontname,&xoffset,&yoffset,&scale,spp);
+      |         ^~~~~~~
+drawtree.c: In function 'drawtree':
+drawtree.c:3017:9: warning: implicit declaration of function 'makebox' [-Wimplicit-function-declaration]
+ 3017 |         makebox(fontname,&xoffset,&yoffset,&scale,spp);
+      |         ^~~~~~~
+Finished compiling.
+
+==> [2022-09-20-18:24:56.735338] 'make' '-j8' 'put' '-f' 'Makefile.unx'
+Installing PHYLIP v3.6 binaries in ../exe
+Installing dynamic libraries in ../exe
+Installing jar files in ../exe
+Installing font files in ../exe
+Finished installation.
+
+==> [2022-09-20-18:24:56.808663] Installing exe to /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/phylip-3.697-o7gnhavwqgxk2lojp43hzuclvupdzh3n/bin
+==> phylip: Successfully installed phylip-3.697-o7gnhavwqgxk2lojp43hzuclvupdzh3n
+  Fetch: 2.75s.  Build: 2.65s.  Total: 5.40s.
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/phylip-3.697-o7gnhavwqgxk2lojp43hzuclvupdzh3n

@@ -1,0 +1,12 @@
+--------------------- wrf@4.3.3 ~chem+pnetcdf build_type=dm+sm compile_type=em_real ^bison@3.8.2%gcc@12.2.0 ^python@3.8.12 ^openmpi ^netcdf-fortran@4.5.4 ^intel-oneapi-mkl%gcc@12.2.0 ^git  ------------------------------
+
+Installation Command : spack install  -v -j8  wrf@4.3.3 %gcc@12.2.0  ~chem+pnetcdf build_type=dm+sm compile_type=em_real ^bison@3.8.2%gcc@12.2.0 ^python@3.8.12 ^openmpi ^netcdf-fortran@4.5.4 ^intel-oneapi-mkl%gcc@12.2.0 ^git  
+
+FAIL: Please check the logs of wrf
+----------------------------------------------
+--------------------- wrf@4.3.3 ~chem+pnetcdf build_type=dm+sm compile_type=em_real ^bison@3.8.2%gcc@12.2.0 ^python@3.8.12 ^openmpi ^netcdf-fortran@4.5.4 ^intel-oneapi-mkl%gcc@12.2.0 ^git  ------------------------------
+
+Installation Command : spack install  -v -j8  wrf@4.3.3 %gcc@12.2.0  ~chem+pnetcdf build_type=dm+sm compile_type=em_real ^bison@3.8.2%gcc@12.2.0 ^python@3.8.12 ^openmpi ^netcdf-fortran@4.5.4 ^intel-oneapi-mkl%gcc@12.2.0 ^git  
+
+FAIL: Please check the logs of wrf
+----------------------------------------------

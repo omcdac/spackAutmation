@@ -1,0 +1,10 @@
+--------------------- intel-oneapi-mpi  ------------------------------
+
+Installation Command : spack install  -j8 -v  intel-oneapi-mpi %intel   
+
+OK: intel-oneapi-mpi  has been installed Successfully !
+--------------------- intel-oneapi-mkl  ------------------------------
+
+Installation Command : spack install  -j8 -v  intel-oneapi-mkl %intel   
+
+OK: intel-oneapi-mkl  has been installed Successfully !

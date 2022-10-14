@@ -1,0 +1,45 @@
+==> Installing charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6
+==> No binary for charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6 found: installing from source
+==> Using cached archive: /home/om/SPACK/spack/var/spack/cache/_source-cache/archive/08/08e6001b0e9cd00ebde179f76098767149bf7e454f29028fb9a8bfb55778698e.tar.gz
+==> Applied patch /home/om/SPACK/spack/var/spack/repos/builtin/packages/charmpp/strictpass.patch
+==> charmpp: Executing phase: 'install'
+==> [2022-09-21-13:22:41.977600] './build' 'LIBS' 'netlrts-linux-x86_64' 'icx' 'ifx' '-j8' '--destination=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6' 'smp' '--build-shared' '--with-production'
+Error> option: icx is not supported in this version!
+Supported compilers: clang craycc gcc icc iccstatic pgcc xlc xlc64
+Supported options: bigemulator bigsim causalft clustermatic cuda g95 gfortran ifort lcs local mlogft nolb omp ooc papi pedantic perftools persistent pgf90 pxshm smp syncft sysvshm tcp tsan
+==> Error: ProcessError: Command exited with status 1:
+    './build' 'LIBS' 'netlrts-linux-x86_64' 'icx' 'ifx' '-j8' '--destination=/home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6' 'smp' '--build-shared' '--with-production'
+See build log for details:
+  /tmp/om/spack-stage/spack-stage-charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6/spack-build-out.txt
+
+==> Warning: Skipping build of namd-2.13-disymfc2a5ptpixpxjfefalog7kirxfg since charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6 failed
+==> Error: namd-2.13-disymfc2a5ptpixpxjfefalog7kirxfg: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/libtool-2.4.7-msel7oz2egeqnazt2pasvaotxzu4o6qc (external libtool-2.4.7-hrbyjgdwz7vbliksp7xyvhqro3prelw4)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/pkgconf-1.8.0-tj6ce65gzjhyqfjxukunjkruoh3sd5wt (external pkgconf-1.8.0-wnh6edw5bbs3f4rhy4kxki3f64g6grbe)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/util-macros-1.19.3-a4m4npxcpa52k2bffvfi5hji4dy7wbf7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libiconv-1.16-a4xdiho6b65yu7w2y7e62pg6oofsrfd3
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/xz-5.2.5-5w32eb2ftntiny5lyjwjkfejc7ia6bsy
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/zlib-1.2.12-f2ncyv7tzzgjj6zvhgcz6op5y5kzgsxr
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/autoconf-2.69-7kvlvg44onvse6gdctbh72orofuin4vp (external autoconf-2.69-sm5ojghisytft46u6eqkwyxk3i7zdqki)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/automake-1.16.5-pj5hd2ne2fdtwzdzw4f5tqhihqw3y3ei (external automake-1.16.5-k4xfmg3i6mqc74dydv73rzt4iu2aq7jo)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/m4-1.4.19-2cglnsrcpwjobxyyrqwrgoajibjhn73h (external m4-1.4.19-t66qhf4g5wt43z2imskkwkussfwguhhs)
+[+] /usr (external openssh-7.4p1-tbpm45drlo2e4s6y5dumgraw35igwnk5)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/berkeley-db-18.1.40-te26ts62pj32nxeaklooztpiwtsfyos2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-haswell/gcc-4.8.5/diffutils-3.8-jbmktfemr2gl4sawm75p3vigrzryziuk (external diffutils-3.8-zpc6omuiyh2wtu75f6ymzhs42ouvqe45)
+[+] /usr (external openssl-1.0.2k-fips-52hehc5aslirhprbu3ega25byvoqszzj)
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/ncurses-6.3-5nqlf5pgy76u6lft24lrzon4jq64rxap
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libpciaccess-0.16-pa6sjflx5l2zuupdhb5mgwc2uabtmjwt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libxml2-2.10.1-7fy24ool7vlwtwcvjt6z33pmu3rbctbl
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/numactl-2.0.14-j6cdppkyb3co3cdu4553yoq4t7vudxys
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/bzip2-1.0.8-7omrstdeoin6z4eotpg25niejywbv64x
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/libevent-2.1.12-7f7sahlpdko67ydou2itudhgas6fu2if
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/readline-8.1.2-baqtc65pmzyo7iahvkgbivnrtaowr32o
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/hwloc-2.8.0-gm4nm3l2yhzwexik6iyiw3kwvonz24i7
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/gdbm-1.19-kzim2nhaccgvuryrglgk3a7f6anudrai
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/pmix-4.1.2-o2fo3wnld25vp4hfknmkkyivgtccbw4w
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/perl-5.34.1-l3uwrlcfwmlwcxyuhenwlv4msdrk3xbt
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/openmpi-4.1.4-2qxbdkoqtgxgpj4kfquh4uik6rmjtvo2
+[+] /home/om/SPACK/spack/opt/spack/linux-centos7-cascadelake/oneapi-2022.1.0/fftw-3.3.10-sjgy2mymsphphsrah4wrtc2a2eolrhgk
+==> Removing failure mark on charmpp-6.8.2-ynrasylw7a2nnteblgvtvof4zwbl4zi6
+==> Removing failure mark on namd-2.13-disymfc2a5ptpixpxjfefalog7kirxfg
