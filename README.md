@@ -1,3 +1,2 @@
 # spackAutomate
-# spackAutmation
-# spackAutmation
+
