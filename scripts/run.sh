@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#------------ Author : Om Jadhav ------------------------------------------
 ## Pattern to check whether the application has been installed or not !
 export pattern="No package matches the query"
 #---------------------------------------------
