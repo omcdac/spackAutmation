@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#------------ Author : Om Jadhav ------------------------------------------
 #export pattern="No package matches the query"
 
 #--------------- Check if directory exist or not and create it if not ----------
