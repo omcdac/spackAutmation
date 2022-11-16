@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#------------ Author : Om Jadhav ------------------------------------------
 #export COMPILER=gcc@11.2.0
 #export COMPILER=intel
 
