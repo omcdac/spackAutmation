@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#------------ Author : Om Jadhav ------------------------------------------
 #export COMPILER=gcc@11.2.0
 #export pattern="No package matches the query"
 
