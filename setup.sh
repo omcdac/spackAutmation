@@ -1,4 +1,5 @@
 #!/bin/bash
+#------------ Author : Om Jadhav ------------------------------------------
 
 #------------------ Section -1 : Initial setup -----------------------------
 # You need to edit thsese two lines as per cluster 
