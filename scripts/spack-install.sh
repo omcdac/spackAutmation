@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#------------ Author : Om Jadhav ------------------------------------------
 ############ Spack Environment Setup #########################
 #-----------------! One Time Process !----------------------
 echo "The Spack download and setup will start soon, Please wait !"
